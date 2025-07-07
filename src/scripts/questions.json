@@ -1,0 +1,211 @@
+[
+  {
+    "id": "VQOz06",
+    "type": "DROPDOWN",
+    "fieldName": "municipality",
+    "title": "Välj kommun (börja skriva din kommun för att hitta rätt)",
+    "isTitleModifiedByUser": false,
+    "formId": "w755GR",
+    "isDeleted": false,
+    "numberOfResponses": 873,
+    "createdAt": "2025-05-21T20:57:36.000Z",
+    "updatedAt": "2025-05-21T20:57:36.000Z",
+    "fields": [
+      {
+        "uuid": "23f0e714-422d-440c-a2a3-513eee9dd548",
+        "type": "INPUT_FIELD",
+        "questionType": "DROPDOWN",
+        "blockGroupUuid": "23f0e714-422d-440c-a2a3-513eee9dd548",
+        "title": "Välj kommun (börja skriva din kommun för att hitta rätt)"
+      }
+    ]
+  },
+  {
+    "id": "Ed7xX2",
+    "type": "DROPDOWN",
+    "fieldName": "school",
+    "title": "Välj din skola (börja skriva för att hitta din skola)",
+    "isTitleModifiedByUser": false,
+    "formId": "w755GR",
+    "isDeleted": false,
+    "numberOfResponses": 873,
+    "createdAt": "2025-05-21T20:57:36.000Z",
+    "updatedAt": "2025-05-21T20:57:36.000Z",
+    "fields": [
+      {
+        "uuid": "27c73445-9b82-48b3-9130-f433f1b6b1e0",
+        "type": "INPUT_FIELD",
+        "questionType": "DROPDOWN",
+        "blockGroupUuid": "27c73445-9b82-48b3-9130-f433f1b6b1e0",
+        "title": "Välj din skola (börja skriva för att hitta din skola)"
+      }
+    ]
+  },
+  {
+    "id": "raMo6X",
+    "type": "MULTI_SELECT",
+    "fieldName": "schoolYears",
+    "title": "Välj barnets skolår (välj alla som stämmer in)",
+    "isTitleModifiedByUser": false,
+    "formId": "w755GR",
+    "isDeleted": false,
+    "numberOfResponses": 873,
+    "createdAt": "2025-05-21T20:57:36.000Z",
+    "updatedAt": "2025-05-22T20:14:15.000Z",
+    "fields": [
+      {
+        "uuid": "29f8ce73-2c8a-420c-acac-d58e87704f2b",
+        "type": "INPUT_FIELD",
+        "questionType": "MULTI_SELECT",
+        "blockGroupUuid": "29f8ce73-2c8a-420c-acac-d58e87704f2b",
+        "title": "Välj barnets skolår (välj alla som stämmer in)"
+      }
+    ]
+  },
+  {
+    "id": "P1Jz6x",
+    "type": "CALCULATED_FIELDS",
+    "fieldName": "whatsapp_url",
+    "title": null,
+    "isTitleModifiedByUser": false,
+    "formId": "w755GR",
+    "isDeleted": false,
+    "numberOfResponses": 873,
+    "createdAt": "2025-05-21T20:57:36.000Z",
+    "updatedAt": "2025-05-21T20:57:36.000Z",
+    "fields": [
+      {
+        "uuid": "ca3caa8a-48db-4944-815e-b9a367ea3648",
+        "type": "CALCULATED_FIELD",
+        "questionType": "CALCULATED_FIELDS",
+        "blockGroupUuid": "4ddf78d3-8ea5-447c-8e2a-f268d4ff144c",
+        "title": "whatsapp_url",
+        "calculatedFieldType": "TEXT"
+      }
+    ]
+  },
+  {
+    "id": "oeL2yN",
+    "type": "INPUT_TEXT",
+    "fieldName": "firstName",
+    "title": "Förnamn",
+    "isTitleModifiedByUser": false,
+    "formId": "w755GR",
+    "isDeleted": false,
+    "numberOfResponses": 873,
+    "createdAt": "2025-05-21T20:57:36.000Z",
+    "updatedAt": "2025-05-21T20:57:36.000Z",
+    "fields": [
+      {
+        "uuid": "a9f531b6-ec22-405f-a1cd-9bce0a36e290",
+        "type": "INPUT_FIELD",
+        "questionType": "INPUT_TEXT",
+        "blockGroupUuid": "a9f531b6-ec22-405f-a1cd-9bce0a36e290",
+        "title": "Förnamn"
+      }
+    ]
+  },
+  {
+    "id": "G9ARzO",
+    "type": "INPUT_TEXT",
+    "fieldName": "lastName",
+    "title": "Efternamn",
+    "isTitleModifiedByUser": false,
+    "formId": "w755GR",
+    "isDeleted": false,
+    "numberOfResponses": 873,
+    "createdAt": "2025-05-21T20:57:36.000Z",
+    "updatedAt": "2025-05-21T20:57:36.000Z",
+    "fields": [
+      {
+        "uuid": "aec7180f-c512-4d5b-8ec0-74c18e63a838",
+        "type": "INPUT_FIELD",
+        "questionType": "INPUT_TEXT",
+        "blockGroupUuid": "aec7180f-c512-4d5b-8ec0-74c18e63a838",
+        "title": "Efternamn"
+      }
+    ]
+  },
+  {
+    "id": "O4M7zM",
+    "type": "INPUT_EMAIL",
+    "fieldName": "email",
+    "title": "E-post",
+    "isTitleModifiedByUser": false,
+    "formId": "w755GR",
+    "isDeleted": false,
+    "numberOfResponses": 873,
+    "createdAt": "2025-05-21T20:57:36.000Z",
+    "updatedAt": "2025-05-21T20:57:36.000Z",
+    "fields": [
+      {
+        "uuid": "7447d0a7-5245-4f40-ace5-c64a0db1a67a",
+        "type": "INPUT_FIELD",
+        "questionType": "INPUT_EMAIL",
+        "blockGroupUuid": "7447d0a7-5245-4f40-ace5-c64a0db1a67a",
+        "title": "E-post"
+      }
+    ]
+  },
+  {
+    "id": "j6Aly1",
+    "type": "MULTIPLE_CHOICE",
+    "fieldName": "support",
+    "title": "Vi stöttar dig med tips &amp; råd på vägen",
+    "isTitleModifiedByUser": false,
+    "formId": "w755GR",
+    "isDeleted": false,
+    "numberOfResponses": 873,
+    "createdAt": "2025-05-21T20:57:36.000Z",
+    "updatedAt": "2025-05-22T19:31:56.000Z",
+    "fields": [
+      {
+        "uuid": "af2b1c1d-6670-4c20-9141-53e8d5b93da8",
+        "type": "INPUT_FIELD",
+        "questionType": "MULTIPLE_CHOICE",
+        "blockGroupUuid": "af2b1c1d-6670-4c20-9141-53e8d5b93da8",
+        "title": "Vi stöttar dig med tips &amp; råd på vägen"
+      }
+    ]
+  },
+  {
+    "id": "4JVK85",
+    "type": "CHECKBOXES",
+    "title": null,
+    "isTitleModifiedByUser": false,
+    "formId": "w755GR",
+    "isDeleted": true,
+    "numberOfResponses": 2,
+    "createdAt": "2025-05-21T20:57:36.000Z",
+    "updatedAt": "2025-05-23T13:21:57.000Z",
+    "fields": [
+      {
+        "uuid": "1ec88168-755d-434d-8fce-5a101a7e2d8b",
+        "type": "INPUT_FIELD",
+        "questionType": "CHECKBOXES",
+        "blockGroupUuid": "1ec88168-755d-434d-8fce-5a101a7e2d8b",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "id": "Dk6gbq",
+    "type": "MULTIPLE_CHOICE",
+    "title": "Vill hitta, eller bli hittad av, andra föräldrar i sitt barns skola som också är med i Föräldrapakten?",
+    "isTitleModifiedByUser": false,
+    "formId": "w755GR",
+    "isDeleted": true,
+    "numberOfResponses": 1,
+    "createdAt": "2025-05-22T19:31:56.000Z",
+    "updatedAt": "2025-05-23T13:19:02.000Z",
+    "fields": [
+      {
+        "uuid": "bb0bf9f6-f450-464f-87b8-7d5e2fdd3d5e",
+        "type": "INPUT_FIELD",
+        "questionType": "MULTIPLE_CHOICE",
+        "blockGroupUuid": "bb0bf9f6-f450-464f-87b8-7d5e2fdd3d5e",
+        "title": "Vill hitta, eller bli hittad av, andra föräldrar i sitt barns skola som också är med i Föräldrapakten?"
+      }
+    ]
+  }
+]

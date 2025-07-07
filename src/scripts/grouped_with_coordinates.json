@@ -1,0 +1,7892 @@
+[
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Torslandaskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 3,
+      "Årskurs 1": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 5,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Knivsta",
+    "school": "Alsike skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GxKz1oqMvFAGdsXhBxzJ87"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.7502908,
+      17.7856448
+    ]
+  },
+  {
+    "municipality": "Täby",
+    "school": "Hägerneholmsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EwTcSA7RUTBH3K7byRvJbh"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.4713266,
+      18.1202044
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Sverkerskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Årskurs 4": 1,
+      "Förskoleklass": 3
+    },
+    "count": 5,
+    "coordinates": [
+      59.8645519,
+      17.619669
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Önnestads skola LM",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Gotland",
+    "school": "Innovitaskolan Visby",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CtAcq6OGBnVHUHhrRawWqK"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Gymnasiet": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 3,
+    "coordinates": [
+      57.6124291,
+      18.2803131
+    ]
+  },
+  {
+    "municipality": "Gotland",
+    "school": "Dalhem skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CtAcq6OGBnVHUHhrRawWqK"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.5,
+      18.5
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Johan Skytteskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Mölndals stad",
+    "school": "Lackarebäcksskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GdgXXxQit8YEvMute7igNM"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 2,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Förskoleklass": 1
+    },
+    "count": 4,
+    "coordinates": [
+      57.60256,
+      12.09889
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Karl Johansskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Bromma kyrkskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Bagarmossens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 5
+    },
+    "count": 6,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Midsommarkransens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 3,
+      "Årskurs 3": 1,
+      "Förskoleklass": 3
+    },
+    "count": 7,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Jättestensskolan F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Lidköping",
+    "school": "Majåkerskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GqTdkFq3x1YFJtU8Jg2Vgi"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.4815124,
+      13.1411219
+    ]
+  },
+  {
+    "municipality": "Lerum",
+    "school": "Ljungviksskolan skolenhet A",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LSJ3H4EuCu7Fhw6y4wg7X8"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.76173,
+      12.27567
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Franska skolan Göteborg F-5",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Motala",
+    "school": "Innovitaskolan Motala",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FkjPOU8gFMf3erFFlFgmVJ"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.53706,
+      15.03649
+    ]
+  },
+  {
+    "municipality": "Solna",
+    "school": "Bergshamraskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FlPYAlp8fkOCshXZlF6PxU"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3831964,
+      18.0313892
+    ]
+  },
+  {
+    "municipality": "Värmdö",
+    "school": "Internationella Engelska Skolan Värmdö",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BZQBgJolSPq1Iao5AwQFWY"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Årskurs 4": 1,
+      "Årskurs 1": 1
+    },
+    "count": 3,
+    "coordinates": [
+      59.35784,
+      18.49699
+    ]
+  },
+  {
+    "municipality": "Botkyrka",
+    "school": "Lycée Francais Saint Louis",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EgSnIJSR6OdJqD92vSKlkI"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.20928,
+      17.86131
+    ]
+  },
+  {
+    "municipality": "Nyköping",
+    "school": "Innovitaskolan Nyköping",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BsdF3zgcvCUJy1jSgoR22Z"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.7603576,
+      17.0156206
+    ]
+  },
+  {
+    "municipality": "Tyresö",
+    "school": "Kumla skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EYgGBel9TrCLwIGDaxgRwU"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.2206747,
+      18.2061508
+    ]
+  },
+  {
+    "municipality": "Falun",
+    "school": "Montessoriskolan i Falun",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CQKGPQRYNjoExZutmuSuBQ"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.60357,
+      15.62597
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Pilgrimsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 2": 2,
+      "Årskurs 3": 2
+    },
+    "count": 5,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Ekerö",
+    "school": "Birkaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JGfEAWoRAkJIFLao2HA7yB"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Förskoleklass": 1,
+      "Årskurs 4": 1,
+      "Årskurs 5": 1
+    },
+    "count": 6,
+    "coordinates": [
+      59.27245,
+      17.74841
+    ]
+  },
+  {
+    "municipality": "Sollentuna",
+    "school": "Gärdesskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CxAHFH161EgAfYzukoZt1b"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.43247,
+      17.95341
+    ]
+  },
+  {
+    "municipality": "Gotland",
+    "school": "S:t Hansskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CtAcq6OGBnVHUHhrRawWqK"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.639456,
+      18.2950741
+    ]
+  },
+  {
+    "municipality": "Österåker",
+    "school": "Österskärsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HyeWhf2HEeh8mJICTw2Saz"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 2,
+      "Årskurs 3": 2,
+      "Årskurs 1": 2,
+      "Förskoleklass": 1,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 8,
+    "coordinates": [
+      59.4673471,
+      18.298643
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Uppsävjaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.8199468,
+      17.7069985
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Saltängens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.3091079,
+      18.2133454
+    ]
+  },
+  {
+    "municipality": "Sundbyberg",
+    "school": "Lilla Alby skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JcSG3CExZ901Etht0rAjRF"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3584027,
+      17.9681677
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Sickla skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 3,
+      "Årskurs 1": 2
+    },
+    "count": 5,
+    "coordinates": [
+      59.3034074,
+      18.130769
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Skönstaholmsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Nyköping",
+    "school": "Mikaeliskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BsdF3zgcvCUJy1jSgoR22Z"
+    ],
+    "schoolYears": {
+      "Årskurs 5": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.7602995,
+      17.0038834
+    ]
+  },
+  {
+    "municipality": "Sollentuna",
+    "school": "Silverbäcken Dibber",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CxAHFH161EgAfYzukoZt1b"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.43247,
+      17.95341
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Bromstensskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Gröndalsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Boden",
+    "school": "Mårängskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DNMUWwMtwLLJ3qLAXkBHga"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      65.7589655,
+      21.7476789
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Lilla Nacka Skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.30719,
+      18.14297
+    ]
+  },
+  {
+    "municipality": "Linköping",
+    "school": "Bärbyskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J11Zg1ef7OkJci0dTcfBUS"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.41086,
+      15.62157
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Järla skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 1": 1
+    },
+    "count": 4,
+    "coordinates": [
+      59.3086409,
+      18.1572236
+    ]
+  },
+  {
+    "municipality": "Sundbyberg",
+    "school": "Ursvikskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JcSG3CExZ901Etht0rAjRF"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.37827,
+      17.96024
+    ]
+  },
+  {
+    "municipality": "Herrljunga",
+    "school": "Horsbyskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IpzFIAy175sJCuTqJjz5fm"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2,
+      "Årskurs 4": 2,
+      "Förskoleklass": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 7,
+    "coordinates": [
+      58.07739,
+      13.02662
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Storkyrkoskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Fruängens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Älta skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 2,
+      "Årskurs 2": 5,
+      "Årskurs 1": 4,
+      "Årskurs 3": 2,
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Förskoleklass": 5,
+      "Årskurs 4": 1
+    },
+    "count": 21,
+    "coordinates": [
+      59.2617635,
+      18.184659
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Gubbängsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Mölndals stad",
+    "school": "Bosgårdsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GdgXXxQit8YEvMute7igNM"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 2,
+      "Förskoleklass": 1
+    },
+    "count": 3,
+    "coordinates": [
+      57.60256,
+      12.09889
+    ]
+  },
+  {
+    "municipality": "Lund",
+    "school": "Vegalyckan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Dhc0EdCJvQiGgcpsn4hmR2"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2
+    },
+    "count": 2,
+    "coordinates": [
+      55.6949769,
+      13.2064569
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Martinskolan Söders waldorfskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Höganäs",
+    "school": "Brunnbyskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/L3GbjOmzeqHIJaGnmE7Pp8"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 4,
+    "coordinates": [
+      56.19971,
+      12.55795
+    ]
+  },
+  {
+    "municipality": "Partille",
+    "school": "Vallhallaskolan F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IdQHOcb1Yp6ERCyC7UC9PW"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Årskurs 2": 1
+    },
+    "count": 3,
+    "coordinates": [
+      57.7395,
+      12.10642
+    ]
+  },
+  {
+    "municipality": "Trollhättans stad",
+    "school": "Åsaka skola F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FHL0Ha1kwh5DkwLhAnMZ3D"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.21208,
+      12.35033
+    ]
+  },
+  {
+    "municipality": "Lund",
+    "school": "Skrylleängs Montessoriskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Dhc0EdCJvQiGgcpsn4hmR2"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.70584,
+      13.19321
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Sverigefinska skolan Sthlm",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Herrängens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2,
+      "Förskoleklass": 1,
+      "Årskurs 4": 2,
+      "Årskurs 2": 1
+    },
+    "count": 6,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Johannebergsskolan Montessori F-5",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Kiruna",
+    "school": "Jukkasjärvi skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Gs05GBBGFKODOTmqjdpoJc"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 2,
+      "Årskurs 1": 3,
+      "Årskurs 4": 2,
+      "Årskurs 3": 1,
+      "Förskoleklass": 2,
+      "Är inte i skola ännu. Börjar 2027": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 14,
+    "coordinates": [
+      67.8486224,
+      20.6082022
+    ]
+  },
+  {
+    "municipality": "Katrineholm",
+    "school": "Sköldinge skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BVLL1nhkHiE5CwvVRlqy2L"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.0256118,
+      16.4476817
+    ]
+  },
+  {
+    "municipality": "Luleå",
+    "school": "Antnässkolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DaXyL0Ooywc6mxmCDMv5D4"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      65.58415,
+      22.15465
+    ]
+  },
+  {
+    "municipality": "Malmö Stad",
+    "school": "Malmö Montessoriskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GkAWQT8iE9NJd7biv7mm5k"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 1": 1,
+      "Förskoleklass": 1,
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 5,
+    "coordinates": [
+      55.5862549,
+      12.971461
+    ]
+  },
+  {
+    "municipality": "Södertälje",
+    "school": "Örjanskolan grund",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Bb2j3scjloj18uioSIlBbQ"
+    ],
+    "schoolYears": {
+      "Årskurs 5": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.19554,
+      17.62525
+    ]
+  },
+  {
+    "municipality": "Kiruna",
+    "school": "Vita vidderna Kiruna",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Gs05GBBGFKODOTmqjdpoJc"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      67.85572,
+      20.22513
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Lycée Francais Saint Louis",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Vellinge",
+    "school": "Skanör Falsterbo Montessorisk.",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/E98BVLd3lvjKZAVbX9SZiS"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      55.47124,
+      13.01971
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Rambergsskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Tallkrogens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 4,
+      "Årskurs 2": 1,
+      "Årskurs 3": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 7,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Furulidsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.4505597,
+      11.9625597
+    ]
+  },
+  {
+    "municipality": "Kiruna",
+    "school": "Nya Raketskolan f-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Gs05GBBGFKODOTmqjdpoJc"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Årskurs 2": 1
+    },
+    "count": 3,
+    "coordinates": [
+      67.85572,
+      20.22513
+    ]
+  },
+  {
+    "municipality": "Kiruna",
+    "school": "Luossavaaraskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Gs05GBBGFKODOTmqjdpoJc"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 2": 1,
+      "Årskurs 4": 1,
+      "Årskurs 6": 1,
+      "Årskurs 7": 1
+    },
+    "count": 5,
+    "coordinates": [
+      67.85572,
+      20.22513
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Nova Montessoriskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.4963284,
+      12.0783523
+    ]
+  },
+  {
+    "municipality": "Vimmerby",
+    "school": "Vimarskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BxjUvSV9e0YCtlhxceelDv"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Årskurs 5": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.66574,
+      15.85792
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Mariaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 6": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Sundsvall",
+    "school": "Prolympia Sundsvall Fsk-1",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KP07yUppQm2651Ciret748"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62.398642,
+      17.3131408
+    ]
+  },
+  {
+    "municipality": "Täby",
+    "school": "Drakskeppsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EwTcSA7RUTBH3K7byRvJbh"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 3,
+    "coordinates": [
+      59.439953,
+      18.107522
+    ]
+  },
+  {
+    "municipality": "Motala",
+    "school": "Smedsby skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FkjPOU8gFMf3erFFlFgmVJ"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.5651727,
+      15.0072457
+    ]
+  },
+  {
+    "municipality": "Stenungsund",
+    "school": "Kyrkenorumskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Dsk4lH3eNBd91NJe6mJ6wb"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.07046,
+      11.8181
+    ]
+  },
+  {
+    "municipality": "Växjö",
+    "school": "Öjaby skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/G4MVoTAlkpA5dGDTSLQA88"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      56.9104306,
+      14.7404703
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Fjordskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 5": 1,
+      "Är inte i skola ännu. Börjar 2027": 1,
+      "Förskoleklass": 1,
+      "Årskurs 2": 1
+    },
+    "count": 5,
+    "coordinates": [
+      57.48719,
+      12.07612
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Västbergaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 5": 1,
+      "Årskurs 2": 4,
+      "Förskoleklass": 5,
+      "Årskurs 1": 4,
+      "Årskurs 4": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 16,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Stordammens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 4
+    },
+    "count": 4,
+    "coordinates": [
+      59.810001,
+      17.7047799
+    ]
+  },
+  {
+    "municipality": "Tyresö",
+    "school": "Krusboda skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EYgGBel9TrCLwIGDaxgRwU"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.2367,
+      18.30146
+    ]
+  },
+  {
+    "municipality": "Malmö Stad",
+    "school": "Sorgenfriskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GkAWQT8iE9NJd7biv7mm5k"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 2
+    },
+    "count": 3,
+    "coordinates": [
+      55.596043,
+      13.019092
+    ]
+  },
+  {
+    "municipality": "Vellinge",
+    "school": "Tångvallaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/E98BVLd3lvjKZAVbX9SZiS"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.4027048,
+      12.8433374
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Sickla skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Jokkmokk",
+    "school": "Västra skolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Hkg5dKAra48Gupm4dppApB"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Årskurs 1": 1,
+      "Årskurs 2": 1,
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 6,
+    "coordinates": [
+      66.6048615,
+      19.8262103
+    ]
+  },
+  {
+    "municipality": "Malmö Stad",
+    "school": "Montessori Mondial Malmö",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GkAWQT8iE9NJd7biv7mm5k"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2,
+      "Förskoleklass": 1
+    },
+    "count": 3,
+    "coordinates": [
+      55.60587,
+      13.00073
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Toråsskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 3,
+    "coordinates": [
+      57.48719,
+      12.07612
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Slättgårdsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Årskurs 1": 4,
+      "Årskurs 2": 2
+    },
+    "count": 7,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Carlssons skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1,
+      "Årskurs 1": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 3,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Bergumsskolan F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 4": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Svedala",
+    "school": "Baraskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/ER9cJ7MI5uO6vCKDN1zph2"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.50952,
+      13.24501
+    ]
+  },
+  {
+    "municipality": "Linköping",
+    "school": "Fridtunaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J11Zg1ef7OkJci0dTcfBUS"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.4045851,
+      15.6064234
+    ]
+  },
+  {
+    "municipality": "Sigtuna",
+    "school": "Väringaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fu9Bfj9WWfGERPseyyEKHU"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.61901,
+      17.70858
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Sturebyskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Förskoleklass": 2,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 4,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Borgvallaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 5,
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Årskurs 3": 2,
+      "Årskurs 1": 4,
+      "Årskurs 2": 1
+    },
+    "count": 13,
+    "coordinates": [
+      59.3244769,
+      18.2121997
+    ]
+  },
+  {
+    "municipality": "Åre",
+    "school": "Stamgärde skola F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CXncqGDWy4OLK9gpKT7qpC"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 3": 2,
+      "Årskurs 2": 1
+    },
+    "count": 4,
+    "coordinates": [
+      63.416,
+      12.54551
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Styrsöskolan F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Ljusnarsberg",
+    "school": "Järvsö skola F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/B8n6rw26nlwLKYMcEboL4P"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.87708,
+      14.99814
+    ]
+  },
+  {
+    "municipality": "Heby",
+    "school": "Östervåla skola F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DjCWkQmpG7S38lbIZsKugD"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.93815,
+      16.86217
+    ]
+  },
+  {
+    "municipality": "Lidköping",
+    "school": "Råda skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GqTdkFq3x1YFJtU8Jg2Vgi"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.4954826,
+      13.0943533
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Björngårdsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Årskurs 4": 1,
+      "Årskurs 2": 1
+    },
+    "count": 3,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Örbyskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Källängens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 2": 1,
+      "Årskurs 5": 1
+    },
+    "count": 3,
+    "coordinates": [
+      59.3715574,
+      18.1456551
+    ]
+  },
+  {
+    "municipality": "Malmö Stad",
+    "school": "Ribersborgsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GkAWQT8iE9NJd7biv7mm5k"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 2,
+      "Årskurs 3": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 4,
+    "coordinates": [
+      55.5994006,
+      12.9768204
+    ]
+  },
+  {
+    "municipality": "Vaxholm",
+    "school": "Resarö skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/C9PL8kXrLPn0DipqtYUpZK"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 3,
+      "Årskurs 1": 2,
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Årskurs 3": 1
+    },
+    "count": 7,
+    "coordinates": [
+      59.4284891,
+      18.3325694
+    ]
+  },
+  {
+    "municipality": "Danderyd",
+    "school": "Enebybergs skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Cmv7T52myF11gXvvhA8Ack"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2,
+      "Årskurs 4": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 4,
+    "coordinates": [
+      59.432555,
+      18.0453829
+    ]
+  },
+  {
+    "municipality": "Danderyd",
+    "school": "Elevverket",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Cmv7T52myF11gXvvhA8Ack"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 10,
+      "Årskurs 2": 6,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 1": 3,
+      "Årskurs 3": 2
+    },
+    "count": 22,
+    "coordinates": [
+      59.4079779,
+      18.08508
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Stockholms Montessoriskola Anne Frank",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 4": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Mullsjö",
+    "school": "Kronängskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/G3W4pvyOiQP5rY6nx2Fafi"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.9171,
+      13.87831
+    ]
+  },
+  {
+    "municipality": "Ystad",
+    "school": "Hedeskoga skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EYHVujG9LErFliZnSFxh0u"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.43266,
+      13.84073
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Sigfridsborgs skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 16,
+      "Årskurs 2": 3,
+      "Årskurs 1": 1,
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2027": 2
+    },
+    "count": 24,
+    "coordinates": [
+      59.2572423,
+      18.1976095
+    ]
+  },
+  {
+    "municipality": "Tyresö",
+    "school": "Hanvikens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EYgGBel9TrCLwIGDaxgRwU"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Gymnasiet": 1,
+      "Årskurs 5": 1,
+      "Årskurs 6": 1,
+      "Årskurs 4": 1
+    },
+    "count": 5,
+    "coordinates": [
+      59.2360828,
+      18.2105784
+    ]
+  },
+  {
+    "municipality": "Värnamo",
+    "school": "Rydaholms skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/K63LkpMAEsWJIVAgwHmbuH"
+    ],
+    "schoolYears": {
+      "Gymnasiet": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.18395,
+      14.04864
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Malmaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.8253677,
+      17.6226325
+    ]
+  },
+  {
+    "municipality": "Nynäshamn",
+    "school": "Svandammsskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/E4JLiEGGZ4sH4qGaNLEyOm"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 1": 2,
+      "Förskoleklass": 1
+    },
+    "count": 5,
+    "coordinates": [
+      58.90337,
+      17.94793
+    ]
+  },
+  {
+    "municipality": "Nynäshamn",
+    "school": "Viaskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/E4JLiEGGZ4sH4qGaNLEyOm"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 3": 1,
+      "Årskurs 2": 1,
+      "Förskoleklass": 1
+    },
+    "count": 4,
+    "coordinates": [
+      58.90337,
+      17.94793
+    ]
+  },
+  {
+    "municipality": "Linköping",
+    "school": "Tornhagsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J11Zg1ef7OkJci0dTcfBUS"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.4135903,
+      15.5910794
+    ]
+  },
+  {
+    "municipality": "Jönköping",
+    "school": "Torpaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GHBoNlAPZhaLewBuT07xox"
+    ],
+    "schoolYears": {
+      "Årskurs 8": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.7719541,
+      14.149879
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Utbynässkolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 2,
+      "Förskoleklass": 5,
+      "Årskurs 1": 2,
+      "Årskurs 3": 1,
+      "Årskurs 4": 1,
+      "Årskurs 5": 1
+    },
+    "count": 12,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Danderyd",
+    "school": "Baldersskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Cmv7T52myF11gXvvhA8Ack"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.40628,
+      18.05464
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Lugnets skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Årskurs 3": 1
+    },
+    "count": 3,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Alviksskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Södermalmsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 3,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Österåker",
+    "school": "Internationella Engelska Skolan Österåker",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HyeWhf2HEeh8mJICTw2Saz"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 4,
+      "Årskurs 6": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 6,
+    "coordinates": [
+      59.48345,
+      18.29979
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Frillesåsskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.48719,
+      12.07612
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Klarebergsskolan F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Älta skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Norrtälje",
+    "school": "Kvisthamraskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DCGHblSioY08zr1hsnirEq"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.754472,
+      18.707652
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Stavsborgsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2,
+      "Förskoleklass": 2,
+      "Årskurs 2": 2
+    },
+    "count": 6,
+    "coordinates": [
+      59.2582369,
+      18.1795564
+    ]
+  },
+  {
+    "municipality": "Falun",
+    "school": "Hälsinggårdsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CQKGPQRYNjoExZutmuSuBQ"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.59236,
+      15.6828426
+    ]
+  },
+  {
+    "municipality": "Karlstad",
+    "school": "Väse skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HB89EtKLXGo1SeJBzhn9TL"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3857153,
+      13.8536257
+    ]
+  },
+  {
+    "municipality": "Skellefteå",
+    "school": "Floraskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/I010b5LoSTXHU3ZjRtvGCR"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      64.7533376,
+      20.9998295
+    ]
+  },
+  {
+    "municipality": "Tranemo",
+    "school": "Tranängskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fxgu7gOTfau1PqooOf3D3l"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.48333,
+      13.35
+    ]
+  },
+  {
+    "municipality": "Tyresö",
+    "school": "Fårdala skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EYgGBel9TrCLwIGDaxgRwU"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 4,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 6,
+    "coordinates": [
+      59.242494,
+      18.2416366
+    ]
+  },
+  {
+    "municipality": "Karlstad",
+    "school": "Friskolan Stellatus",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HB89EtKLXGo1SeJBzhn9TL"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2027": 1,
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Årskurs 1": 1
+    },
+    "count": 4,
+    "coordinates": [
+      59.3793,
+      13.50357
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Ektorps skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Förskoleklass": 5
+    },
+    "count": 7,
+    "coordinates": [
+      59.3148896,
+      18.1967086
+    ]
+  },
+  {
+    "municipality": "Täby",
+    "school": "Viggbyskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EwTcSA7RUTBH3K7byRvJbh"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 4,
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Förskoleklass": 1,
+      "Årskurs 4": 1
+    },
+    "count": 7,
+    "coordinates": [
+      59.4462731,
+      18.1049884
+    ]
+  },
+  {
+    "municipality": "Lycksele",
+    "school": "Forsdalaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KLL7fcqkvXYCHaPHPPyQeW"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      64.5795217,
+      18.6724852
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Rudboda skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Årskurs 1": 1,
+      "Årskurs 6": 1
+    },
+    "count": 4,
+    "coordinates": [
+      59.373833,
+      18.1802079
+    ]
+  },
+  {
+    "municipality": "Boden",
+    "school": "Prästholmsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DNMUWwMtwLLJ3qLAXkBHga"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      65.8312931,
+      21.6999056
+    ]
+  },
+  {
+    "municipality": "Växjö",
+    "school": "Växjö Internationella Grundskola F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/G4MVoTAlkpA5dGDTSLQA88"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      56.87767,
+      14.80906
+    ]
+  },
+  {
+    "municipality": "Hässleholm",
+    "school": "Finjasjöparkskolan Hässleholm",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KSihNn0IJUUDSpFX7SVPOY"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1,
+      "Årskurs 1": 2,
+      "Förskoleklass": 1
+    },
+    "count": 4,
+    "coordinates": [
+      56.15905,
+      13.76638
+    ]
+  },
+  {
+    "municipality": "Falun",
+    "school": "Hosjöskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CQKGPQRYNjoExZutmuSuBQ"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.5919715,
+      15.7462429
+    ]
+  },
+  {
+    "municipality": "Borlänge",
+    "school": "Forssaängskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/L0pJtteFYoCImDNLD2VIjS"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      60.5003747,
+      15.4287214
+    ]
+  },
+  {
+    "municipality": "Partille",
+    "school": "Ugglums skola F-4",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IdQHOcb1Yp6ERCyC7UC9PW"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.7395,
+      12.10642
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Åsaskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 2": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 3,
+    "coordinates": [
+      57.48719,
+      12.07612
+    ]
+  },
+  {
+    "municipality": "Nykvarn",
+    "school": "Turingeskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/G66hDziTCMBLMYJpv9xYD3"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.1737622,
+      17.4176846
+    ]
+  },
+  {
+    "municipality": "Helsingborg stad",
+    "school": "Maria Parkskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/D72eTfgQ6rt3dVBQKMvjS3"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2,
+      "Förskoleklass": 1
+    },
+    "count": 3,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Nälstaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Värnamo",
+    "school": "Västhorjaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/K63LkpMAEsWJIVAgwHmbuH"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.19657,
+      14.0210748
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Lindeskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Förskoleklass": 2
+    },
+    "count": 3,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Helsingborg stad",
+    "school": "Husensjö skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/D72eTfgQ6rt3dVBQKMvjS3"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Noblaskolan Nacka Strand",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.30719,
+      18.14297
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Tingbergsskolan A-C",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.48719,
+      12.07612
+    ]
+  },
+  {
+    "municipality": "Svedala",
+    "school": "Roslättsskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/ER9cJ7MI5uO6vCKDN1zph2"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.50952,
+      13.24501
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Hultskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.6364509,
+      11.9244982
+    ]
+  },
+  {
+    "municipality": "Lidköping",
+    "school": "Månesköldskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GqTdkFq3x1YFJtU8Jg2Vgi"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.5013555,
+      13.1375701
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Hässelby Villastads skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 3,
+      "Årskurs 1": 1
+    },
+    "count": 4,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Halmstad",
+    "school": "Vallhallaskolan F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EdtNSpqZl72Jr244no08by"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.67446,
+      12.85676
+    ]
+  },
+  {
+    "municipality": "Eskilstuna",
+    "school": "Skogstorpsskolan F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fu8j669JTY31l0FUVzqPi7"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.36661,
+      16.5077
+    ]
+  },
+  {
+    "municipality": "Nyköping",
+    "school": "Västra skolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BsdF3zgcvCUJy1jSgoR22Z"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      58.7534249,
+      17.0035185
+    ]
+  },
+  {
+    "municipality": "Huddinge",
+    "school": "Utsäljeskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LKKdT2J2bqTDrXomFx970T"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.2599187,
+      17.9664355
+    ]
+  },
+  {
+    "municipality": "Orsa",
+    "school": "Kyrkbyns skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/I1Wh2WYtNqKEnaDIqn7u8k"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      61.12,
+      14.61427
+    ]
+  },
+  {
+    "municipality": "Värnamo",
+    "school": "Mossleskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/K63LkpMAEsWJIVAgwHmbuH"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 2
+    },
+    "count": 2,
+    "coordinates": [
+      57.1772536,
+      14.0300392
+    ]
+  },
+  {
+    "municipality": "Varberg",
+    "school": "Varbergs Montessoriskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LVz2WCxhlNQBJ8tDYejsbP"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.112946,
+      12.2528696
+    ]
+  },
+  {
+    "municipality": "Falköping",
+    "school": "Mössebergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IiUsbEEjd4GFY5PkHk8wMd"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 3,
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 6,
+    "coordinates": [
+      58.1756939,
+      13.5416761
+    ]
+  },
+  {
+    "municipality": "Huddinge",
+    "school": "Snättringeskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LKKdT2J2bqTDrXomFx970T"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 2
+    },
+    "count": 2,
+    "coordinates": [
+      59.254373,
+      17.9840228
+    ]
+  },
+  {
+    "municipality": "Karlstad",
+    "school": "Stodeneskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HB89EtKLXGo1SeJBzhn9TL"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.4430365,
+      13.4309805
+    ]
+  },
+  {
+    "municipality": "Södertälje",
+    "school": "Pershagenskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Bb2j3scjloj18uioSIlBbQ"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.1524304,
+      17.6520967
+    ]
+  },
+  {
+    "municipality": "Svedala",
+    "school": "Klågerupskolan F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/ER9cJ7MI5uO6vCKDN1zph2"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 3,
+    "coordinates": [
+      55.50952,
+      13.24501
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Franska Skolan/Ecole francaise",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Förskoleklass": 1,
+      "Årskurs 1": 1
+    },
+    "count": 3,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Europaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 4": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Noleredsskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Årskurs 1": 2,
+      "Årskurs 4": 1,
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Förskoleklass": 1
+    },
+    "count": 6,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Montessori Mondial Kungsholmen",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 3,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 2": 1,
+      "Förskoleklass": 1
+    },
+    "count": 6,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Duvnäs skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.3059937,
+      18.1998408
+    ]
+  },
+  {
+    "municipality": "Danderyd",
+    "school": "Långängsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Cmv7T52myF11gXvvhA8Ack"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3844004,
+      18.0655624
+    ]
+  },
+  {
+    "municipality": "Nora",
+    "school": "Järntorgsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Er5fKjXhdVvA7isk5jHkDq"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.521664,
+      15.0368845
+    ]
+  },
+  {
+    "municipality": "Olofström",
+    "school": "Kyrkhults skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FUaMrZZyqJVJB6UHJe8Smr"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      56.3515832,
+      14.5867868
+    ]
+  },
+  {
+    "municipality": "Östersund",
+    "school": "Östersunds Waldorfskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J7kisMREh9O9Eka4iNd2iC"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 2,
+      "Årskurs 4": 1
+    },
+    "count": 3,
+    "coordinates": [
+      63.1792,
+      14.63566
+    ]
+  },
+  {
+    "municipality": "Eskilstuna",
+    "school": "Edvardslundsskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fu8j669JTY31l0FUVzqPi7"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.36661,
+      16.5077
+    ]
+  },
+  {
+    "municipality": "Solna",
+    "school": "Montessori Mondial Kungsholmen",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FlPYAlp8fkOCshXZlF6PxU"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.36004,
+      18.00086
+    ]
+  },
+  {
+    "municipality": "Luleå",
+    "school": "Porsöskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DaXyL0Ooywc6mxmCDMv5D4"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 2": 1,
+      "Årskurs 3": 1
+    },
+    "count": 3,
+    "coordinates": [
+      65.6198994,
+      22.1472543
+    ]
+  },
+  {
+    "municipality": "Tyresö",
+    "school": "Sofiebergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EYgGBel9TrCLwIGDaxgRwU"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.2147387,
+      18.2041748
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Hammarbyskolan Södra",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 8": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Malmö Stad",
+    "school": "Hyllievångsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GkAWQT8iE9NJd7biv7mm5k"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.5592321,
+      12.9794528
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Södra Ängby skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Ljusdal",
+    "school": "Båtbacken Friskola ek. Förening",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Imjd8cFyY872fM5EiLUiKN"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 4": 1
+    },
+    "count": 2,
+    "coordinates": [
+      61.85527,
+      15.50695
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Fjällboskolan F-5",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Strängnäs",
+    "school": "Gripsholmsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DAaGIF7vsRCFAv40BjUnAT"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.2563114,
+      17.2135193
+    ]
+  },
+  {
+    "municipality": "Järfälla",
+    "school": "Fjällenskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CS0bryrHayp4M8W96gkFnJ"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1,
+      "Årskurs 2": 2,
+      "Årskurs 3": 1,
+      "Årskurs 4": 1,
+      "Årskurs 6": 1,
+      "Årskurs 5": 1,
+      "Årskurs 7": 1
+    },
+    "count": 9,
+    "coordinates": [
+      59.4036044,
+      17.7935086
+    ]
+  },
+  {
+    "municipality": "Gävle",
+    "school": "Solängsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/H3NxbmnQIVeD4hfBF1bc4L"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      60.6680691,
+      17.1329776
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Trollbodaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Gymnasiet": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Mölndals stad",
+    "school": "Glasbergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GdgXXxQit8YEvMute7igNM"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.60256,
+      12.09889
+    ]
+  },
+  {
+    "municipality": "Kristinehamn",
+    "school": "Ölmeskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IE1k8JyttUTF9KAuMWHobE"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.31305,
+      14.14802
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Rågsveds grundskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Malmö Stad",
+    "school": "Bulltoftaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GkAWQT8iE9NJd7biv7mm5k"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.6079955,
+      13.0481189
+    ]
+  },
+  {
+    "municipality": "Danderyd",
+    "school": "Ekebyskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Cmv7T52myF11gXvvhA8Ack"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.408955,
+      18.0608743
+    ]
+  },
+  {
+    "municipality": "Mölndals stad",
+    "school": "Brattåsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GdgXXxQit8YEvMute7igNM"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.60256,
+      12.09889
+    ]
+  },
+  {
+    "municipality": "Ale",
+    "school": "Kronaskolan F-3 KR",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IUUZjQODD786pjHVHfnGCp"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.97018,
+      12.25166
+    ]
+  },
+  {
+    "municipality": "Halmstad",
+    "school": "Nyhemsskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EdtNSpqZl72Jr244no08by"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.67446,
+      12.85676
+    ]
+  },
+  {
+    "municipality": "Falköping",
+    "school": "Vindängen",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IiUsbEEjd4GFY5PkHk8wMd"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 2": 1,
+      "Årskurs 4": 1,
+      "Årskurs 1": 1
+    },
+    "count": 4,
+    "coordinates": [
+      58.17347,
+      13.55068
+    ]
+  },
+  {
+    "municipality": "Leksand",
+    "school": "Ullvi skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HbiCUvS5Dwv89spmmd7iim"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.7148107,
+      15.0462596
+    ]
+  },
+  {
+    "municipality": "Borlänge",
+    "school": "Domnarvets skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/L0pJtteFYoCImDNLD2VIjS"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      60.5015814,
+      15.4539423
+    ]
+  },
+  {
+    "municipality": "Östra Göinge",
+    "school": "Prästavångsskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KSqQ1XjiUYZ3knBruyLjc4"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.27212,
+      14.1598
+    ]
+  },
+  {
+    "municipality": "Falun",
+    "school": "Gruvrisskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CQKGPQRYNjoExZutmuSuBQ"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.5838323,
+      15.6289487
+    ]
+  },
+  {
+    "municipality": "Berg",
+    "school": "Kövra Byskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IxFZYvgWPOOLmxfxWTkUdk"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.09154,
+      14.67623
+    ]
+  },
+  {
+    "municipality": "Trollhättans stad",
+    "school": "Hälltorpskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FHL0Ha1kwh5DkwLhAnMZ3D"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.21208,
+      12.35033
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Kvarngärdesskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.8689363,
+      17.6528848
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Ebba Braheskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 2,
+      "Förskoleklass": 2,
+      "Årskurs 1": 1,
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Årskurs 2": 1
+    },
+    "count": 7,
+    "coordinates": [
+      59.3163897,
+      18.1417519
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Kristofferskolan, gr",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1,
+      "Årskurs 3": 2,
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 5,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Östhammar",
+    "school": "Olandsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/D29uW1gDlXq715VIljCbt4"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.0672534,
+      18.0853346
+    ]
+  },
+  {
+    "municipality": "Österåker",
+    "school": "Internationella Engelska Skolan Östersund",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HyeWhf2HEeh8mJICTw2Saz"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.48345,
+      18.29979
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Innovitaskolan Banérporten",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Kristianstad",
+    "school": "Öllsjöskolan L",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GA1Z6DOYTYc9QcoRpmsEXF"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.03129,
+      14.15242
+    ]
+  },
+  {
+    "municipality": "Sjöbo",
+    "school": "Idalaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KDGlfMoaKJN8apVoiwJn6T"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.63135,
+      13.70622
+    ]
+  },
+  {
+    "municipality": "Österåker",
+    "school": "Fredsborgskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HyeWhf2HEeh8mJICTw2Saz"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.4771521,
+      18.2502831
+    ]
+  },
+  {
+    "municipality": "Jönköping",
+    "school": "Torps skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GHBoNlAPZhaLewBuT07xox"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.8436842,
+      14.1371855
+    ]
+  },
+  {
+    "municipality": "Linköping",
+    "school": "Hjulsbroskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J11Zg1ef7OkJci0dTcfBUS"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Årskurs 6": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.377026,
+      15.7144282
+    ]
+  },
+  {
+    "municipality": "Grums",
+    "school": "Värmskogs Friskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IGRRCutqXCj0noGCfES7pL"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.36667,
+      13.08306
+    ]
+  },
+  {
+    "municipality": "Täby",
+    "school": "Ellagårdsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EwTcSA7RUTBH3K7byRvJbh"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2,
+      "Förskoleklass": 1
+    },
+    "count": 3,
+    "coordinates": [
+      59.442787,
+      18.0454271
+    ]
+  },
+  {
+    "municipality": "Helsingborg stad",
+    "school": "Musikgrundskolan Synkopen",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/D72eTfgQ6rt3dVBQKMvjS3"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 4": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Höganäs",
+    "school": "Tornlyckeskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/L3GbjOmzeqHIJaGnmE7Pp8"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 2": 1,
+      "Årskurs 5": 1
+    },
+    "count": 3,
+    "coordinates": [
+      56.1923738,
+      12.5690636
+    ]
+  },
+  {
+    "municipality": "Trollhättans stad",
+    "school": "Lyrfågelskolan F",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FHL0Ha1kwh5DkwLhAnMZ3D"
+    ],
+    "schoolYears": {
+      "Årskurs 6": 1,
+      "Årskurs 4": 1,
+      "Förskoleklass": 1
+    },
+    "count": 3,
+    "coordinates": [
+      58.21208,
+      12.35033
+    ]
+  },
+  {
+    "municipality": "Östersund",
+    "school": "Innovitaskolan Östersund",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J7kisMREh9O9Eka4iNd2iC"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      63.1792,
+      14.63566
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Sofia skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Alingsås",
+    "school": "Vittra Gerdsken",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Kpq2gPb7Cl663L7Ymzp6I1"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Förskoleklass": 1,
+      "Årskurs 3": 1,
+      "Årskurs 5": 1
+    },
+    "count": 4,
+    "coordinates": [
+      57.9237655,
+      12.5400738
+    ]
+  },
+  {
+    "municipality": "Sigtuna",
+    "school": "Råbergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fu9Bfj9WWfGERPseyyEKHU"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.579889,
+      17.890282
+    ]
+  },
+  {
+    "municipality": "Umeå",
+    "school": "Obbola skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FMPjS5YHoPcKEp1YWIvyZt"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 7": 1
+    },
+    "count": 2,
+    "coordinates": [
+      63.6967581,
+      20.3057815
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Domarringens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.8777276,
+      17.6271169
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Pluggparadiset",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.9598924,
+      17.698876
+    ]
+  },
+  {
+    "municipality": "Västerås",
+    "school": "Barkaröskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LhvFfbXpBFyBu9BXGbBJ4S"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.61617,
+      16.55276
+    ]
+  },
+  {
+    "municipality": "Lerum",
+    "school": "Uddaredsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LSJ3H4EuCu7Fhw6y4wg7X8"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 2,
+      "Förskoleklass": 9,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 12,
+    "coordinates": [
+      57.8096997,
+      12.3416849
+    ]
+  },
+  {
+    "municipality": "Falun",
+    "school": "Friskolan Mosaik",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CQKGPQRYNjoExZutmuSuBQ"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.6100826,
+      15.6384373
+    ]
+  },
+  {
+    "municipality": "Kalmar",
+    "school": "Rinkabyholmsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CmxPyTqeYuSLooCiEcLFDR"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.6511558,
+      16.2475385
+    ]
+  },
+  {
+    "municipality": "Öckerö",
+    "school": "Björkö skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/H1DfuxVMXFS0gTNhzj32zW"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 2
+    },
+    "count": 2,
+    "coordinates": [
+      57.7357232,
+      11.6773227
+    ]
+  },
+  {
+    "municipality": "Malmö Stad",
+    "school": "Stenkulaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GkAWQT8iE9NJd7biv7mm5k"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.5935185,
+      13.0287194
+    ]
+  },
+  {
+    "municipality": "Håbo",
+    "school": "Futurum F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BoO0Wjsdbbh4LsoPc9zjkg"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      59.58333,
+      17.65
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "I Ur och Skur Utsikten skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2
+    },
+    "count": 2,
+    "coordinates": [
+      59.36673,
+      18.15725
+    ]
+  },
+  {
+    "municipality": "Lidköping",
+    "school": "Broholmskolan Lidköping",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GqTdkFq3x1YFJtU8Jg2Vgi"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 2
+    },
+    "count": 3,
+    "coordinates": [
+      58.4946408,
+      13.1488475
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Lundaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Tidaholm",
+    "school": "Rosenbergs grundskola F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J021HwpeVuEDaLsRSKp6Y7"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.18035,
+      13.95824
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Vilans skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1,
+      "Årskurs 3": 1,
+      "Årskurs 1": 1
+    },
+    "count": 3,
+    "coordinates": [
+      59.3137214,
+      18.1180203
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Myrsjöskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      59.3323343,
+      18.2669408
+    ]
+  },
+  {
+    "municipality": "Falköping",
+    "school": "Odensbergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IiUsbEEjd4GFY5PkHk8wMd"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.1564065,
+      13.4385277
+    ]
+  },
+  {
+    "municipality": "Norrtälje",
+    "school": "Skederids skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DCGHblSioY08zr1hsnirEq"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 2": 1,
+      "Årskurs 1": 1,
+      "Årskurs 3": 1,
+      "Årskurs 4": 1,
+      "Årskurs 5": 1,
+      "Årskurs 6": 1
+    },
+    "count": 7,
+    "coordinates": [
+      59.75799,
+      18.70496
+    ]
+  },
+  {
+    "municipality": "Södertälje",
+    "school": "Igelsta grundskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Bb2j3scjloj18uioSIlBbQ"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.1835196,
+      17.6601428
+    ]
+  },
+  {
+    "municipality": "Upplands Väsby",
+    "school": "Stallets Skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JBp3EQqALtt4LfppLGia4C"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.51839,
+      17.91128
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Björkhagens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 4,
+      "Är inte i skola ännu. Börjar 2027": 3,
+      "Årskurs 1": 4,
+      "Förskoleklass": 3
+    },
+    "count": 14,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Heby",
+    "school": "Heby skola F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DjCWkQmpG7S38lbIZsKugD"
+    ],
+    "schoolYears": {
+      "Årskurs 6": 1,
+      "Årskurs 4": 1,
+      "Årskurs 1": 1
+    },
+    "count": 3,
+    "coordinates": [
+      59.93815,
+      16.86217
+    ]
+  },
+  {
+    "municipality": "Huddinge",
+    "school": "Mörtviksskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LKKdT2J2bqTDrXomFx970T"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 3,
+      "Förskoleklass": 3,
+      "Är inte i skolan ännu. Börjar 2025": 2,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 9,
+    "coordinates": [
+      59.2154386,
+      18.1621236
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Backeboskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3571424,
+      18.2954788
+    ]
+  },
+  {
+    "municipality": "Härjedalen",
+    "school": "Funäsdalens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GQJwfFACpFj30Ko7qxhhlx"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 2": 1,
+      "Förskoleklass": 1
+    },
+    "count": 3,
+    "coordinates": [
+      62.5455476,
+      12.5471155
+    ]
+  },
+  {
+    "municipality": "Söderhamn",
+    "school": "Vågbroskolan åk F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IsEgO65CIOCID5JjFjS5G9"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 2,
+    "coordinates": [
+      61.30373,
+      17.05921
+    ]
+  },
+  {
+    "municipality": "Vellinge",
+    "school": "Framtidskomp. V Ingelstad sk",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/E98BVLd3lvjKZAVbX9SZiS"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 7,
+      "Är inte i skola ännu. Börjar 2026": 2,
+      "Är inte i skola ännu. Börjar 2027": 4,
+      "Årskurs 2": 1,
+      "Är inte i skola ännu. Börjar 2028": 2,
+      "Är inte i skolan ännu. Börjar 2025": 2
+    },
+    "count": 19,
+    "coordinates": [
+      55.47124,
+      13.01971
+    ]
+  },
+  {
+    "municipality": "Ekerö",
+    "school": "Stenhamraskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JGfEAWoRAkJIFLao2HA7yB"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.3353576,
+      17.6887397
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Sticklinge skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 5,
+      "Är inte i skolan ännu. Börjar 2025": 2,
+      "Årskurs 3": 1
+    },
+    "count": 8,
+    "coordinates": [
+      59.382682,
+      18.1158146
+    ]
+  },
+  {
+    "municipality": "Lund",
+    "school": "Freinetskolan i Lund",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Dhc0EdCJvQiGgcpsn4hmR2"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.70584,
+      13.19321
+    ]
+  },
+  {
+    "municipality": "Danderyd",
+    "school": "Kyrkskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Cmv7T52myF11gXvvhA8Ack"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 2,
+      "Årskurs 9": 2
+    },
+    "count": 4,
+    "coordinates": [
+      59.4122896,
+      18.0114964
+    ]
+  },
+  {
+    "municipality": "Värmdö",
+    "school": "Ösbyskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BZQBgJolSPq1Iao5AwQFWY"
+    ],
+    "schoolYears": {
+      "Årskurs 5": 1,
+      "Förskoleklass": 2
+    },
+    "count": 3,
+    "coordinates": [
+      59.318348,
+      18.4168211
+    ]
+  },
+  {
+    "municipality": "Ljungby",
+    "school": "Ekebackenskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HV0EkmtVi0HIL116JSHz7E"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.8224122,
+      13.9385117
+    ]
+  },
+  {
+    "municipality": "Uddevalla",
+    "school": "Sommarhemsskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ihqxz0gmDhAB01NWZqI8zt"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.34784,
+      11.9424
+    ]
+  },
+  {
+    "municipality": "Haninge",
+    "school": "Svartbäcksskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J1sphQ3mdSW8cwbcCd9aMI"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 5": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.1697992,
+      18.1906551
+    ]
+  },
+  {
+    "municipality": "Falun",
+    "school": "Grycksboskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CQKGPQRYNjoExZutmuSuBQ"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 2,
+      "Årskurs 6": 1
+    },
+    "count": 3,
+    "coordinates": [
+      60.6893377,
+      15.4788356
+    ]
+  },
+  {
+    "municipality": "Linköping",
+    "school": "Nykils skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J11Zg1ef7OkJci0dTcfBUS"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.2868726,
+      15.449454
+    ]
+  },
+  {
+    "municipality": "Eskilstuna",
+    "school": "Gökstensskolan F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fu8j669JTY31l0FUVzqPi7"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.36661,
+      16.5077
+    ]
+  },
+  {
+    "municipality": "Flen",
+    "school": "Bettna skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LPgzK9a7BWMB7zidOZ5KLt"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.9158847,
+      16.6326307
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Bandhagens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2,
+      "Årskurs 3": 1,
+      "Är inte i skola ännu. Börjar 2027": 1,
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Förskoleklass": 1
+    },
+    "count": 6,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Partille",
+    "school": "Öjersjö Brunn skola F-4",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IdQHOcb1Yp6ERCyC7UC9PW"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.7395,
+      12.10642
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Bo skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3741812,
+      18.1565583
+    ]
+  },
+  {
+    "municipality": "Skara",
+    "school": "Valleskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GOp10VlAnU2KnyX6B3i8ly"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.3902037,
+      13.5728537
+    ]
+  },
+  {
+    "municipality": "Borås stad",
+    "school": "Kerstinsgårdskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/D6ip8GkBCL7Cr8bOAv0G6G"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Östersund",
+    "school": "Fagervallsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J7kisMREh9O9Eka4iNd2iC"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 3
+    },
+    "count": 3,
+    "coordinates": [
+      63.1652555,
+      14.6577515
+    ]
+  },
+  {
+    "municipality": "Lysekil",
+    "school": "Bro skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HEuzL8JfcXI6hiCMfZIxO1"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.27429,
+      11.43576
+    ]
+  },
+  {
+    "municipality": "Karlstad",
+    "school": "Stockfallets skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HB89EtKLXGo1SeJBzhn9TL"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 3,
+    "coordinates": [
+      59.4166431,
+      13.5506454
+    ]
+  },
+  {
+    "municipality": "Österåker",
+    "school": "Internationella Engelska Skolan Upplands Väsby",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HyeWhf2HEeh8mJICTw2Saz"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.48345,
+      18.29979
+    ]
+  },
+  {
+    "municipality": "Smedjebacken",
+    "school": "Bergaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KwVVHV0nNQf2Yhyr4YS0MQ"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.1459183,
+      15.4166748
+    ]
+  },
+  {
+    "municipality": "Boden",
+    "school": "Torpgärdsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DNMUWwMtwLLJ3qLAXkBHga"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      65.82518,
+      21.68864
+    ]
+  },
+  {
+    "municipality": "Eskilstuna",
+    "school": "Hammargärdets skola F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fu8j669JTY31l0FUVzqPi7"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.36661,
+      16.5077
+    ]
+  },
+  {
+    "municipality": "Östersund",
+    "school": "Arnljotskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J7kisMREh9O9Eka4iNd2iC"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      63.1792,
+      14.63566
+    ]
+  },
+  {
+    "municipality": "Umeå",
+    "school": "Linblommans skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FMPjS5YHoPcKEp1YWIvyZt"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      63.82842,
+      20.25972
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Årstaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 3,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 2": 1,
+      "Årskurs 1": 2,
+      "Årskurs 4": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 9,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Örebro",
+    "school": "Latorps skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Er5fKjXhdVvA7isk5jHkDq"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.276679,
+      14.9851261
+    ]
+  },
+  {
+    "municipality": "Höganäs",
+    "school": "Vikenskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/L3GbjOmzeqHIJaGnmE7Pp8"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Förskoleklass": 5,
+      "Är inte i skola ännu. Börjar 2028": 2,
+      "Årskurs 3": 2,
+      "Är inte i skola ännu. Börjar 2026": 1,
+      "Årskurs 1": 2,
+      "Är inte i skola ännu. Börjar 2027": 2,
+      "Årskurs 2": 1,
+      "Årskurs 8": 1
+    },
+    "count": 17,
+    "coordinates": [
+      56.1544145,
+      12.5786889
+    ]
+  },
+  {
+    "municipality": "Smedjebacken",
+    "school": "Hagge skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KwVVHV0nNQf2Yhyr4YS0MQ"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.12425,
+      15.27005
+    ]
+  },
+  {
+    "municipality": "Smedjebacken",
+    "school": "Vad skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KwVVHV0nNQf2Yhyr4YS0MQ"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.0305759,
+      15.6441655
+    ]
+  },
+  {
+    "municipality": "Östersund",
+    "school": "Valla skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J7kisMREh9O9Eka4iNd2iC"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      63.1792,
+      14.63566
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Smedslättsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2,
+      "Årskurs 3": 1
+    },
+    "count": 3,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Smedjebacken",
+    "school": "Vinsboskolan, c/o Stegelbackens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KwVVHV0nNQf2Yhyr4YS0MQ"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.14181,
+      15.41416
+    ]
+  },
+  {
+    "municipality": "Karlstad",
+    "school": "Kroppkärrsskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HB89EtKLXGo1SeJBzhn9TL"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      59.3793,
+      13.50357
+    ]
+  },
+  {
+    "municipality": "Danderyd",
+    "school": "Kevingeskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Cmv7T52myF11gXvvhA8Ack"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.3970461,
+      18.0322022
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Hillelskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.30719,
+      18.14297
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Kärraskolan F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 2,
+      "Årskurs 3": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 4,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Norrköping",
+    "school": "Stiftelsen Rudolf Steinerskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/C6DM4aWci5gAV9zXP0O2Tt"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.59419,
+      16.1826
+    ]
+  },
+  {
+    "municipality": "Herrljunga",
+    "school": "Eriksbergs skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IpzFIAy175sJCuTqJjz5fm"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.0309127,
+      13.2714141
+    ]
+  },
+  {
+    "municipality": "Alingsås",
+    "school": "Sollebrunns skola F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Kpq2gPb7Cl663L7Ymzp6I1"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.91372,
+      12.53442
+    ]
+  },
+  {
+    "municipality": "Lund",
+    "school": "Österskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Dhc0EdCJvQiGgcpsn4hmR2"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.7180339,
+      13.3577754
+    ]
+  },
+  {
+    "municipality": "Täby",
+    "school": "Norskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EwTcSA7RUTBH3K7byRvJbh"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.4333829,
+      18.0889842
+    ]
+  },
+  {
+    "municipality": "Partille",
+    "school": "Vallhamra skola F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IdQHOcb1Yp6ERCyC7UC9PW"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.7395,
+      12.10642
+    ]
+  },
+  {
+    "municipality": "Upplands-Bro",
+    "school": "Lillsjöskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JGdVBBNXZHVIPYurJAojCa"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.4850216,
+      17.7208054
+    ]
+  },
+  {
+    "municipality": "Vallentuna",
+    "school": "Bällstabergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KxbR0mP9xoy8AxYiN3weyF"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Årskurs 1": 1
+    },
+    "count": 3,
+    "coordinates": [
+      59.5100128,
+      18.0790653
+    ]
+  },
+  {
+    "municipality": "Borlänge",
+    "school": "Kyrkskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/L0pJtteFYoCImDNLD2VIjS"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.4493965,
+      15.4760543
+    ]
+  },
+  {
+    "municipality": "Härjedalen",
+    "school": "Vemdalens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GQJwfFACpFj30Ko7qxhhlx"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62.4468909,
+      13.8620064
+    ]
+  },
+  {
+    "municipality": "Mullsjö",
+    "school": "Gunnarsbo ABC",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/G3W4pvyOiQP5rY6nx2Fafi"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.9171,
+      13.87831
+    ]
+  },
+  {
+    "municipality": "Södertälje",
+    "school": "Viksbergskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Bb2j3scjloj18uioSIlBbQ"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 4": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.19554,
+      17.62525
+    ]
+  },
+  {
+    "municipality": "Orust",
+    "school": "Källängens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BzokXwoMoGJHUWSNDLCBHo"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.18025,
+      11.63419
+    ]
+  },
+  {
+    "municipality": "Trosa",
+    "school": "Solvikskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EiBwyd8386U15U9ut7LnYt"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.89621,
+      17.54812
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Hökarängsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Örebro",
+    "school": "Norrbyskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Er5fKjXhdVvA7isk5jHkDq"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Är inte i skola ännu. Börjar 2028": 2
+    },
+    "count": 4,
+    "coordinates": [
+      59.2880209,
+      15.2354406
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Skarpnäcks skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Förskoleklass": 1,
+      "Är inte i skola ännu. Börjar 2027": 1,
+      "Årskurs 1": 1
+    },
+    "count": 4,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Djurgårdsskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Herrljunga",
+    "school": "Asklanda skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IpzFIAy175sJCuTqJjz5fm"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.07739,
+      13.02662
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Karlbergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Hässleholm",
+    "school": "Finja skola F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KSihNn0IJUUDSpFX7SVPOY"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.16423,
+      13.75629
+    ]
+  },
+  {
+    "municipality": "Ljusdal",
+    "school": "Järvsö skola F-9",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Imjd8cFyY872fM5EiLUiKN"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      61.85527,
+      15.50695
+    ]
+  },
+  {
+    "municipality": "Kävlinge",
+    "school": "Barsebäcks Montessoriskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/C67yYMnezjyFneUYbAMXy5"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 2": 2,
+      "Förskoleklass": 2,
+      "Årskurs 1": 1,
+      "Årskurs 3": 1
+    },
+    "count": 7,
+    "coordinates": [
+      55.79188,
+      13.11021
+    ]
+  },
+  {
+    "municipality": "Söderhamn",
+    "school": "Trönö skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IsEgO65CIOCID5JjFjS5G9"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 2,
+    "coordinates": [
+      61.395047,
+      16.8339317
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Ljungbackens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      59.350409,
+      18.2199395
+    ]
+  },
+  {
+    "municipality": "Lund",
+    "school": "Flygelskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Dhc0EdCJvQiGgcpsn4hmR2"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      55.7101184,
+      13.2398821
+    ]
+  },
+  {
+    "municipality": "Vellinge",
+    "school": "Stora Hammars skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/E98BVLd3lvjKZAVbX9SZiS"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 2,
+    "coordinates": [
+      55.4254123,
+      12.9768681
+    ]
+  },
+  {
+    "municipality": "Strömsund",
+    "school": "Bredgårds skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CS4wOUo6jbmDyQQAJHG6JM"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      63.85206,
+      15.55583
+    ]
+  },
+  {
+    "municipality": "Lilla Edet",
+    "school": "Tingbergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BQEoo9ia4ug1OzkgDXjcOA"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.0301475,
+      12.1550909
+    ]
+  },
+  {
+    "municipality": "Täby",
+    "school": "Täby Friskola-Lilla Gribbylund/Gribbylund",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EwTcSA7RUTBH3K7byRvJbh"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.4651,
+      18.08667
+    ]
+  },
+  {
+    "municipality": "Södertälje",
+    "school": "Solvikskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Bb2j3scjloj18uioSIlBbQ"
+    ],
+    "schoolYears": {
+      "Årskurs 6": 1,
+      "Förskoleklass": 2
+    },
+    "count": 3,
+    "coordinates": [
+      59.0483132,
+      17.6203092
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Hagaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.6974395,
+      11.958184
+    ]
+  },
+  {
+    "municipality": "Salem",
+    "school": "Noblaskolan Rönninge",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HQdTw2Dntcs6fxLSj74lf1"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.1859208,
+      17.7312743
+    ]
+  },
+  {
+    "municipality": "Mellerud",
+    "school": "Karolinerskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/C3fdOCOPG1qEK3Wdff0p8t"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.69979,
+      12.45312
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Skärsätra skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.3451994,
+      18.1764237
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Älvsåkersskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Årskurs 3": 1,
+      "Är inte i skola ännu. Börjar 2027": 1,
+      "Årskurs 9": 1
+    },
+    "count": 5,
+    "coordinates": [
+      57.48719,
+      12.07612
+    ]
+  },
+  {
+    "municipality": "Vallentuna",
+    "school": "Lovisedalsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KxbR0mP9xoy8AxYiN3weyF"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 4,
+    "coordinates": [
+      59.5101911,
+      18.0624097
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Eriksdalsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Sunnerstaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.7981443,
+      17.6529054
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Christinaskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.36673,
+      18.15725
+    ]
+  },
+  {
+    "municipality": "Ale",
+    "school": "Himlaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IUUZjQODD786pjHVHfnGCp"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.9279415,
+      12.0848208
+    ]
+  },
+  {
+    "municipality": "Umeå",
+    "school": "Skärgårdsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FMPjS5YHoPcKEp1YWIvyZt"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      63.7053412,
+      20.3700162
+    ]
+  },
+  {
+    "municipality": "Timrå",
+    "school": "Söråkers skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/I1ZaW0PWKtA9tb2609e8de"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62.5085256,
+      17.5117987
+    ]
+  },
+  {
+    "municipality": "Kristianstad",
+    "school": "Villaskolan L",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GA1Z6DOYTYc9QcoRpmsEXF"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.03129,
+      14.15242
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Lerlyckeskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Örnsköldsvik",
+    "school": "Örnsköldskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GHmhWOw8Cf42pP0KGpmBsw"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      63.2942805,
+      18.7138379
+    ]
+  },
+  {
+    "municipality": "Staffanstorp",
+    "school": "Uppåkraskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LaYhdvKmM6e88cerigV8LO"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.6699421,
+      13.1556527
+    ]
+  },
+  {
+    "municipality": "Vallentuna",
+    "school": "Rosendalsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KxbR0mP9xoy8AxYiN3weyF"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.53436,
+      18.07758
+    ]
+  },
+  {
+    "municipality": "Vallentuna",
+    "school": "Vittra Vallentuna",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KxbR0mP9xoy8AxYiN3weyF"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.5102684,
+      18.0743801
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Vittra Forsgläntan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.4900428,
+      12.0937586
+    ]
+  },
+  {
+    "municipality": "Ale",
+    "school": "Kronaskolan F-3 MA",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IUUZjQODD786pjHVHfnGCp"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.97018,
+      12.25166
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Gustav Vasa skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2,
+      "Är inte i skola ännu. Börjar 2026": 2
+    },
+    "count": 4,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Nacka",
+    "school": "Skuru skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HG43ZedIZIoE6gpNYPz8Bu"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3131019,
+      18.2088853
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Mälarhöjdens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Nybro",
+    "school": "Hanemålaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GlnMV9nyE5I98jk2mbAI4M"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.731981,
+      15.9455508
+    ]
+  },
+  {
+    "municipality": "Täby",
+    "school": "Noblaskolan Täby",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EwTcSA7RUTBH3K7byRvJbh"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.4439,
+      18.06872
+    ]
+  },
+  {
+    "municipality": "Malmö Stad",
+    "school": "Videdalsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GkAWQT8iE9NJd7biv7mm5k"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2
+    },
+    "count": 2,
+    "coordinates": [
+      55.590683,
+      13.0699068
+    ]
+  },
+  {
+    "municipality": "Gävle",
+    "school": "Hemlingborgs skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/H3NxbmnQIVeD4hfBF1bc4L"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 2,
+    "coordinates": [
+      60.6414042,
+      17.1497631
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Djurgårdsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 3,
+      "Årskurs 1": 2
+    },
+    "count": 5,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Sollentuna",
+    "school": "Tegelhagens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CxAHFH161EgAfYzukoZt1b"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 2": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 3,
+    "coordinates": [
+      59.4086587,
+      17.9813772
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Pontos Grundskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.4175506,
+      11.9536479
+    ]
+  },
+  {
+    "municipality": "Lerum",
+    "school": "Hästhagsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LSJ3H4EuCu7Fhw6y4wg7X8"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1,
+      "Årskurs 2": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 3,
+    "coordinates": [
+      57.76173,
+      12.27567
+    ]
+  },
+  {
+    "municipality": "Hammarö",
+    "school": "Götetorps skola F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CAyOYsfSgGALkGpF8wzShv"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Årskurs 3": 1
+    },
+    "count": 3,
+    "coordinates": [
+      59.33567,
+      13.52082
+    ]
+  },
+  {
+    "municipality": "Haninge",
+    "school": "Nakterhusskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J1sphQ3mdSW8cwbcCd9aMI"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.1851068,
+      18.1400424
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Karlbergs skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Torsviks skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1,
+      "Årskurs 1": 2,
+      "Årskurs 5": 1,
+      "Årskurs 7": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 6,
+    "coordinates": [
+      59.3660139,
+      18.1264285
+    ]
+  },
+  {
+    "municipality": "Falun",
+    "school": "Sågmyraskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CQKGPQRYNjoExZutmuSuBQ"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Årskurs 4": 1,
+      "Årskurs 2": 1
+    },
+    "count": 4,
+    "coordinates": [
+      60.7124578,
+      15.3026893
+    ]
+  },
+  {
+    "municipality": "Vetlanda",
+    "school": "Holsby skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/K74YaweTP94EZSok9xnVni"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1,
+      "Årskurs 5": 1,
+      "Är inte i skola ännu. Börjar 2027": 1,
+      "Årskurs 8": 1
+    },
+    "count": 4,
+    "coordinates": [
+      57.4372871,
+      15.1993816
+    ]
+  },
+  {
+    "municipality": "Söderköping",
+    "school": "Björkhaga Skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GXcgHjiainHAKEFTZzeDwZ"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.48428,
+      16.32122
+    ]
+  },
+  {
+    "municipality": "Varberg",
+    "school": "Skällinge skola F-3 och fritidshem",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LVz2WCxhlNQBJ8tDYejsbP"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.10557,
+      12.25078
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Rudolf Steinerskolan Göteborg",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 2,
+      "Årskurs 2": 2
+    },
+    "count": 4,
+    "coordinates": [
+      57.7165327,
+      12.036885
+    ]
+  },
+  {
+    "municipality": "Karlstad",
+    "school": "Kvarnbergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HB89EtKLXGo1SeJBzhn9TL"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Årskurs 1": 2
+    },
+    "count": 3,
+    "coordinates": [
+      59.3765774,
+      13.4843848
+    ]
+  },
+  {
+    "municipality": "Karlskoga",
+    "school": "Häsängsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IvVX27PcRlUI547pRRHsGq"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3203391,
+      14.492279
+    ]
+  },
+  {
+    "municipality": "Alingsås",
+    "school": "Ingaredsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Kpq2gPb7Cl663L7Ymzp6I1"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Årskurs 1": 1,
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 3,
+    "coordinates": [
+      57.8491906,
+      12.4559082
+    ]
+  },
+  {
+    "municipality": "Falkenberg",
+    "school": "Vinbergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BA1SkBKdy1J2r1PJ0QjJsg"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      56.9311745,
+      12.5487514
+    ]
+  },
+  {
+    "municipality": "Södertälje",
+    "school": "Mölnboskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Bb2j3scjloj18uioSIlBbQ"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 3": 2,
+      "Årskurs 1": 1
+    },
+    "count": 4,
+    "coordinates": [
+      59.19554,
+      17.62525
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Skanskvarnsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Vallentuna",
+    "school": "Vallentuna internationella montessoriskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KxbR0mP9xoy8AxYiN3weyF"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.53436,
+      18.07758
+    ]
+  },
+  {
+    "municipality": "Värnamo",
+    "school": "Enehagens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/K63LkpMAEsWJIVAgwHmbuH"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.1869265,
+      14.0472303
+    ]
+  },
+  {
+    "municipality": "Kalmar",
+    "school": "Vasaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CmxPyTqeYuSLooCiEcLFDR"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.6613016,
+      16.3428503
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Klockargårdens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.369451,
+      18.1518214
+    ]
+  },
+  {
+    "municipality": "Höganäs",
+    "school": "Jonstorpsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/L3GbjOmzeqHIJaGnmE7Pp8"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      56.229332,
+      12.6778165
+    ]
+  },
+  {
+    "municipality": "Vallentuna",
+    "school": "Rosendalsskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KxbR0mP9xoy8AxYiN3weyF"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.53436,
+      18.07758
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Bodals skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Årskurs 5": 1,
+      "Årskurs 7": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.3503431,
+      18.1417816
+    ]
+  },
+  {
+    "municipality": "Gotland",
+    "school": "Norrbackaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CtAcq6OGBnVHUHhrRawWqK"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.643458,
+      18.3074656
+    ]
+  },
+  {
+    "municipality": "Trosa",
+    "school": "Vitalisskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EiBwyd8386U15U9ut7LnYt"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      58.9004633,
+      17.541389
+    ]
+  },
+  {
+    "municipality": "Karlskoga",
+    "school": "Sandviksskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IvVX27PcRlUI547pRRHsGq"
+    ],
+    "schoolYears": {
+      "Årskurs 5": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3331814,
+      14.5654605
+    ]
+  },
+  {
+    "municipality": "Höör",
+    "school": "Emiliaskolan Höörs waldorfsk.",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/H1ABba09GcvKkOMMGTH10V"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Årskurs 5": 1,
+      "Förskoleklass": 1,
+      "Årskurs 2": 1,
+      "Årskurs 4": 1
+    },
+    "count": 5,
+    "coordinates": [
+      55.93118,
+      13.55009
+    ]
+  },
+  {
+    "municipality": "Malmö Stad",
+    "school": "Österportskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GkAWQT8iE9NJd7biv7mm5k"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.6055379,
+      13.0106808
+    ]
+  },
+  {
+    "municipality": "Vänersborg",
+    "school": "Blåsut skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/E09z75iIdYSBo0zHslw6f8"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.3772082,
+      12.2972282
+    ]
+  },
+  {
+    "municipality": "Ekerö",
+    "school": "Sanduddens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JGfEAWoRAkJIFLao2HA7yB"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.2726043,
+      17.7781491
+    ]
+  },
+  {
+    "municipality": "Tyresö",
+    "school": "Friskolan Karlavagnen",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EYgGBel9TrCLwIGDaxgRwU"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.2367,
+      18.30146
+    ]
+  },
+  {
+    "municipality": "Norrköping",
+    "school": "Tåby skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/C6DM4aWci5gAV9zXP0O2Tt"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.515557,
+      16.3622276
+    ]
+  },
+  {
+    "municipality": "Lidingö",
+    "school": "Högsätra skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JmyWFftXAMl48qRxbAmTcb"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Årskurs 3": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.3505689,
+      18.1560642
+    ]
+  },
+  {
+    "municipality": "Linköping",
+    "school": "Kärna skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J11Zg1ef7OkJci0dTcfBUS"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.4173911,
+      15.5154184
+    ]
+  },
+  {
+    "municipality": "Hjo",
+    "school": "Hammarnskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IkJfKZTSiG33znd6Xikn9j"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.3078429,
+      14.2771191
+    ]
+  },
+  {
+    "municipality": "Östersund",
+    "school": "Fjällängsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J7kisMREh9O9Eka4iNd2iC"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      63.1500842,
+      14.7246772
+    ]
+  },
+  {
+    "municipality": "Österåker",
+    "school": "Rydbo friskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HyeWhf2HEeh8mJICTw2Saz"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.48345,
+      18.29979
+    ]
+  },
+  {
+    "municipality": "Täby",
+    "school": "Täby Friskola-Ljungmyr",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EwTcSA7RUTBH3K7byRvJbh"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Förskoleklass": 2
+    },
+    "count": 3,
+    "coordinates": [
+      59.49067,
+      18.0568
+    ]
+  },
+  {
+    "municipality": "Karlshamn",
+    "school": "Klockebacksskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CqsvmIwF5x7HgrjBdt4uHY"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.2067582,
+      14.8351091
+    ]
+  },
+  {
+    "municipality": "Solna",
+    "school": "Skytteholmsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FlPYAlp8fkOCshXZlF6PxU"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.3572384,
+      17.9940766
+    ]
+  },
+  {
+    "municipality": "Söderköping",
+    "school": "Bergaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GXcgHjiainHAKEFTZzeDwZ"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.4806478,
+      16.330289
+    ]
+  },
+  {
+    "municipality": "Norrköping",
+    "school": "Jurslaskolan 1",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/C6DM4aWci5gAV9zXP0O2Tt"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.59419,
+      16.1826
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Brotorpsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Sollefteå",
+    "school": "Dibber International School Sollentuna",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EnLBwe6ZCHl5tLR33wgy6G"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      63.16667,
+      17.26667
+    ]
+  },
+  {
+    "municipality": "Trosa",
+    "school": "Skärlagskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EiBwyd8386U15U9ut7LnYt"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.89621,
+      17.54812
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Hägerstenshamnens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Vellinge",
+    "school": "Sandeplanskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/E98BVLd3lvjKZAVbX9SZiS"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.4161941,
+      12.9760396
+    ]
+  },
+  {
+    "municipality": "Norrköping",
+    "school": "Skarphagsskolan 2",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/C6DM4aWci5gAV9zXP0O2Tt"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.59419,
+      16.1826
+    ]
+  },
+  {
+    "municipality": "Karlstad",
+    "school": "Herrhagsskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HB89EtKLXGo1SeJBzhn9TL"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3793,
+      13.50357
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Abrahamsbergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Lidköping",
+    "school": "Örslösa skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GqTdkFq3x1YFJtU8Jg2Vgi"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.5121396,
+      13.0073095
+    ]
+  },
+  {
+    "municipality": "Solna",
+    "school": "Järvastadens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FlPYAlp8fkOCshXZlF6PxU"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.36004,
+      18.00086
+    ]
+  },
+  {
+    "municipality": "Umeå",
+    "school": "Stöcke skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FMPjS5YHoPcKEp1YWIvyZt"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      63.7407611,
+      20.2308556
+    ]
+  },
+  {
+    "municipality": "Lerum",
+    "school": "Almekärrsskolan skolenhet 1",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LSJ3H4EuCu7Fhw6y4wg7X8"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      57.76173,
+      12.27567
+    ]
+  },
+  {
+    "municipality": "Helsingborg stad",
+    "school": "Råå Södra skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/D72eTfgQ6rt3dVBQKMvjS3"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Haninge",
+    "school": "Måsöskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J1sphQ3mdSW8cwbcCd9aMI"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.1912249,
+      18.1296197
+    ]
+  },
+  {
+    "municipality": "Håbo",
+    "school": "Gransäterskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BoO0Wjsdbbh4LsoPc9zjkg"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.5832454,
+      17.5098549
+    ]
+  },
+  {
+    "municipality": "Gnesta",
+    "school": "Gnesta Waldorfskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EZsKbI4Tn6533D063iTzzG"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 5": 2,
+      "Årskurs 2": 1
+    },
+    "count": 4,
+    "coordinates": [
+      59.04751,
+      17.31191
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Östermalmsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Jönköping",
+    "school": "Hisingstorpsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GHBoNlAPZhaLewBuT07xox"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.7935796,
+      14.1324329
+    ]
+  },
+  {
+    "municipality": "Mariestad",
+    "school": "Högelidsskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Igz58d9glXfBo1wk301SDn"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.71261,
+      13.8413
+    ]
+  },
+  {
+    "municipality": "Upplands Väsby",
+    "school": "Internationella Engelska Skolan Upplands Väsby",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JBp3EQqALtt4LfppLGia4C"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.51839,
+      17.91128
+    ]
+  },
+  {
+    "municipality": "Uddevalla",
+    "school": "Kisslebergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ihqxz0gmDhAB01NWZqI8zt"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.3518,
+      11.8354397
+    ]
+  },
+  {
+    "municipality": "Tranås",
+    "school": "Junkaremålsskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DqQPF6exSIMH4TWE6JZ4DB"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 4": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 3,
+    "coordinates": [
+      58.03717,
+      14.9782
+    ]
+  },
+  {
+    "municipality": "Täby",
+    "school": "Slottsparksskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EwTcSA7RUTBH3K7byRvJbh"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.4253256,
+      18.0969655
+    ]
+  },
+  {
+    "municipality": "Värmdö",
+    "school": "Skolan LÄR",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BZQBgJolSPq1Iao5AwQFWY"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3191444,
+      18.3932196
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Hedvig Eleonora skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Borås stad",
+    "school": "Malmen Montessori",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/D6ip8GkBCL7Cr8bOAv0G6G"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2,
+      "Årskurs 7": 1,
+      "Årskurs 9": 1
+    },
+    "count": 4,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Nyköping",
+    "school": "Herrhagsskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BsdF3zgcvCUJy1jSgoR22Z"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 3": 1,
+      "Årskurs 4": 1
+    },
+    "count": 3,
+    "coordinates": [
+      58.753,
+      17.00788
+    ]
+  },
+  {
+    "municipality": "Vellinge",
+    "school": "Herrestorpskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/E98BVLd3lvjKZAVbX9SZiS"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.4738181,
+      13.0364601
+    ]
+  },
+  {
+    "municipality": "Kalix",
+    "school": "Näsbyskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/E71NGstgoMrFqKE11gIwCT"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      65.8418259,
+      23.1853806
+    ]
+  },
+  {
+    "municipality": "Skellefteå",
+    "school": "Bruksskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/I010b5LoSTXHU3ZjRtvGCR"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 1,
+    "coordinates": [
+      64.7128437,
+      21.1498828
+    ]
+  },
+  {
+    "municipality": "Borås stad",
+    "school": "Sjömarkenskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/D6ip8GkBCL7Cr8bOAv0G6G"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Sala",
+    "school": "Kilbo skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JjZCd4ye5AZF1UouO0OydC"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      60.019824,
+      16.287168
+    ]
+  },
+  {
+    "municipality": "Flen",
+    "school": "Kyrkskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LPgzK9a7BWMB7zidOZ5KLt"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.05834,
+      16.58781
+    ]
+  },
+  {
+    "municipality": "Malmö Stad",
+    "school": "Karlshögsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GkAWQT8iE9NJd7biv7mm5k"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 2
+    },
+    "count": 2,
+    "coordinates": [
+      55.5983771,
+      13.0425584
+    ]
+  },
+  {
+    "municipality": "Mölndals stad",
+    "school": "Bosgårdsskolan F-3 och fritidshem",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GdgXXxQit8YEvMute7igNM"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.60256,
+      12.09889
+    ]
+  },
+  {
+    "municipality": "Herrljunga",
+    "school": "Hudene skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IpzFIAy175sJCuTqJjz5fm"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.058118,
+      13.0903868
+    ]
+  },
+  {
+    "municipality": "Sundsvall",
+    "school": "Sundsvalls Montessoriskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KP07yUppQm2651Ciret748"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62.3772697,
+      17.2892363
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Lilla Samskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Solna",
+    "school": "Råsunda skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FlPYAlp8fkOCshXZlF6PxU"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3626636,
+      17.9904553
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Kämpetorpsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Alingsås",
+    "school": "Långareds skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Kpq2gPb7Cl663L7Ymzp6I1"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1,
+      "Årskurs 1": 3,
+      "Förskoleklass": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 7,
+    "coordinates": [
+      57.91372,
+      12.53442
+    ]
+  },
+  {
+    "municipality": "Vara",
+    "school": "Stiftelsen Önums friskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CIdOD1HANvK2XvolRaqT8H"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.26293,
+      12.94886
+    ]
+  },
+  {
+    "municipality": "Herrljunga",
+    "school": "Eggvena skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IpzFIAy175sJCuTqJjz5fm"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.0877228,
+      12.8945279
+    ]
+  },
+  {
+    "municipality": "Herrljunga",
+    "school": "Mörlandaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IpzFIAy175sJCuTqJjz5fm"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.9876819,
+      13.0792213
+    ]
+  },
+  {
+    "municipality": "Herrljunga",
+    "school": "Molla skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IpzFIAy175sJCuTqJjz5fm"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.930374,
+      13.0431458
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Enskedefältets skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Lund",
+    "school": "Stiftelsen BMSL",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Dhc0EdCJvQiGgcpsn4hmR2"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.70584,
+      13.19321
+    ]
+  },
+  {
+    "municipality": "Sollentuna",
+    "school": "Stallets Skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CxAHFH161EgAfYzukoZt1b"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.4655019,
+      17.9207018
+    ]
+  },
+  {
+    "municipality": "Huddinge",
+    "school": "Edboskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LKKdT2J2bqTDrXomFx970T"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.2238581,
+      18.1516568
+    ]
+  },
+  {
+    "municipality": "Askersund",
+    "school": "Närlundaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/INrjvIWhs3sBcyHHfgooZ3"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.84934,
+      14.79798
+    ]
+  },
+  {
+    "municipality": "Karlstad",
+    "school": "Hagaborgsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HB89EtKLXGo1SeJBzhn9TL"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3887643,
+      13.519008
+    ]
+  },
+  {
+    "municipality": "Haninge",
+    "school": "Ribbybergsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J1sphQ3mdSW8cwbcCd9aMI"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.1138003,
+      18.0975831
+    ]
+  },
+  {
+    "municipality": "Hörby",
+    "school": "Emiliaskolan Höörs waldorfsk.",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/GhRTCcVfBPmJkAHGYJ2bKj"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      55.85063,
+      13.65903
+    ]
+  },
+  {
+    "municipality": "Karlstad",
+    "school": "Råtorpsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HB89EtKLXGo1SeJBzhn9TL"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.4063153,
+      13.4918496
+    ]
+  },
+  {
+    "municipality": "Höganäs",
+    "school": "Vikens Montessori",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/L3GbjOmzeqHIJaGnmE7Pp8"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 3
+    },
+    "count": 3,
+    "coordinates": [
+      56.1606226,
+      12.5788799
+    ]
+  },
+  {
+    "municipality": "Linköping",
+    "school": "Ekängens skolor",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/J11Zg1ef7OkJci0dTcfBUS"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.41086,
+      15.62157
+    ]
+  },
+  {
+    "municipality": "Gotland",
+    "school": "Polhemskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CtAcq6OGBnVHUHhrRawWqK"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.5,
+      18.5
+    ]
+  },
+  {
+    "municipality": "Hallstahammar",
+    "school": "Vallbyskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/ILDsB4KviQvHONrza1eiFB"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.61395,
+      16.22846
+    ]
+  },
+  {
+    "municipality": "Höör",
+    "school": "Kubelidens Montessoriskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/H1ABba09GcvKkOMMGTH10V"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1,
+      "Årskurs 2": 1,
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 4,
+    "coordinates": [
+      55.9286461,
+      13.5339263
+    ]
+  },
+  {
+    "municipality": "Nykvarn",
+    "school": "Furuborgskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/G66hDziTCMBLMYJpv9xYD3"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Årskurs 4": 1
+    },
+    "count": 2,
+    "coordinates": [
+      59.18333,
+      17.43333
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Aspuddens skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Solna",
+    "school": "Granbackaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/FlPYAlp8fkOCshXZlF6PxU"
+    ],
+    "schoolYears": {
+      "Årskurs 3": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3471874,
+      17.999238
+    ]
+  },
+  {
+    "municipality": "Falun",
+    "school": "Sundbornsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/CQKGPQRYNjoExZutmuSuBQ"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2028": 2
+    },
+    "count": 2,
+    "coordinates": [
+      60.60357,
+      15.62597
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Bergaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.8501993,
+      17.6185762
+    ]
+  },
+  {
+    "municipality": "Lerum",
+    "school": "Aspenässkolan 1",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LSJ3H4EuCu7Fhw6y4wg7X8"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      57.76173,
+      12.27567
+    ]
+  },
+  {
+    "municipality": "Sundbyberg",
+    "school": "Kymlingeskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JcSG3CExZ901Etht0rAjRF"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.3863109,
+      17.9465471
+    ]
+  },
+  {
+    "municipality": "Tjörn",
+    "school": "Skärhamns skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/C7bOMjbBSJG0TnApt1p0hn"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 5
+    },
+    "count": 5,
+    "coordinates": [
+      57.9906247,
+      11.5551998
+    ]
+  },
+  {
+    "municipality": "Luleå",
+    "school": "Sunderbyskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DaXyL0Ooywc6mxmCDMv5D4"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Förskoleklass": 1
+    },
+    "count": 2,
+    "coordinates": [
+      65.58415,
+      22.15465
+    ]
+  },
+  {
+    "municipality": "Luleå",
+    "school": "Öhemsskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DaXyL0Ooywc6mxmCDMv5D4"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      65.58415,
+      22.15465
+    ]
+  },
+  {
+    "municipality": "Hallstahammar",
+    "school": "Vallby skola F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/ILDsB4KviQvHONrza1eiFB"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.61395,
+      16.22846
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Eriksskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.857815,
+      17.6058654
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Sjöviksskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Tyresö",
+    "school": "Tyresö skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EYgGBel9TrCLwIGDaxgRwU"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.2409928,
+      18.2931919
+    ]
+  },
+  {
+    "municipality": "Enköping",
+    "school": "Almaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/JRGkPCleZ1771fOCHsXzwP"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.64001,
+      17.08636
+    ]
+  },
+  {
+    "municipality": "Säter",
+    "school": "Kungsgårdsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ku0jIq7v6XQLrTI098smlZ"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      60.3461584,
+      15.7450552
+    ]
+  },
+  {
+    "municipality": "Göteborgs stad",
+    "school": "Björlandaskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DiV3gvB8TCr7XJnx8095Mh"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.72288,
+      11.94577
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Norra Ängby skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Uppvidinge",
+    "school": "Åsedaskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/F60F9txmBYsEvFysAPvKnX"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.03442,
+      15.44727
+    ]
+  },
+  {
+    "municipality": "Luleå",
+    "school": "Svedjeskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/DaXyL0Ooywc6mxmCDMv5D4"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      65.58415,
+      22.15465
+    ]
+  },
+  {
+    "municipality": "Falköping",
+    "school": "Gudhemsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IiUsbEEjd4GFY5PkHk8wMd"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      58.2296957,
+      13.5639197
+    ]
+  },
+  {
+    "municipality": "Orsa",
+    "school": "Skattunge Friskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/I1Wh2WYtNqKEnaDIqn7u8k"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 3,
+      "Förskoleklass": 3
+    },
+    "count": 6,
+    "coordinates": [
+      61.1866838,
+      14.8388239
+    ]
+  },
+  {
+    "municipality": "Finspång",
+    "school": "Svärtingehus 1",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IIKqja7cTsY06ZnffhyIda"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      58.70578,
+      15.76739
+    ]
+  },
+  {
+    "municipality": "Täby",
+    "school": "Byleskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EwTcSA7RUTBH3K7byRvJbh"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.4992403,
+      18.0792808
+    ]
+  },
+  {
+    "municipality": "Höganäs",
+    "school": "Bäckaskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/L3GbjOmzeqHIJaGnmE7Pp8"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2027": 1
+    },
+    "count": 1,
+    "coordinates": [
+      56.19971,
+      12.55795
+    ]
+  },
+  {
+    "municipality": "Österåker",
+    "school": "Rydbo skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/HyeWhf2HEeh8mJICTw2Saz"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.4591433,
+      18.1850662
+    ]
+  },
+  {
+    "municipality": "Lerum",
+    "school": "Knappekullaskolan skolenhet 1",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LSJ3H4EuCu7Fhw6y4wg7X8"
+    ],
+    "schoolYears": {
+      "Är inte i skola ännu. Börjar 2026": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.76173,
+      12.27567
+    ]
+  },
+  {
+    "municipality": "Tyresö",
+    "school": "Noblaskolan Brevik",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EYgGBel9TrCLwIGDaxgRwU"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.21667,
+      18.38333
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Enskede skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Vaksalaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Årskurs 2": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.861135,
+      17.6478755
+    ]
+  },
+  {
+    "municipality": "Landskrona stad",
+    "school": "Asmundtorps skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/KaDpHdKHdmUITkFmqtQpSd"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skola ännu. Börjar 2028": 1
+    },
+    "count": 2,
+    "coordinates": [
+      55.8862,
+      12.8588
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Ålstensskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Kungsbacka",
+    "school": "Kollaskolan F-3",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/IJxYYcyRliVATPcGAlIfSb"
+    ],
+    "schoolYears": {
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.48719,
+      12.07612
+    ]
+  },
+  {
+    "municipality": "Uppsala",
+    "school": "Vänge skola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Ju6oWJdQcx98rvem5tLoD9"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.8573251,
+      17.4363861
+    ]
+  },
+  {
+    "municipality": "Åstorp",
+    "school": "Tingdalsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/G0CpIi8MKbV9pODojMkt2H"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1,
+      "Årskurs 1": 1
+    },
+    "count": 2,
+    "coordinates": [
+      56.1317965,
+      12.975922
+    ]
+  },
+  {
+    "municipality": "Vetlanda",
+    "school": "Framtidskomp. V Ingelstad sk",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/K74YaweTP94EZSok9xnVni"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      57.42887,
+      15.07762
+    ]
+  },
+  {
+    "municipality": "Värmdö",
+    "school": "Grantomta Montessoriskola",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/BZQBgJolSPq1Iao5AwQFWY"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.35784,
+      18.49699
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Ulvsundaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 2
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Storfors",
+    "school": "Västbergaskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/LCopRSqIcAbHk2JmBNNwVg"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.53183,
+      14.27201
+    ]
+  },
+  {
+    "municipality": "Stockholm stad",
+    "school": "Västertorpsskolan",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Fey79pLM3iwBQnL14VJQFO"
+    ],
+    "schoolYears": {
+      "Årskurs 4": 1,
+      "Årskurs 2": 1
+    },
+    "count": 2,
+    "coordinates": [
+      62,
+      15
+    ]
+  },
+  {
+    "municipality": "Jokkmokk",
+    "school": "Sameskolan Jokkmokk",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/Hkg5dKAra48Gupm4dppApB"
+    ],
+    "schoolYears": {
+      "Årskurs 1": 1,
+      "Är inte i skolan ännu. Börjar 2025": 1
+    },
+    "count": 2,
+    "coordinates": [
+      66.6033621,
+      19.8304216
+    ]
+  },
+  {
+    "municipality": "Gnesta",
+    "school": "Kvarnbackaskolan F-6",
+    "whatsapp_urls": [
+      "https://chat.whatsapp.com/EZsKbI4Tn6533D063iTzzG"
+    ],
+    "schoolYears": {
+      "Förskoleklass": 1
+    },
+    "count": 1,
+    "coordinates": [
+      59.04751,
+      17.31191
+    ]
+  }
+]
