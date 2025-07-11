@@ -1,10 +1,10 @@
 import { useMap } from "react-leaflet";
 import { useEffect } from "react";
 import L from "leaflet";
-import type { Pact } from "../types/Pact";
+import type { School } from "../types/School";
 
 interface ClusterMarkersProps {
-  coordinates: [Pact, [number, number]][];
+  coordinates: [School, [number, number]][];
 }
 
 export const markerIcon = new L.Icon({
@@ -41,15 +41,20 @@ function ClusterMarkers({ coordinates }: ClusterMarkersProps) {
           iconSize: [40, 40],
         });
       },
+      showCoverageOnHover: false,
     });
-    coordinates.forEach(([info, [lat, lng]]) => {
+    coordinates.forEach(([school, [lat, lng]]) => {
       const marker = L.marker([lat, lng])
         .setIcon(markerIcon)
         .bindPopup(
-          `<div class="text-sm"><div>${info.school} (${info.count})</div><div>
-            <a href="${info.contact}" target="_blank">
-              Gå med
-            </a>
+          `<div class="text-sm"><div>${school.name} (${
+            school.studentCount
+          } barn)</div><div>
+            ${
+              school.contact
+                ? `<a href="${school.contact}" target="_blank">Gå med</a>`
+                : ""
+            }
           </div></div>`
         );
       markers.addLayer(marker);

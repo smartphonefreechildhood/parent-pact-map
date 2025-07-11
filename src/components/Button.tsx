@@ -9,9 +9,10 @@ interface ButtonProps {
 
 function Button({ children, onClick, variant, type }: ButtonProps) {
   const buttonClass = classNames(
-    "px-4 py-2 border-none rounded-sm cursor-pointer transition-colors text-base",
-    variant === "primary" && "bg-primary text-white hover:bg-primary-hover",
-    variant === "secondary" && "bg-secondary text-white",
+    "px-4 py-2 border-none cursor-pointer transition-colors text-base rounded-3xl font-semibold",
+    variant === "primary" &&
+      "bg-primary text-on-primary hover:bg-primary-hover",
+    variant === "secondary" && "bg-secondary text-white", // TODO: Change to background-secondary
     variant === "tertiary" &&
       "bg-gray-200 text-primary border border-primary hover:bg-primary !hover:text-white"
   );

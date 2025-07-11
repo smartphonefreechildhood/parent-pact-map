@@ -1,9 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-surface: #fff;
-  --color-on-surface: #000;
-  --color-primary: #f7434c;
+  --color-background: #1A1731;
+  --color-on-background: #FFFFFF;
+  --color-background-secondary: #29244B; /* Retrieved from input field background */
+  --color-surface: #1A1731;
+  --color-surface-secondary: #29244B; /* Retrieved from search result text background */
+  --color-on-surface: #FFFFFF;
+  --color-primary: #D7FAFF;
+  --color-on-primary: #1A1731;
   --color-primary-hover: #131CC4;
   --color-secondary: #1A1731;
 }
@@ -14,17 +19,18 @@
   box-sizing: border-box;
 }
 
-.react-pact-map {
+/* .react-pact-map {
   all: initial;
   font-family: sans-serif;
   width: 100%;
   height: 100%;
   display: block;
 }
+
 .react-pact-map * {
   all: unset;
   all: revert-layer;
-}
+} */
 
 .map-marker-cluster {
   background-color: var(--color-primary);

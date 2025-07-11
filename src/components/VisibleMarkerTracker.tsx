@@ -1,11 +1,11 @@
 // VisibleMarkerTracker.tsx
 import { useMap } from "react-leaflet";
 import { useEffect, useRef } from "react";
-import type { Pact } from "../types/Pact";
+import type { School } from "../types/School";
 
 interface VisibleMarkerTrackerProps {
-  allMarkers: [Pact, [number, number]][];
-  onVisibleChange: (visibleMarkers: [Pact, [number, number]][]) => void;
+  allMarkers: [School, [number, number]][];
+  onVisibleChange: (visibleMarkers: [School, [number, number]][]) => void;
 }
 
 function VisibleMarkerTracker({
@@ -23,7 +23,7 @@ function VisibleMarkerTracker({
       const visible = allMarkers.filter(([, [lat, lng]]) =>
         bounds.contains([lat, lng])
       );
-      const visibleNames = visible.map(([info]) => info.school).sort();
+      const visibleNames = visible.map(([school]) => school.name).sort();
 
       const prevNames = prevVisibleRef.current;
 

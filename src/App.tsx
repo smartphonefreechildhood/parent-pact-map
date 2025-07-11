@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="react-pact-map">
-      <div className="w-full h-full  max-h-screen bg-surface text-on-surface overflow-hidden">
+      <div className="w-full h-screen  max-h-screen bg-background text-on-background overflow-scroll">
         <Map pacts={pacts} />
       </div>
     </div>

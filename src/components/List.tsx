@@ -2,43 +2,32 @@ import type { Pact } from "../types/Pact";
 import ListItem from "./ListItem";
 
 interface ListProps {
-  visibleMarkers: [Pact, [number, number]][];
+  filteredPacts: Pact[];
 }
 
-function List({ visibleMarkers }: ListProps) {
-  const total = visibleMarkers.reduce((acc, [info]) => acc + info.count, 0);
+function List({ filteredPacts }: ListProps) {
   return (
-    <div className="w-full h-full overflow-y-scroll bg-white border-l border-gray-200">
+    <div className="w-full h-full overflow-y-scroll bg-inherit">
       <div className="py-4">
-        <div className="flex px-4">
-          <h2 className="text-xl font-medium text-black mb-4 flex-1">
-            Resultat
-          </h2>
-          <p className="text-sm text-gray-600 mb-4">
-            Totalt: {total} {total === 1 ? "medlem" : "medlemmar"}
-          </p>
-        </div>
         <ul className="">
-          {visibleMarkers.map(([info, [,]], i) => (
+          {filteredPacts.map((pact, i) => (
             <ListItem
-              key={`${info.school}-${i}`}
-              title={info.school}
-              description={`${info.count} ${
-                info.count === 1 ? "medlem" : "medlemmar"
+              key={`${pact.id}-${i}`}
+              title={`Pact: ${pact.name}`}
+              description={`${pact.studentCount} ${
+                pact.studentCount === 1 ? "medlem" : "medlemmar"
               }`}
-              pills={Object.entries(info.schoolYears).map(
-                ([year, count]) => `${year}: ${count}`
-              )}
-              link={info.contact || ""}
+              // pills={pact.municipality}
+              link={pact.contact || ""}
             />
           ))}
         </ul>
-        {visibleMarkers.length === 0 && (
-          <div className="text-center py-8 text-gray-500">
+        {filteredPacts.length === 0 && (
+          <div className="text-center py-8">
             <p>Inga pakter hittades i denna region</p>
           </div>
         )}
-        <div className="text-center py-8 text-gray-500">
+        <div className="text-center py-8">
           <p>
             Hittade du ingen pakt för din skola?{" "}
             <a

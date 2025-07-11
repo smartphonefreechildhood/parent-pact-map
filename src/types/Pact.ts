@@ -1,12 +1,12 @@
+import type { School } from "./School";
+
 export type Pact = {
-    firstName?: string;
-    lastName?: string;
-    email?: string;
-    municipality: string;
-    school: string;
-    schoolYears: Record<string, number>;
-    coordinates: [number, number];
+    id: string;
+    name: string;
+    municipality: string[];
+    coordinates?: [number, number];
+    schools: School[];
+    studentCount: number;
+    parentCount: number;
     contact?: string;
-    size: number;
-    count: number;
   };

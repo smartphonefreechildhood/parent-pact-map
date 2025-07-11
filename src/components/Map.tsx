@@ -1,3 +1,4 @@
+import { MapPinIcon } from "@heroicons/react/24/outline";
 import classNames from "classnames";
 import L from "leaflet";
 import "leaflet.heat";
@@ -9,13 +10,14 @@ import { useCallback, useRef, useState } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import "../plugins/BoundaryCanvas";
 import type { Pact } from "../types/Pact";
+import type { School } from "../types/School";
 import ClusterMarkers from "./ClusterMarkers";
 import HeatmapLayer from "./HeatmapLayer";
 import List from "./List";
+import Pill from "./Pill";
 import SearchBar from "./SearchBar";
 import VisibleMarkerTracker from "./VisibleMarkerTracker";
-import Pill from "./Pill";
-import { MapPinIcon } from "@heroicons/react/24/outline";
+import ZoomStartListener from "./ZoomStartListener";
 
 // Extend Leaflet namespace to include markerClusterGroup
 declare module "leaflet" {
@@ -29,19 +31,27 @@ interface MapProps {
 function Map({ pacts }: MapProps) {
   const mapRef = useRef<L.Map>(null);
   const [visibleMarkers, setVisibleMarkers] = useState<
-    [Pact, [number, number]][]
+    [School, [number, number]][]
   >([]);
   const [searchQuery, setSearchQuery] = useState<[number, number] | null>(null);
+  const [zooming, setZooming] = useState(false);
 
-  const heatPoints: [number, number, number?][] = pacts.map((pact) => [
-    pact.coordinates[0],
-    pact.coordinates[1],
-    pact.size,
+  // Extract all schools from all pacts for both heatmap and markers
+  const allSchools = pacts.flatMap((pact) =>
+    pact.schools.filter((school) => school.coordinates)
+  );
+
+  const heatPoints: [number, number, number?][] = allSchools.map((school) => [
+    school.coordinates[0],
+    school.coordinates[1],
+    school.studentCount, // Use school's student count for heatmap intensity
   ]);
 
-  const markerPoints: [Pact, [number, number]][] = pacts.map((pact) => {
-    return [pact, [pact.coordinates[0], pact.coordinates[1]]];
-  });
+  const markerPoints: [School, [number, number]][] = allSchools.map(
+    (school) => {
+      return [school, [school.coordinates[0], school.coordinates[1]]];
+    }
+  );
 
   const handleSearch = (coords: [number, number]) => {
     const map = mapRef.current;
@@ -52,16 +62,19 @@ function Map({ pacts }: MapProps) {
     }
   };
 
-  const mapContainerClass = classNames("w-full z-10 relative", {
-    "h-[50vh] md:h-[100vh]": searchQuery,
-    "h-full": !searchQuery,
-  });
+  const mapContainerClass = classNames(
+    "w-full z-10 relative rounded-t-lg overflow-hidden",
+    {
+      "h-[50vh] md:h-[100vh]": searchQuery || zooming,
+      "h-full": !searchQuery,
+    }
+  );
 
   const listClass = classNames(
-    "w-full overflow-y-scroll bg-white pointer-events-auto",
+    "w-full overflow-y-scroll bg-inherit pointer-events-auto border border-primary rounded-b-lg",
     {
-      "h-[50vh] md:h-[100vh]": searchQuery,
-      "hidden md:block": !searchQuery,
+      "h-[50vh] md:h-[100vh]": searchQuery || zooming,
+      "h-[25vh] md:h-[100vh]": !searchQuery && !zooming,
     }
   );
 
@@ -74,36 +87,50 @@ function Map({ pacts }: MapProps) {
     });
   }, [mapRef]);
 
+  // Calculate total students from visible markers
+  const total = visibleMarkers.reduce(
+    (acc, [school]) => acc + school.studentCount,
+    0
+  );
+
+  // Filter pacts based on visible markers' pactIds
+  const visiblePactIds = new Set(
+    visibleMarkers.map(([school]) => school.pactId)
+  );
+  const filteredPacts = pacts.filter((pact) => visiblePactIds.has(pact.id));
+
   return (
     <div className="flex h-full relative">
-      <div className="w-full md:w-1/2 h-full absolute top-0 left-0 z-20 md:relative overflow-y-scroll flex flex-col pointer-events-none">
-        <div className="w-full p-4 pl-12 md:p-4 flex-1 md:flex-none flex flex-col">
-          <SearchBar onSearch={handleSearch} />
-          <div className="flex py-2 pointer-events-auto">
-            <button
-              className="hover:bg-transparent"
-              onClick={getCurrentPosition}
-            >
-              <Pill>
-                <MapPinIcon className="w-4 h-4" /> Hitta skolor nära mig
-              </Pill>
-            </button>
+      <div className="flex flex-1 flex-col w-full md:w-1/2 p-4 ">
+        <div>
+          <h3 className="text-base font-semibold py-1">
+            Sök i kartan <span className="font-light">(ettikett input)</span>
+          </h3>
+        </div>
+        <div>
+          <div className="w-full flex-1 md:flex-none flex flex-col">
+            <SearchBar onSearch={handleSearch} />
+            <div className="flex py-2 pointer-events-auto">
+              <button
+                className="hover:bg-transparent"
+                onClick={getCurrentPosition}
+              >
+                <Pill>
+                  <MapPinIcon className="w-4 h-4" /> Hitta föräldrar nära mig
+                </Pill>
+              </button>
+            </div>
           </div>
         </div>
-        <div className={listClass}>
-          <List visibleMarkers={visibleMarkers} />
-        </div>
-      </div>
-      <div className="flex flex-1 flex-col w-full md:w-1/2 ">
         <div className={mapContainerClass}>
           <MapContainer
             center={[62.0, 10.0]} // Centered over Sweden
-            zoom={5.2}
+            zoom={4}
             maxBounds={[
               [54.5, 7.5],
               [69.5, 25.5],
             ]} // Rough bounding box for Sweden
-            minZoom={5}
+            minZoom={4}
             maxZoom={15}
             maxBoundsViscosity={1.0}
             style={{ height: "100%", width: "100%" }}
@@ -119,7 +146,24 @@ function Map({ pacts }: MapProps) {
               allMarkers={markerPoints}
               onVisibleChange={setVisibleMarkers}
             />
+            <ZoomStartListener onZoomStart={() => setZooming(true)} />
           </MapContainer>
+        </div>
+        <div className={listClass}>
+          <div className="flex justify-between py-2 px-3 bg-background-secondary">
+            <h3 className="font-semibold text-sm">Sökresultat</h3>
+            <p className="text-sm font-light">{total} medlemmar</p>
+          </div>
+          {searchQuery || zooming ? (
+            <List filteredPacts={filteredPacts} />
+          ) : (
+            <div className="p-2">
+              <h3 className="text-lg font-medium">
+                {markerPoints.length} skolor hittades!
+              </h3>
+              <p className="text-sm">Zooma in for att se mer information.</p>
+            </div>
+          )}
         </div>
       </div>
     </div>
