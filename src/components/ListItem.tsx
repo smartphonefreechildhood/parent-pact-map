@@ -1,4 +1,4 @@
-import classNames from "classnames";
+import Button from "./Button";
 import Pill from "./Pill";
 
 interface ListItemProps {
@@ -6,37 +6,16 @@ interface ListItemProps {
   description: string | React.ReactNode;
   pills?: string[];
   link: string;
+  callToAction?: string;
 }
 
-interface ListLinkProps {
-  link: string;
-  children: React.ReactNode;
-  variant?: "primary" | "secondary";
-}
-
-function ListLink({ link, children, variant = "primary" }: ListLinkProps) {
-  const listLinkClass = classNames(
-    "px-4 py-1 font-semibold cursor-pointer transition-colors text-sm rounded-3xl",
-    {
-      "bg-primary text-on-primary hover:bg-primary/80 border-none":
-        variant === "primary",
-      "bg-inherit text-white border border-primary": variant === "secondary",
-    }
-  );
-
-  return (
-    <a
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={listLinkClass}
-    >
-      {children}
-    </a>
-  );
-}
-
-function ListItem({ title, description, pills, link }: ListItemProps) {
+function ListItem({
+  title,
+  description,
+  pills,
+  link,
+  callToAction,
+}: ListItemProps) {
   return (
     <li className="flex flex-col justify-between p-4 bg-inherit border-b border-gray-200 transition-shadow duration-200">
       <div className="flex-1">
@@ -52,10 +31,17 @@ function ListItem({ title, description, pills, link }: ListItemProps) {
           })}
         </p>
       </div>
-      <div className="flex self-start p-1">
-        <ListLink link={link} variant="secondary">
-          Gå med i pakt
-        </ListLink>
+      <div className="flex self-start pt-2">
+        <Button
+          as="a"
+          href={link}
+          variant="primary"
+          target="_blank"
+          rel="noopener noreferrer"
+          size="sm"
+        >
+          {callToAction}
+        </Button>
       </div>
     </li>
   );

@@ -1,3 +1,5 @@
+import type { Pact } from "./Pact";
+
 export type School = {
     name: string;
     schoolYears: Record<string, number>;
@@ -6,4 +8,5 @@ export type School = {
     studentCount: number;
     parentCount: number;
     pactId: string;
+    pact?: Pact;
   };

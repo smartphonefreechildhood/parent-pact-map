@@ -18,6 +18,9 @@ import Pill from "./Pill";
 import SearchBar from "./SearchBar";
 import VisibleMarkerTracker from "./VisibleMarkerTracker";
 import ZoomStartListener from "./ZoomStartListener";
+import SearchInfo from "./SearchInfo";
+import useIsMobileView from "../hooks/useIsMobileView";
+import { logInfo } from "../util/log";
 
 // Extend Leaflet namespace to include markerClusterGroup
 declare module "leaflet" {
@@ -35,10 +38,15 @@ function Map({ pacts }: MapProps) {
   >([]);
   const [searchQuery, setSearchQuery] = useState<[number, number] | null>(null);
   const [zooming, setZooming] = useState(false);
+  const [closestPacts, setClosestPacts] = useState<Pact[]>([]);
+
+  const isMobile = useIsMobileView();
 
   // Extract all schools from all pacts for both heatmap and markers
   const allSchools = pacts.flatMap((pact) =>
-    pact.schools.filter((school) => school.coordinates)
+    pact.schools
+      .filter((school) => school.coordinates)
+      .map((school) => ({ ...school, pact }))
   );
 
   const heatPoints: [number, number, number?][] = allSchools.map((school) => [
@@ -62,8 +70,13 @@ function Map({ pacts }: MapProps) {
     }
   };
 
+  const handleZooming = () => {
+    setZooming(true);
+    setClosestPacts([]);
+  };
+
   const mapContainerClass = classNames(
-    "w-full z-10 relative rounded-t-lg overflow-hidden",
+    "w-full md:w-1/2 z-10 relative rounded-t-lg overflow-hidden",
     {
       "h-[50vh] md:h-[100vh]": searchQuery || zooming,
       "h-full": !searchQuery,
@@ -71,27 +84,88 @@ function Map({ pacts }: MapProps) {
   );
 
   const listClass = classNames(
-    "w-full overflow-y-scroll bg-inherit pointer-events-auto border border-primary rounded-b-lg",
+    "w-full overflow-y-scroll bg-inherit pointer-events-auto border border-primary rounded-b-lg md:hidden",
     {
       "h-[50vh] md:h-[100vh]": searchQuery || zooming,
       "h-[25vh] md:h-[100vh]": !searchQuery && !zooming,
     }
   );
 
-  const getCurrentPosition = useCallback(() => {
+  const getClosestPacts = useCallback(() => {
     navigator.geolocation.getCurrentPosition((position) => {
-      const map = mapRef.current;
-      if (map) {
-        map.setView([position.coords.latitude, position.coords.longitude], 12);
-      }
-    });
-  }, [mapRef]);
+      const userLat = position.coords.latitude;
+      const userLng = position.coords.longitude;
 
-  // Calculate total students from visible markers
-  const total = visibleMarkers.reduce(
-    (acc, [school]) => acc + school.studentCount,
-    0
-  );
+      // Calculate distance between two points using Haversine formula
+      const calculateDistance = (
+        lat1: number,
+        lng1: number,
+        lat2: number,
+        lng2: number
+      ): number => {
+        const R = 6371; // Earth's radius in kilometers
+        const dLat = ((lat2 - lat1) * Math.PI) / 180;
+        const dLng = ((lng2 - lng1) * Math.PI) / 180;
+        const a =
+          Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+          Math.cos((lat1 * Math.PI) / 180) *
+            Math.cos((lat2 * Math.PI) / 180) *
+            Math.sin(dLng / 2) *
+            Math.sin(dLng / 2);
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        return R * c;
+      };
+
+      // Calculate distances for all pacts and sort by closest
+      const pactsWithDistances = pacts.map((pact) => {
+        let minDistance = Infinity;
+        let closestSchool = null;
+
+        // Find the closest school in this pact to the user
+        pact.schools.forEach((school) => {
+          const distance = calculateDistance(
+            userLat,
+            userLng,
+            school.coordinates[0],
+            school.coordinates[1]
+          );
+          if (distance < minDistance) {
+            minDistance = distance;
+            closestSchool = school;
+          }
+        });
+
+        return { pact, distance: minDistance, closestSchool };
+      });
+
+      // Sort by distance and take the closest 3
+      const closest3Pacts = pactsWithDistances
+        .sort((a, b) => a.distance - b.distance)
+        .slice(0, 3)
+        .map((item) => item.pact);
+
+      const mainPact = closest3Pacts[0];
+      const map = mapRef.current;
+
+      const closestSchool = pactsWithDistances.find(
+        (pact) => pact.pact.id === mainPact.id
+      )?.closestSchool as School | null;
+
+      if (map) {
+        map.setView(
+          [
+            closestSchool?.coordinates[0] ?? 0,
+            closestSchool?.coordinates[1] ?? 0,
+          ],
+          isMobile ? 11 : 12
+        );
+      }
+
+      logInfo("Closest 3 pacts:", closest3Pacts);
+      logInfo("Closest school:", closestSchool);
+      setClosestPacts(closest3Pacts);
+    });
+  }, [pacts]);
 
   // Filter pacts based on visible markers' pactIds
   const visiblePactIds = new Set(
@@ -99,33 +173,62 @@ function Map({ pacts }: MapProps) {
   );
   const filteredPacts = pacts.filter((pact) => visiblePactIds.has(pact.id));
 
+  const searchInfoDescription =
+    searchQuery || zooming
+      ? closestPacts.length > 0
+        ? `Visar de ${closestPacts.length} pakter som är närmast dig.`
+        : `Visar ${filteredPacts.length} pakter.`
+      : "Visar alla pakter. Sök efter stad, skola eller kommun för att hitta pakter nära dig.";
+
   return (
     <div className="flex h-full relative">
-      <div className="flex flex-1 flex-col w-full md:w-1/2 p-4 ">
-        <div>
-          <h3 className="text-base font-semibold py-1">
-            Sök i kartan <span className="font-light">(ettikett input)</span>
-          </h3>
-        </div>
-        <div>
-          <div className="w-full flex-1 md:flex-none flex flex-col">
-            <SearchBar onSearch={handleSearch} />
-            <div className="flex py-2 pointer-events-auto">
-              <button
-                className="hover:bg-transparent"
-                onClick={getCurrentPosition}
-              >
-                <Pill>
-                  <MapPinIcon className="w-4 h-4" /> Hitta föräldrar nära mig
-                </Pill>
-              </button>
+      <div className="flex flex-1 flex-col md:flex-row w-full md:w-1/2 p-4 md:p-0 ">
+        <div className="w-full md:w-1/2 md:overflow-y-scroll">
+          <div className="md:px-2">
+            <h3 className="text-base font-semibold py-1">
+              Sök i kartan <span className="font-light">(ettikett input)</span>
+            </h3>
+          </div>
+          <div>
+            <div className="w-full flex-1 md:flex-none flex flex-col md:p-2">
+              <SearchBar onSearch={handleSearch} />
+              <div className="flex py-2 pointer-events-auto">
+                <button
+                  className="hover:bg-transparent"
+                  onClick={getClosestPacts}
+                >
+                  <Pill>
+                    <MapPinIcon className="w-4 h-4" /> Hitta andra nära mig
+                  </Pill>
+                </button>
+              </div>
             </div>
+          </div>
+          <div className="hidden md:block">
+            <SearchInfo
+              title="Sökresultat"
+              description={
+                searchQuery || zooming
+                  ? closestPacts.length > 0
+                    ? `Visar de ${closestPacts.length} pakter som är närmast dig.`
+                    : `Visar ${filteredPacts.length} pakter.`
+                  : "Visar alla pakter. Sök efter stad, skola eller kommun för att hitta pakter nära dig."
+              }
+              fullHeight={!searchQuery && !zooming}
+            />
+            {searchQuery || zooming ? (
+              <List
+                filteredPacts={
+                  closestPacts.length > 0 ? closestPacts : filteredPacts
+                }
+              />
+            ) : null}
           </div>
         </div>
         <div className={mapContainerClass}>
           <MapContainer
             center={[62.0, 10.0]} // Centered over Sweden
-            zoom={4}
+            zoom={isMobile ? 4 : 5}
             maxBounds={[
               [54.5, 7.5],
               [69.5, 25.5],
@@ -146,24 +249,22 @@ function Map({ pacts }: MapProps) {
               allMarkers={markerPoints}
               onVisibleChange={setVisibleMarkers}
             />
-            <ZoomStartListener onZoomStart={() => setZooming(true)} />
+            <ZoomStartListener onZoomStart={handleZooming} />
           </MapContainer>
         </div>
         <div className={listClass}>
-          <div className="flex justify-between py-2 px-3 bg-background-secondary">
-            <h3 className="font-semibold text-sm">Sökresultat</h3>
-            <p className="text-sm font-light">{total} medlemmar</p>
-          </div>
+          <SearchInfo
+            title="Sökresultat"
+            description={filteredPacts.length > 0 ? searchInfoDescription : ""}
+            fullHeight={!searchQuery && !zooming}
+          />
           {searchQuery || zooming ? (
-            <List filteredPacts={filteredPacts} />
-          ) : (
-            <div className="p-2">
-              <h3 className="text-lg font-medium">
-                {markerPoints.length} skolor hittades!
-              </h3>
-              <p className="text-sm">Zooma in for att se mer information.</p>
-            </div>
-          )}
+            <List
+              filteredPacts={
+                closestPacts.length > 0 ? closestPacts : filteredPacts
+              }
+            />
+          ) : null}
         </div>
       </div>
     </div>

@@ -6,15 +6,15 @@ const SwedenMapMaskLayer = () => {
   const map = useMap();
 
   useEffect(() => {
-    fetch("/swedengeo.json")
+    fetch("/parent-pact-map/swedengeo2.json")
       .then((res) => res.json())
       .then((swedenGeoJson) => {
         const boundaryLayer = new (L as any).TileLayer.BoundaryCanvas(
-          "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png",
+          "https://maps.geoapify.com/v1/tile/osm-bright-smooth/{z}/{x}/{y}.png?apiKey=c7be631f429d488f953709566022593d",
           {
             boundary: swedenGeoJson,
-            attribution: `&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> contributors`,
-            maskColor: "rgb(26 23 48)",
+            attribution: `&copy; OpenStreetMap contributors &amp; Geoapify`,
+            // maskColor: "rgb(26 23 48)",
           }
         );
 

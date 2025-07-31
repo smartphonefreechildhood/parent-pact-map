@@ -18,6 +18,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const [isFocused, setIsFocused] = useState(false);
 
   // Debounced search function
   useEffect(() => {
@@ -58,7 +59,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
       );
       const data = await response.json();
       setSuggestions(data);
-      setShowDropdown(data.length > 0);
+      setShowDropdown(data.length > 0 && isFocused);
     } catch (error) {
       console.error("Error fetching suggestions:", error);
       setSuggestions([]);
@@ -97,44 +98,46 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
   return (
     <div ref={dropdownRef} className="relative z-50 w-full pointer-events-auto">
       <form onSubmit={handleSearch} className="flex flex-row gap-2">
-        <input
-          type="text"
-          placeholder="Sök på stad, skola eller kommun"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          onFocus={() =>
-            query.length > 2 && suggestions.length > 0 && setShowDropdown(true)
-          }
-          className="flex-1 px-4 py-2 text-sm w-80 border border-primary focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white/10 text-white rounded-lg"
-        />
+        <div className="relative flex-1 w-80">
+          <input
+            type="text"
+            placeholder="Sök på stad, skola eller kommun"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onFocus={() => setIsFocused(true)}
+            onBlur={() => setIsFocused(false)}
+            className="w-full px-4 py-2 text-sm border border-primary focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white/10 text-white rounded-lg"
+          />
+          {/* Dropdown */}
+          {showDropdown && (
+            <div className="absolute top-full left-0 right-0 bg-background border border-gray-600 rounded-md shadow-lg max-h-48 overflow-y-auto z-50">
+              {isLoading ? (
+                <div className="p-2.5 text-center text-gray-600">
+                  Loading...
+                </div>
+              ) : (
+                suggestions.map((suggestion, index) => (
+                  <div
+                    key={index}
+                    onClick={() => handleSuggestionClick(suggestion)}
+                    className="p-2.5 cursor-pointer border-b border-gray-600 text-sm hover:bg-background/60 transition-colors"
+                  >
+                    <div className="font-semibold">
+                      {suggestion.display_name.split(",")[0]}
+                    </div>
+                    <div className="text-xs text-white">
+                      {suggestion.display_name}
+                    </div>
+                  </div>
+                ))
+              )}
+            </div>
+          )}
+        </div>
         <Button type="submit" variant="primary">
           Sök
         </Button>
       </form>
-
-      {/* Dropdown */}
-      {showDropdown && (
-        <div className="absolute top-full left-0 right-0 bg-background border border-gray-300 rounded-md shadow-lg max-h-48 overflow-y-auto z-50">
-          {isLoading ? (
-            <div className="p-2.5 text-center text-gray-600">Loading...</div>
-          ) : (
-            suggestions.map((suggestion, index) => (
-              <div
-                key={index}
-                onClick={() => handleSuggestionClick(suggestion)}
-                className="p-2.5 cursor-pointer border-b border-gray-100 text-sm hover:bg-gray-50 transition-colors"
-              >
-                <div className="font-semibold">
-                  {suggestion.display_name.split(",")[0]}
-                </div>
-                <div className="text-xs text-gray-600">
-                  {suggestion.display_name}
-                </div>
-              </div>
-            ))
-          )}
-        </div>
-      )}
     </div>
   );
 };

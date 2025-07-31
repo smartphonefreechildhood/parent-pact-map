@@ -47,12 +47,14 @@ function ClusterMarkers({ coordinates }: ClusterMarkersProps) {
       const marker = L.marker([lat, lng])
         .setIcon(markerIcon)
         .bindPopup(
-          `<div class="text-sm"><div>${school.name} (${
-            school.studentCount
-          } barn)</div><div>
+          `<div class="text-sm">
+          <div>
+          ${school.pact?.name} 
+          </div>
+          <div>${school.name} (${school.studentCount} barn)</div><div>
             ${
               school.contact
-                ? `<a href="${school.contact}" target="_blank">Gå med</a>`
+                ? `<a href="https://forms.smartphonefreechildhood.se/" target="_blank">Gå med</a>`
                 : ""
             }
           </div></div>`

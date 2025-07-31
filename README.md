@@ -69,6 +69,17 @@ To force browsers to reload the latest version, you can append a version query:
 <script src="https://smartphonefreechildhood.github.io/parent-pact-map/assets/index.js?v=1.0.3"></script>
 ```
 
+## 🧩 Data Processing Scripts
+
+The `src/scripts` folder contains all scripts for **loading**, **parsing**, and **enriching** submission data. These scripts are used to:
+
+- Prepare the structured data for **Pacts** and **Schools**
+- Populate the **map view** with accurate coordinates
+- Track counts of students, parents, and school years
+- Assign WhatsApp-based communication groups to each Pact
+
+This pipeline ensures that raw form submissions are transformed into a meaningful and usable format for the platform.
+
 ## 🧰 General React + TypeScript + Vite info
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
