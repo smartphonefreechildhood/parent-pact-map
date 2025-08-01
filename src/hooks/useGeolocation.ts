@@ -1,11 +1,10 @@
 import { useCallback } from "react";
 import type { Pact } from "../types/Pact";
-import type { School } from "../types/School";
 import { logInfo } from "../util/log";
 
 interface GeolocationResult {
   pacts: Pact[];
-  closestSchool: School | null;
+  closestSchool: Pact | null;
 }
 
 export function useGeolocation() {
@@ -32,24 +31,22 @@ export function useGeolocation() {
     pacts: Pact[],
     userLat: number,
     userLng: number,
-    limit: number = 3
+    limit: number = 3,
+    maxDistance: number = 80
   ): GeolocationResult => {
     const pactsWithDistances = pacts.map((pact) => {
       let minDistance = Infinity;
       let closestSchool = null;
 
-      pact.schools.forEach((school) => {
+      if (pact.coordinates) {
         const distance = calculateDistance(
           userLat,
           userLng,
-          school.coordinates[0],
-          school.coordinates[1]
+          pact.coordinates[0],
+          pact.coordinates[1]
         );
-        if (distance < minDistance) {
-          minDistance = distance;
-          closestSchool = school;
-        }
-      });
+        minDistance = distance;
+      }
 
       return { pact, distance: minDistance, closestSchool };
     });
@@ -57,12 +54,15 @@ export function useGeolocation() {
     const closestPacts = pactsWithDistances
       .sort((a, b) => a.distance - b.distance)
       .slice(0, limit)
+      .filter((pact) => {
+        return pact.distance < maxDistance;
+      })
       .map((item) => item.pact);
 
     const mainPact = closestPacts[0];
     const closestSchool = pactsWithDistances.find(
       (pact) => pact.pact.id === mainPact?.id
-    )?.closestSchool as School | null;
+    )?.closestSchool as Pact | null;
 
     logInfo("Closest pacts:", closestPacts);
     logInfo("Closest school:", closestSchool);

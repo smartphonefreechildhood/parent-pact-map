@@ -15,7 +15,7 @@ function List({ filteredPacts }: ListProps) {
           {filteredPacts.map((pact, i) => (
             <ListItem
               key={`${pact.id}-${i}`}
-              title={`Pact: ${pact.name}`}
+              title={`${pact.name}`}
               description={`${pact.studentCount} ${
                 pact.studentCount === 1 ? "förälder" : "föräldrar"
               }`}

@@ -1,0 +1,2414 @@
+[
+  {
+    "uuid": "aa7f864e-993a-43d0-872b-e16463aafadf",
+    "name": "Botkyrka",
+    "municipality": "Botkyrka",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "9ed19a65-6046-4c33-9bbd-2019a99a3ab9",
+    "name": "Stockholms stad",
+    "municipality": "Stockholms stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 634,
+    "parentCount": 447
+  },
+  {
+    "uuid": "effd8f56-9f9c-4d53-83b5-0f2bb46e07a1",
+    "name": "Täby",
+    "municipality": "Täby",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 93,
+    "parentCount": 63
+  },
+  {
+    "uuid": "8f364cdb-7174-477a-ad53-4e990d1c2892",
+    "name": "Östersunds",
+    "municipality": "Östersunds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 31,
+    "parentCount": 18
+  },
+  {
+    "uuid": "0b340e88-88a9-4e85-8e88-9367f099328b",
+    "name": "Falu",
+    "municipality": "Falu",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 58,
+    "parentCount": 34
+  },
+  {
+    "uuid": "3fc99c22-c20d-47d5-8a8b-7e850394487f",
+    "name": "Åre",
+    "municipality": "Åre",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 22,
+    "parentCount": 13
+  },
+  {
+    "uuid": "63e8e847-705b-4111-81ac-e8aed0f6b39c",
+    "name": "Örnsköldsviks",
+    "municipality": "Örnsköldsviks",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 20,
+    "parentCount": 12
+  },
+  {
+    "uuid": "6402dbad-36ca-4abc-84c4-a74d245f7370",
+    "name": "Marks",
+    "municipality": "Marks",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 10,
+    "parentCount": 6
+  },
+  {
+    "uuid": "4474ac42-838e-497b-969a-acfd4dbf1d28",
+    "name": "Göteborgs stad",
+    "municipality": "Göteborgs stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 157,
+    "parentCount": 106
+  },
+  {
+    "uuid": "24acda52-87b7-4156-b058-faec7ae521b2",
+    "name": "Huddinge",
+    "municipality": "Huddinge",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 42,
+    "parentCount": 31
+  },
+  {
+    "uuid": "37f8c371-070a-4737-a656-96cc2b42e602",
+    "name": "Danderyds",
+    "municipality": "Danderyds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 51,
+    "parentCount": 34
+  },
+  {
+    "uuid": "67b67023-ab66-49e4-99bb-796b2780dce2",
+    "name": "Uppsala",
+    "municipality": "Uppsala",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 92,
+    "parentCount": 62
+  },
+  {
+    "uuid": "9c975ea4-8d41-4250-9779-f3b7ba5a4c53",
+    "name": "Österåkers",
+    "municipality": "Österåkers",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 79,
+    "parentCount": 50
+  },
+  {
+    "uuid": "ef0d65b7-a368-4b8c-b703-ef53f5f6c83c",
+    "name": "Simrishamns",
+    "municipality": "Simrishamns",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 23,
+    "parentCount": 17
+  },
+  {
+    "uuid": "d8519bdf-c8d5-48a0-968b-dfb0297f0b28",
+    "name": "Växjö",
+    "municipality": "Växjö",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 8,
+    "parentCount": 5
+  },
+  {
+    "uuid": "b8033117-f6a5-42fd-8e30-3f9448a5c826",
+    "name": "Lidingö stad",
+    "municipality": "Lidingö stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 163,
+    "parentCount": 110
+  },
+  {
+    "uuid": "3e1845ff-923a-404d-9f7d-d484f20f396a",
+    "name": "Malmö stad",
+    "municipality": "Malmö stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 50,
+    "parentCount": 38
+  },
+  {
+    "uuid": "675dc4d9-00f4-415c-9fb1-003d126126d9",
+    "name": "Nacka",
+    "municipality": "Nacka",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 167,
+    "parentCount": 123
+  },
+  {
+    "uuid": "d9ef6ee3-40f1-47b3-a39b-2356f46a3424",
+    "name": "Mölndals stad",
+    "municipality": "Mölndals stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 18,
+    "parentCount": 12
+  },
+  {
+    "uuid": "94ca00b2-a21a-411e-bc69-527857d11179",
+    "name": "Hällefors",
+    "municipality": "Hällefors",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "902da594-233a-41f7-8fc3-e4115a18d432",
+    "name": "Alingsås",
+    "municipality": "Alingsås",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 53,
+    "parentCount": 30
+  },
+  {
+    "uuid": "84a29547-32ca-4bda-a672-868f4f5dca61",
+    "name": "Rättviks",
+    "municipality": "Rättviks",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 3
+  },
+  {
+    "uuid": "46a89076-a69b-4dff-acb6-07611c7a3880",
+    "name": "Hässleholms",
+    "municipality": "Hässleholms",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 5
+  },
+  {
+    "uuid": "6781de76-c8e1-4e2c-afae-1503ffbbab9e",
+    "name": "Hudiksvalls",
+    "municipality": "Hudiksvalls",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 3
+  },
+  {
+    "uuid": "aab784b6-5823-4f58-8dd1-dc89f69add94",
+    "name": "Ängelholms",
+    "municipality": "Ängelholms",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 5
+  },
+  {
+    "uuid": "203d5283-32b9-46a6-a564-64682faa250d",
+    "name": "Skövde",
+    "municipality": "Skövde",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 14,
+    "parentCount": 11
+  },
+  {
+    "uuid": "6976181f-85aa-43a9-8188-4765586ea98f",
+    "name": "Kristianstads",
+    "municipality": "Kristianstads",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 8,
+    "parentCount": 5
+  },
+  {
+    "uuid": "c910171f-d6ea-467a-ac99-123c24262247",
+    "name": "Varbergs",
+    "municipality": "Varbergs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 14,
+    "parentCount": 8
+  },
+  {
+    "uuid": "2d4ddf01-0fa0-497f-87ee-4f6dfe373b73",
+    "name": "Älvdalens",
+    "municipality": "Älvdalens",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "5da84264-8b69-4076-860b-967eb016c08a",
+    "name": "Tjörns",
+    "municipality": "Tjörns",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 4
+  },
+  {
+    "uuid": "3befc48b-02b8-4886-9ad6-0ff0dc9e356f",
+    "name": "Östhammars",
+    "municipality": "Östhammars",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "70c92caa-27f8-49c6-a0b6-552e5bbd7663",
+    "name": "Norrköpings",
+    "municipality": "Norrköpings",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 14,
+    "parentCount": 10
+  },
+  {
+    "uuid": "3241a8d9-d960-401f-9265-0811f87d6998",
+    "name": "Ljusdals",
+    "municipality": "Ljusdals",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 3
+  },
+  {
+    "uuid": "7904b290-f566-42c9-ae62-cad1b2f75b72",
+    "name": "Luleå",
+    "municipality": "Luleå",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 33,
+    "parentCount": 23
+  },
+  {
+    "uuid": "179fd12d-140a-4aee-9cf8-396e073e47eb",
+    "name": "Sundbybergs stad",
+    "municipality": "Sundbybergs stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 16,
+    "parentCount": 13
+  },
+  {
+    "uuid": "6a29e860-2114-497f-9fc4-1608c5d353bc",
+    "name": "Knivsta",
+    "municipality": "Knivsta",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 4
+  },
+  {
+    "uuid": "d9c05b8e-b941-4662-82f6-5281bf4d8892",
+    "name": "Ulricehamns",
+    "municipality": "Ulricehamns",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 3
+  },
+  {
+    "uuid": "2a105f63-1eaa-45c1-9451-f0950cfba201",
+    "name": "Höörs",
+    "municipality": "Höörs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 3
+  },
+  {
+    "uuid": "38a3ac6f-91c8-4d49-82ba-d633b713e003",
+    "name": "Värmdö",
+    "municipality": "Värmdö",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 60,
+    "parentCount": 40
+  },
+  {
+    "uuid": "6851057d-0695-47ee-97e4-00f8a43e1ec5",
+    "name": "Järfälla",
+    "municipality": "Järfälla",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 23,
+    "parentCount": 12
+  },
+  {
+    "uuid": "02986e36-1923-4565-91a1-6d2677881cdc",
+    "name": "Motala",
+    "municipality": "Motala",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 3
+  },
+  {
+    "uuid": "feec83d5-ef9b-44b6-8951-58e161dce51e",
+    "name": "Kungsbacka",
+    "municipality": "Kungsbacka",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 40,
+    "parentCount": 29
+  },
+  {
+    "uuid": "45cde97b-93c5-4bbd-8ddb-9867521ef422",
+    "name": "Lunds",
+    "municipality": "Lunds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 68,
+    "parentCount": 45
+  },
+  {
+    "uuid": "28a1a464-7e0a-4b37-8fd1-363ef8169f50",
+    "name": "Trelleborgs",
+    "municipality": "Trelleborgs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "964749ec-7c48-4560-b1ee-35e19fcff533",
+    "name": "Vänersborgs",
+    "municipality": "Vänersborgs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 13,
+    "parentCount": 9
+  },
+  {
+    "uuid": "c6a609d6-7e24-4725-9006-35fb6bfca0a2",
+    "name": "Ovanåkers",
+    "municipality": "Ovanåkers",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 3
+  },
+  {
+    "uuid": "a72617f9-accf-4868-8cc7-7be524057b56",
+    "name": "Sjöbo",
+    "municipality": "Sjöbo",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 4
+  },
+  {
+    "uuid": "8f161f05-43c6-45ba-ae93-da378ac88d8e",
+    "name": "Umeå",
+    "municipality": "Umeå",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 31,
+    "parentCount": 20
+  },
+  {
+    "uuid": "20e1f7d5-4ede-4e86-aa41-a7e05a3f8f77",
+    "name": "Staffanstorps",
+    "municipality": "Staffanstorps",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 20,
+    "parentCount": 14
+  },
+  {
+    "uuid": "559f7a44-9efe-481f-88c9-7c912059715a",
+    "name": "Upplands-Bro",
+    "municipality": "Upplands-Bro",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 12,
+    "parentCount": 6
+  },
+  {
+    "uuid": "0ae2e801-c5d4-4a61-b8ca-0115d98ec678",
+    "name": "Kungälvs",
+    "municipality": "Kungälvs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 11,
+    "parentCount": 6
+  },
+  {
+    "uuid": "16c3381e-bf49-440d-bb82-1379a484aca3",
+    "name": "Haninge",
+    "municipality": "Haninge",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 20,
+    "parentCount": 12
+  },
+  {
+    "uuid": "42b6189c-e7ab-44cb-a145-f85b3b2c5e1a",
+    "name": "Jönköpings",
+    "municipality": "Jönköpings",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 15,
+    "parentCount": 9
+  },
+  {
+    "uuid": "2dada32a-9a12-44f3-891d-55e2859fa12e",
+    "name": "Eslövs",
+    "municipality": "Eslövs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 4
+  },
+  {
+    "uuid": "c4d82d3b-ee58-4811-a1c5-a5bfcbad84af",
+    "name": "Västerås stad",
+    "municipality": "Västerås stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 17,
+    "parentCount": 11
+  },
+  {
+    "uuid": "f3385c99-8e36-49c8-95dc-3bf50224b8a5",
+    "name": "Solna stad",
+    "municipality": "Solna stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 22,
+    "parentCount": 18
+  },
+  {
+    "uuid": "553dfbd6-1332-4aee-a4e7-b306e318c734",
+    "name": "Lomma",
+    "municipality": "Lomma",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 3
+  },
+  {
+    "uuid": "88c887c5-5382-462e-bd63-f51cf328a003",
+    "name": "Orsa",
+    "municipality": "Orsa",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 9,
+    "parentCount": 7
+  },
+  {
+    "uuid": "f6e6066f-0aa7-47a6-968f-53da55e0f68d",
+    "name": "Halmstads",
+    "municipality": "Halmstads",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 11,
+    "parentCount": 7
+  },
+  {
+    "uuid": "b82e75b5-5c5d-4277-909b-55f30ec66a72",
+    "name": "Salems",
+    "municipality": "Salems",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 31,
+    "parentCount": 17
+  },
+  {
+    "uuid": "dd3ae821-5b38-4505-9fe0-377fa5cf82ed",
+    "name": "Enköpings",
+    "municipality": "Enköpings",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 8,
+    "parentCount": 5
+  },
+  {
+    "uuid": "6ff2b6a1-005c-4c6e-a472-c6196adb05ea",
+    "name": "Eskilstuna",
+    "municipality": "Eskilstuna",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 8,
+    "parentCount": 7
+  },
+  {
+    "uuid": "3feb3d7c-8486-47e5-a749-5db6c2f689a0",
+    "name": "Borås stad",
+    "municipality": "Borås stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 10,
+    "parentCount": 8
+  },
+  {
+    "uuid": "6dc36196-b0e1-4730-821c-ae7c22310dba",
+    "name": "Gävle",
+    "municipality": "Gävle",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 14,
+    "parentCount": 9
+  },
+  {
+    "uuid": "a88d8a17-9d22-4227-98b5-a28e319d4b9c",
+    "name": "Tranås",
+    "municipality": "Tranås",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 3
+  },
+  {
+    "uuid": "5253b039-9f27-41de-b20d-c5469d459b76",
+    "name": "Piteå",
+    "municipality": "Piteå",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 6
+  },
+  {
+    "uuid": "43134b1d-d07d-40e5-8984-3ce0eeabcabe",
+    "name": "Örebro",
+    "municipality": "Örebro",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 29,
+    "parentCount": 18
+  },
+  {
+    "uuid": "b7e0139c-8057-4c5c-bebe-20dee7d74218",
+    "name": "Habo",
+    "municipality": "Habo",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "7b7e6586-786f-4935-814d-5d6887ed8cc3",
+    "name": "Töreboda",
+    "municipality": "Töreboda",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 2
+  },
+  {
+    "uuid": "c04fb547-4ca7-4617-b85f-232e62c04d08",
+    "name": "Mörbylånga",
+    "municipality": "Mörbylånga",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "a6c186c0-9e2b-42fc-ac5c-d46d27152e83",
+    "name": "Härryda",
+    "municipality": "Härryda",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 5
+  },
+  {
+    "uuid": "9de05b1d-113b-464e-8610-95cd1f96aa0f",
+    "name": "Sollentuna",
+    "municipality": "Sollentuna",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 94,
+    "parentCount": 62
+  },
+  {
+    "uuid": "573bc350-6e35-4634-9969-a79731daa7b6",
+    "name": "Vellinge",
+    "municipality": "Vellinge",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 29,
+    "parentCount": 21
+  },
+  {
+    "uuid": "0e9e9f42-981f-49ac-a91c-ed07f24e98df",
+    "name": "Gällivare",
+    "municipality": "Gällivare",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "d304937b-6de9-4213-91f5-555ef16d13c5",
+    "name": "Upplands Väsby",
+    "municipality": "Upplands Väsby",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 16,
+    "parentCount": 10
+  },
+  {
+    "uuid": "72e53d8f-51b8-4c4d-9862-0d0ae551b43a",
+    "name": "Strängnäs",
+    "municipality": "Strängnäs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 42,
+    "parentCount": 28
+  },
+  {
+    "uuid": "5de7384a-cb46-47b8-96aa-465175239759",
+    "name": "Ludvika",
+    "municipality": "Ludvika",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 3
+  },
+  {
+    "uuid": "11a67862-a014-4965-94d7-db5b592ac7e3",
+    "name": "Helsingborgs stad",
+    "municipality": "Helsingborgs stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 36,
+    "parentCount": 24
+  },
+  {
+    "uuid": "b501b050-b1cd-4fc4-a6ca-cac560c2b438",
+    "name": "Tyresö",
+    "municipality": "Tyresö",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 32,
+    "parentCount": 20
+  },
+  {
+    "uuid": "7f621e0d-6c0b-4f25-af06-8b5de6723cab",
+    "name": "Norrtälje",
+    "municipality": "Norrtälje",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 16,
+    "parentCount": 8
+  },
+  {
+    "uuid": "816eaf76-9992-415e-96e1-a9944a997381",
+    "name": "Ystads",
+    "municipality": "Ystads",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "9b412ff5-2a1b-4a70-a60e-09a5adeb14ea",
+    "name": "Skellefteå",
+    "municipality": "Skellefteå",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 11,
+    "parentCount": 9
+  },
+  {
+    "uuid": "ef63a018-4b84-42cc-8004-4c832fed145e",
+    "name": "Region Gotland",
+    "municipality": "Region Gotland",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 4
+  },
+  {
+    "uuid": "f5c5cdd1-e413-47d5-b9ea-2be9d88f3862",
+    "name": "Kävlinge",
+    "municipality": "Kävlinge",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 14,
+    "parentCount": 9
+  },
+  {
+    "uuid": "e5f7b18b-f403-4105-800f-d7398b4eb79c",
+    "name": "Vallentuna",
+    "municipality": "Vallentuna",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 21,
+    "parentCount": 17
+  },
+  {
+    "uuid": "2fb6613b-b3fd-420a-81bc-db0787d83c64",
+    "name": "Burlövs",
+    "municipality": "Burlövs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 8,
+    "parentCount": 3
+  },
+  {
+    "uuid": "c30e9365-04d6-4e4c-ab5a-a82d099b7dd9",
+    "name": "Mora",
+    "municipality": "Mora",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 4
+  },
+  {
+    "uuid": "462ab750-50b8-43b7-b614-abc591c8d3ea",
+    "name": "Sandvikens",
+    "municipality": "Sandvikens",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "584eb44f-65ef-4b1a-a9eb-8d9ec8e27d6c",
+    "name": "Vansbro",
+    "municipality": "Vansbro",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "869d83f6-af34-4b31-b2c9-cfae788714f2",
+    "name": "Sigtuna",
+    "municipality": "Sigtuna",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 9,
+    "parentCount": 7
+  },
+  {
+    "uuid": "d044dc8a-65c9-4966-afb9-0c93a3a4826a",
+    "name": "Lerums",
+    "municipality": "Lerums",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 17,
+    "parentCount": 11
+  },
+  {
+    "uuid": "e7e7cf3d-7fc1-42c7-bd05-99174cb1cd4b",
+    "name": "Nyköpings",
+    "municipality": "Nyköpings",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 9,
+    "parentCount": 7
+  },
+  {
+    "uuid": "53a11140-d1da-438a-ae38-c305902951d2",
+    "name": "Linköpings",
+    "municipality": "Linköpings",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 22,
+    "parentCount": 13
+  },
+  {
+    "uuid": "c41a771c-412f-4180-8c5d-5f873d9d7643",
+    "name": "Södertälje",
+    "municipality": "Södertälje",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 24,
+    "parentCount": 18
+  },
+  {
+    "uuid": "4eccd6bf-3b0d-442c-a5a7-cc54700e2b4c",
+    "name": "Kumla",
+    "municipality": "Kumla",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 3
+  },
+  {
+    "uuid": "01d4ec2f-bc9c-4b8f-b040-382a7e525bf6",
+    "name": "Leksands",
+    "municipality": "Leksands",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 13,
+    "parentCount": 8
+  },
+  {
+    "uuid": "9901648c-9f4c-459e-9e6b-7a2f983849df",
+    "name": "Torsby",
+    "municipality": "Torsby",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "6deda5f0-745e-4aa9-9837-6620cda23011",
+    "name": "Trollhättans stad",
+    "municipality": "Trollhättans stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 4
+  },
+  {
+    "uuid": "7517bb69-f41f-4694-a3b9-021980e4bbfa",
+    "name": "Kils",
+    "municipality": "Kils",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "2c5746f1-27b2-47d8-9bd9-3a53e3d557de",
+    "name": "Hallsbergs",
+    "municipality": "Hallsbergs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "90318835-73d5-4add-a22a-81851ea30c58",
+    "name": "Forshaga",
+    "municipality": "Forshaga",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "f879afdf-4879-4419-b404-0af053b82956",
+    "name": "Krokoms",
+    "municipality": "Krokoms",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 17,
+    "parentCount": 8
+  },
+  {
+    "uuid": "78c154ff-b8e4-4ab4-8550-10bc49aa733d",
+    "name": "Båstads",
+    "municipality": "Båstads",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "7c09d035-315e-488c-9c3b-2debe357de9a",
+    "name": "Flens",
+    "municipality": "Flens",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "5f655385-79c6-4baa-b867-0f310af7e9b5",
+    "name": "Gnosjö",
+    "municipality": "Gnosjö",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "17c99b0d-1878-44cd-9475-4c65244a0337",
+    "name": "Håbo",
+    "municipality": "Håbo",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 13,
+    "parentCount": 10
+  },
+  {
+    "uuid": "3499e13a-be05-4aa0-b97c-9e7c22cf10d6",
+    "name": "Lycksele",
+    "municipality": "Lycksele",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 4
+  },
+  {
+    "uuid": "1e171ec6-b65e-4edc-87a9-dae20ae566b0",
+    "name": "Höganäs",
+    "municipality": "Höganäs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 104,
+    "parentCount": 72
+  },
+  {
+    "uuid": "26f68c5a-fdb0-4e34-a4dd-e6bd1f8fac19",
+    "name": "Ekerö",
+    "municipality": "Ekerö",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 21,
+    "parentCount": 11
+  },
+  {
+    "uuid": "ef84dafe-5563-449b-aa68-a29fce43f38f",
+    "name": "Trosa",
+    "municipality": "Trosa",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 10,
+    "parentCount": 7
+  },
+  {
+    "uuid": "b03a56fe-3cba-4b6e-8320-0a84924788d5",
+    "name": "Kalmar",
+    "municipality": "Kalmar",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 14,
+    "parentCount": 10
+  },
+  {
+    "uuid": "3a9a9747-04f9-4b03-85d4-b97c0dd7aee1",
+    "name": "Svenljunga",
+    "municipality": "Svenljunga",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 3
+  },
+  {
+    "uuid": "9c25d52a-b3ae-4c04-a50b-f2fa384b7deb",
+    "name": "Tranemo",
+    "municipality": "Tranemo",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 4
+  },
+  {
+    "uuid": "8736a50c-38d7-4fdd-b1f2-923120163869",
+    "name": "Avesta",
+    "municipality": "Avesta",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "2d809f28-85ef-40a7-8dcd-093d41275834",
+    "name": "Bollnäs",
+    "municipality": "Bollnäs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "37449d5b-d394-4f88-8df7-703ff14b737d",
+    "name": "Lindesbergs",
+    "municipality": "Lindesbergs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 4
+  },
+  {
+    "uuid": "da66f94d-de4b-4e35-a7e5-deb1d2b82290",
+    "name": "Eksjö",
+    "municipality": "Eksjö",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 3
+  },
+  {
+    "uuid": "fe4fc40c-498c-45ca-814f-b039323b7df7",
+    "name": "Sundsvalls",
+    "municipality": "Sundsvalls",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 5
+  },
+  {
+    "uuid": "21f67b6f-a424-45e2-b7c0-1575c65419bc",
+    "name": "Laholms",
+    "municipality": "Laholms",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 3
+  },
+  {
+    "uuid": "e488ede7-fb83-4194-bb86-b52393ed6f83",
+    "name": "Örkelljunga",
+    "municipality": "Örkelljunga",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "b3454e81-a408-4339-bde8-f0b94a65dbf1",
+    "name": "Mjölby",
+    "municipality": "Mjölby",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 3
+  },
+  {
+    "uuid": "9c4c21ee-27df-4335-9ac2-bc503acec5fc",
+    "name": "Lidköpings",
+    "municipality": "Lidköpings",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 16,
+    "parentCount": 9
+  },
+  {
+    "uuid": "f3b7267d-f39e-4e89-9fa6-5d1ef9efdf7f",
+    "name": "Härnösands",
+    "municipality": "Härnösands",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "dcd16a29-03fb-42e5-bb33-66748b235867",
+    "name": "Finspångs",
+    "municipality": "Finspångs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "d6de8857-6888-411e-8260-7bf7d5036486",
+    "name": "Timrå",
+    "municipality": "Timrå",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 3
+  },
+  {
+    "uuid": "9e23ec35-c783-4f74-83ed-0d5e8f570636",
+    "name": "Karlstads",
+    "municipality": "Karlstads",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 4
+  },
+  {
+    "uuid": "871b9041-8c41-4656-9776-80ed057d1cb7",
+    "name": "Västerviks",
+    "municipality": "Västerviks",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 2
+  },
+  {
+    "uuid": "2434c839-8221-4853-9261-fe7ae1955410",
+    "name": "Landskrona stad",
+    "municipality": "Landskrona stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 12,
+    "parentCount": 9
+  },
+  {
+    "uuid": "c3416469-7e9f-4ff9-ad54-6ff974e6a86e",
+    "name": "Tomelilla",
+    "municipality": "Tomelilla",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "214a0e80-2bb3-4d1d-bd2b-78ebbcf9c9dd",
+    "name": "Vimmerby",
+    "municipality": "Vimmerby",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 4
+  },
+  {
+    "uuid": "9a4be0d0-b4fc-4df0-b934-6300ccf30790",
+    "name": "Ale",
+    "municipality": "Ale",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 14,
+    "parentCount": 10
+  },
+  {
+    "uuid": "9ef81b0e-8af8-41b1-9a80-9dbc19107246",
+    "name": "Svedala",
+    "municipality": "Svedala",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 4
+  },
+  {
+    "uuid": "00864adc-3668-4a95-acb2-2e806da3acd3",
+    "name": "Karlskoga",
+    "municipality": "Karlskoga",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 3
+  },
+  {
+    "uuid": "31abf93a-b6e9-4802-ad09-0ae5f0d18baa",
+    "name": "Skurups",
+    "municipality": "Skurups",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "b66bd27e-9e40-4ad0-8474-078e3759ef76",
+    "name": "Uddevalla",
+    "municipality": "Uddevalla",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 10,
+    "parentCount": 8
+  },
+  {
+    "uuid": "d2d2fff0-e34b-42f1-a661-ac48c8f355f5",
+    "name": "Vaggeryds",
+    "municipality": "Vaggeryds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "277d13c1-51cf-43ed-a694-07be88b7e1e6",
+    "name": "Hjo",
+    "municipality": "Hjo",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 3
+  },
+  {
+    "uuid": "c73bb49d-bb3e-464f-9e25-9273fbe98e57",
+    "name": "Mariestads",
+    "municipality": "Mariestads",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 3
+  },
+  {
+    "uuid": "e5b87bf2-b91f-4e6b-b769-67a9cff1a0f4",
+    "name": "Herrljunga",
+    "municipality": "Herrljunga",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 19,
+    "parentCount": 16
+  },
+  {
+    "uuid": "cf053f57-d2cc-406b-ae37-26ffc9a3c196",
+    "name": "Stenungsunds",
+    "municipality": "Stenungsunds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 3
+  },
+  {
+    "uuid": "d609be08-1d8f-4be3-9b85-7e23e899436f",
+    "name": "Hultsfreds",
+    "municipality": "Hultsfreds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "61793b48-aa0b-44ce-9668-67f138848bcb",
+    "name": "Bollebygds",
+    "municipality": "Bollebygds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "a92043b8-4d9a-44de-96ae-0e9773a3df83",
+    "name": "Hedemora",
+    "municipality": "Hedemora",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 13,
+    "parentCount": 7
+  },
+  {
+    "uuid": "bfd7ccfc-6e7c-40f0-be40-93868f97f20d",
+    "name": "Hammarö",
+    "municipality": "Hammarö",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 3
+  },
+  {
+    "uuid": "9173b2d8-ff06-4617-b440-0c6a77e29941",
+    "name": "Partille",
+    "municipality": "Partille",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 16,
+    "parentCount": 12
+  },
+  {
+    "uuid": "bf387083-677f-44a2-8e09-6cbe2a08f878",
+    "name": "Svalövs",
+    "municipality": "Svalövs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "86d64fb5-3cb8-4b70-9c5e-5114ec5bcc5f",
+    "name": "Smedjebackens",
+    "municipality": "Smedjebackens",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "4db43124-5349-4e74-867c-c616e6e74af6",
+    "name": "Vaxholms stad",
+    "municipality": "Vaxholms stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "39049d3e-f710-495b-8be3-aeb17d00553f",
+    "name": "Klippans",
+    "municipality": "Klippans",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "5ea75046-e7f1-4860-a4ed-ba87b38c80e3",
+    "name": "Sala",
+    "municipality": "Sala",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "ea4ec5a2-3fd2-4a52-9944-214908d50df4",
+    "name": "Vännäs",
+    "municipality": "Vännäs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "c19f901e-4b26-4399-98e3-0a7a6d4ac7ec",
+    "name": "Katrineholms",
+    "municipality": "Katrineholms",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "928d111c-c315-4eda-b306-f3050ae90c84",
+    "name": "Gislaveds",
+    "municipality": "Gislaveds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "102af34b-14bd-43ae-82e9-f2e6c8e39f1f",
+    "name": "Lysekils",
+    "municipality": "Lysekils",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 16,
+    "parentCount": 8
+  },
+  {
+    "uuid": "c18b2a3a-7059-48b7-ac29-ad299d9a2258",
+    "name": "Sollefteå",
+    "municipality": "Sollefteå",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 4
+  },
+  {
+    "uuid": "1c2d549b-1057-4587-9507-964d111028fc",
+    "name": "Nynäshamns",
+    "municipality": "Nynäshamns",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 2
+  },
+  {
+    "uuid": "d9b27bbe-d589-403d-99a2-09e9fe0270e7",
+    "name": "Kiruna",
+    "municipality": "Kiruna",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 26,
+    "parentCount": 11
+  },
+  {
+    "uuid": "f352734e-fc11-466d-a6ad-bb3f4031e2fd",
+    "name": "Tierps",
+    "municipality": "Tierps",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "9ae4d741-9fa4-4231-9ff5-aaf7de883745",
+    "name": "Tidaholms",
+    "municipality": "Tidaholms",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "31a1f44d-74b1-432b-ae46-6dd6324058ae",
+    "name": "Gagnefs",
+    "municipality": "Gagnefs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "979f6431-7c82-4ecc-9f11-5eb1bac534c1",
+    "name": "Karlskrona",
+    "municipality": "Karlskrona",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "97764cd0-9b13-49a4-ac60-628b70d8261c",
+    "name": "Gnesta",
+    "municipality": "Gnesta",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 32,
+    "parentCount": 23
+  },
+  {
+    "uuid": "5878a830-41c3-4c86-a2b7-aeda606e8b88",
+    "name": "Köpings",
+    "municipality": "Köpings",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "86560e99-67c3-484b-81ea-ce1fadd94f64",
+    "name": "Lekebergs",
+    "municipality": "Lekebergs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "52f0169e-4307-442e-b058-8f9fd090659c",
+    "name": "Karlsborgs",
+    "municipality": "Karlsborgs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "bd530f90-6ce3-4a50-a268-53b8ff745923",
+    "name": "Vadstena",
+    "municipality": "Vadstena",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "679f24ce-9427-4736-9ba4-05b619ea928f",
+    "name": "Ljusnarsbergs",
+    "municipality": "Ljusnarsbergs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 1
+  },
+  {
+    "uuid": "3133c1f5-629b-43eb-80b4-2ca1e470b199",
+    "name": "Falköpings",
+    "municipality": "Falköpings",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 16,
+    "parentCount": 11
+  },
+  {
+    "uuid": "3a253521-72e0-48e3-bb8f-8a51d00ceae9",
+    "name": "Nybro",
+    "municipality": "Nybro",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "555d908e-ca3a-46d9-a166-6f6a8323d462",
+    "name": "Falkenbergs",
+    "municipality": "Falkenbergs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 3
+  },
+  {
+    "uuid": "6a3f6fdb-4155-4d2b-aa95-4b57068f41b6",
+    "name": "Åtvidabergs",
+    "municipality": "Åtvidabergs",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "ae5fef77-e873-402f-9952-d949a9ccd8cc",
+    "name": "Oxelösunds",
+    "municipality": "Oxelösunds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "240d01c8-94bd-465d-b76b-d80e5ed01c5f",
+    "name": "Melleruds",
+    "municipality": "Melleruds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "0d6fb99c-58b7-4280-bd36-06ddb25fc1bc",
+    "name": "Surahammars",
+    "municipality": "Surahammars",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "a1a224b8-c612-4965-a056-a301104698a7",
+    "name": "Säters",
+    "municipality": "Säters",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "09597926-b4ed-45ca-b96d-c5567593e508",
+    "name": "Härjedalens",
+    "municipality": "Härjedalens",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "a372056e-3d27-446f-bf94-3e025da5fe22",
+    "name": "Götene",
+    "municipality": "Götene",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 3
+  },
+  {
+    "uuid": "a07af4fa-9725-415c-bbd4-8d10c9dae963",
+    "name": "Markaryds",
+    "municipality": "Markaryds",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "e87fdcaa-b14c-4c60-b69a-748ad4032ba4",
+    "name": "Borlänge",
+    "municipality": "Borlänge",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 6
+  },
+  {
+    "uuid": "d25388c0-7711-45b7-8124-aeac4a45afbc",
+    "name": "Kramfors",
+    "municipality": "Kramfors",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "d5af8e29-04b6-484a-9779-acf7e62f67b7",
+    "name": "Perstorps",
+    "municipality": "Perstorps",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "6dbfd75b-6708-468d-9438-cfb52274b1b0",
+    "name": "Hallstahammars",
+    "municipality": "Hallstahammars",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "a6b22d68-72c2-4f65-a0e0-b44b5c613e37",
+    "name": "Jokkmokk",
+    "municipality": "Jokkmokk",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 8,
+    "parentCount": 4
+  },
+  {
+    "uuid": "ed7efcce-36f3-4593-8bc8-c58e70391ec8",
+    "name": "Stockholm stad",
+    "municipality": "Stockholm stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 208,
+    "parentCount": 160
+  },
+  {
+    "uuid": "88caa9b1-aeab-43e0-8971-3ec9042c9bea",
+    "name": "Lerum",
+    "municipality": "Lerum",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 22,
+    "parentCount": 18
+  },
+  {
+    "uuid": "db81cea0-5598-4c91-99ed-640b414100bb",
+    "name": "Lidingö",
+    "municipality": "Lidingö",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 35,
+    "parentCount": 26
+  },
+  {
+    "uuid": "83cc4f7a-84f8-4fa4-8b55-9bf52b7061f9",
+    "name": "Vetlanda",
+    "municipality": "Vetlanda",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 2
+  },
+  {
+    "uuid": "b97924e8-5494-492f-b96b-1bc90c1d871a",
+    "name": "Hässleholm",
+    "municipality": "Hässleholm",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 4
+  },
+  {
+    "uuid": "f2e1b0c1-dc70-4c9b-a0c4-174d775354c0",
+    "name": "Åstorp",
+    "municipality": "Åstorp",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "0ee25431-9fa6-4e81-8d25-b5a3affbb6d6",
+    "name": "Österåker",
+    "municipality": "Österåker",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 19,
+    "parentCount": 15
+  },
+  {
+    "uuid": "d45a50f0-fef9-45be-a32e-c2f6f130f484",
+    "name": "Finspång",
+    "municipality": "Finspång",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "d9238cc7-e012-4923-91f9-3b25e52e953d",
+    "name": "Falköping",
+    "municipality": "Falköping",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 13,
+    "parentCount": 10
+  },
+  {
+    "uuid": "73f10b76-4794-4089-8469-4956f2d8d44b",
+    "name": "Uppvidinge",
+    "municipality": "Uppvidinge",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "f1f48109-d501-49d8-9213-3995babaf118",
+    "name": "Lidköping",
+    "municipality": "Lidköping",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 6
+  },
+  {
+    "uuid": "276d0f71-aab5-421d-a1a8-8c15daf1c2a7",
+    "name": "Säter",
+    "municipality": "Säter",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "e0bc204a-011f-4443-8b9d-7825952b3a45",
+    "name": "Falun",
+    "municipality": "Falun",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 13,
+    "parentCount": 12
+  },
+  {
+    "uuid": "fe4e6e27-a26c-42e2-b647-f93d53f5d61c",
+    "name": "Enköping",
+    "municipality": "Enköping",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "19d25dd3-ab8c-4c78-88c3-6b01941cbf86",
+    "name": "Tjörn",
+    "municipality": "Tjörn",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 5
+  },
+  {
+    "uuid": "adc0d116-4ac5-4296-8f1d-3371c46a7754",
+    "name": "Hallstahammar",
+    "municipality": "Hallstahammar",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "6d58065b-7023-4d8b-b0ed-838edc099ce2",
+    "name": "Sundbyberg",
+    "municipality": "Sundbyberg",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 4
+  },
+  {
+    "uuid": "4e8ba678-b85d-4bd1-917c-e70466cd343e",
+    "name": "Solna",
+    "municipality": "Solna",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 10,
+    "parentCount": 7
+  },
+  {
+    "uuid": "2990450c-0c43-4528-9c75-4b908174070c",
+    "name": "Nykvarn",
+    "municipality": "Nykvarn",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "f618fd7f-0b12-4070-ac27-94d7106e59ae",
+    "name": "Höör",
+    "municipality": "Höör",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 9,
+    "parentCount": 4
+  },
+  {
+    "uuid": "fa426cbf-d23a-4535-9e06-6fc4b749736f",
+    "name": "Gotland",
+    "municipality": "Gotland",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 9,
+    "parentCount": 7
+  },
+  {
+    "uuid": "f3f070cd-6c6f-4f66-91eb-ce155649d500",
+    "name": "Linköping",
+    "municipality": "Linköping",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 9,
+    "parentCount": 7
+  },
+  {
+    "uuid": "f7032bf0-0254-4b06-a61f-8c34c63a729f",
+    "name": "Karlstad",
+    "municipality": "Karlstad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 19,
+    "parentCount": 16
+  },
+  {
+    "uuid": "459a47ea-1153-474c-8c16-e93cce8c108e",
+    "name": "Hörby",
+    "municipality": "Hörby",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "1fa82d20-31c6-4872-bd7d-06739939687a",
+    "name": "Malmö Stad",
+    "municipality": "Malmö Stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 22,
+    "parentCount": 17
+  },
+  {
+    "uuid": "f723173e-f14f-4e40-a624-6cf747ab0669",
+    "name": "Askersund",
+    "municipality": "Askersund",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "e194ddfd-5d7d-4197-a245-d6ced04c3f28",
+    "name": "Lund",
+    "municipality": "Lund",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 12,
+    "parentCount": 11
+  },
+  {
+    "uuid": "f533fc96-1f7f-4b4f-b6ba-8f868598d9aa",
+    "name": "Vara",
+    "municipality": "Vara",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "96c6f2fa-35f6-4786-a1a6-b2ef2df3fc9e",
+    "name": "Sundsvall",
+    "municipality": "Sundsvall",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 3
+  },
+  {
+    "uuid": "4df8d3fa-8228-49e7-b772-1a7de6d9b373",
+    "name": "Flen",
+    "municipality": "Flen",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "da9e2cf7-91c7-4ac6-8d75-4b19219903dc",
+    "name": "Kalix",
+    "municipality": "Kalix",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "dd21e130-e81c-4945-be98-08e7a079e53a",
+    "name": "Nyköping",
+    "municipality": "Nyköping",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 6,
+    "parentCount": 4
+  },
+  {
+    "uuid": "caa9bbab-8713-4f86-83d0-163f21d39f7c",
+    "name": "Mariestad",
+    "municipality": "Mariestad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "3f172c9b-e319-4f89-a620-cfb89245893d",
+    "name": "Jönköping",
+    "municipality": "Jönköping",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 3
+  },
+  {
+    "uuid": "aa866077-aa6c-46e6-a638-4b736e68c304",
+    "name": "Falkenberg",
+    "municipality": "Falkenberg",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "4b69eacd-738d-4425-903e-7c1a56600c43",
+    "name": "Helsingborg stad",
+    "municipality": "Helsingborg stad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 8,
+    "parentCount": 6
+  },
+  {
+    "uuid": "0dafd19b-9554-4cd3-9d34-c0f5d65122b7",
+    "name": "Norrköping",
+    "municipality": "Norrköping",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 4
+  },
+  {
+    "uuid": "1be7e9bc-98c3-4825-a1fa-deb5c6024560",
+    "name": "Söderköping",
+    "municipality": "Söderköping",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "887cdce1-eb78-4c6a-8d2e-c5b9e57d84bb",
+    "name": "Karlshamn",
+    "municipality": "Karlshamn",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "f899499a-c028-466f-8cd4-43055b843075",
+    "name": "Östersund",
+    "municipality": "Östersund",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 12,
+    "parentCount": 12
+  },
+  {
+    "uuid": "d14794b3-eb67-4473-ae4a-7ff2d07b8e12",
+    "name": "Vänersborg",
+    "municipality": "Vänersborg",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "23533262-0652-42ab-8145-39539d1fd89d",
+    "name": "Värnamo",
+    "municipality": "Värnamo",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 5
+  },
+  {
+    "uuid": "6d736b8c-4f43-4b4d-a5b2-8e28353cd613",
+    "name": "Varberg",
+    "municipality": "Varberg",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "51d8b522-e4d0-42e9-9884-a04a44301a69",
+    "name": "Staffanstorp",
+    "municipality": "Staffanstorp",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "520a51a7-4653-4e49-b573-11802d82f168",
+    "name": "Örnsköldsvik",
+    "municipality": "Örnsköldsvik",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "9a9ba7d9-16b6-4539-867d-c0e7fe91e33f",
+    "name": "Kristianstad",
+    "municipality": "Kristianstad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "45754574-de76-434c-81ae-d2f1b3aef05d",
+    "name": "Mellerud",
+    "municipality": "Mellerud",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "82b4c6dc-497d-4f54-88f2-f58f7dd29809",
+    "name": "Salem",
+    "municipality": "Salem",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "28467786-360f-4322-9717-b447e12b89d8",
+    "name": "Lilla Edet",
+    "municipality": "Lilla Edet",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "017f6485-f05d-4d97-b48a-05970949415b",
+    "name": "Strömsund",
+    "municipality": "Strömsund",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "d67e9e14-f3aa-44d6-a9e7-08d623b85e49",
+    "name": "Söderhamn",
+    "municipality": "Söderhamn",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 2
+  },
+  {
+    "uuid": "6cef11ff-66a5-48a0-93b3-21d7858a66c0",
+    "name": "Ljusdal",
+    "municipality": "Ljusdal",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 2
+  },
+  {
+    "uuid": "3fdfde93-a4ea-46cd-9ca0-62c537dd87b8",
+    "name": "Orust",
+    "municipality": "Orust",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "b733a36a-88e3-4052-bb1c-d21f2ac5ef49",
+    "name": "Mullsjö",
+    "municipality": "Mullsjö",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 4
+  },
+  {
+    "uuid": "6ffc0447-57a5-4ceb-9019-299b2e5c3224",
+    "name": "Härjedalen",
+    "municipality": "Härjedalen",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 5,
+    "parentCount": 3
+  },
+  {
+    "uuid": "f280790a-ee06-4ad8-9d2f-0408f23786b0",
+    "name": "Vaxholm",
+    "municipality": "Vaxholm",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 7,
+    "parentCount": 5
+  },
+  {
+    "uuid": "3f7cf87c-dfe5-4796-af07-e88b8ded2703",
+    "name": "Danderyd",
+    "municipality": "Danderyd",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 37,
+    "parentCount": 21
+  },
+  {
+    "uuid": "749b37a6-2bce-4ab1-983d-5b79a538d171",
+    "name": "Smedjebacken",
+    "municipality": "Smedjebacken",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 4
+  },
+  {
+    "uuid": "4db78346-cd33-487e-a965-da3626ed7257",
+    "name": "Boden",
+    "municipality": "Boden",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 4
+  },
+  {
+    "uuid": "4ffdc5b8-a320-4b77-9bc1-1ad933264e56",
+    "name": "Lysekil",
+    "municipality": "Lysekil",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "3f707986-a153-4293-8905-5fac525e5e94",
+    "name": "Skara",
+    "municipality": "Skara",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "bf34b875-4663-4fb9-b20a-c9f84f583879",
+    "name": "Ljungby",
+    "municipality": "Ljungby",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "e588aef6-6583-4143-bf69-ffad52c1832a",
+    "name": "Heby",
+    "municipality": "Heby",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 4,
+    "parentCount": 2
+  },
+  {
+    "uuid": "80307f28-4e74-482c-934d-429a4081128e",
+    "name": "Tidaholm",
+    "municipality": "Tidaholm",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "aab76fc0-939e-48a6-bb4f-5ece7096028f",
+    "name": "Öckerö",
+    "municipality": "Öckerö",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 3
+  },
+  {
+    "uuid": "cfd7dbc9-927e-4c40-8f08-2c99f07aca5a",
+    "name": "Västerås",
+    "municipality": "Västerås",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "72aa24cf-5b40-440b-aebc-a96dbf488037",
+    "name": "Grums",
+    "municipality": "Grums",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "ef30cf9b-60d7-46df-a768-deea6bb71452",
+    "name": "Östhammar",
+    "municipality": "Östhammar",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "5e4b42cf-6ca4-4f72-802a-37a4c858446d",
+    "name": "Berg",
+    "municipality": "Berg",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "41e5561f-21a6-4e32-b255-449eff2dffb5",
+    "name": "Östra Göinge",
+    "municipality": "Östra Göinge",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "697712c2-78c5-48df-92d7-cdd6500ddeff",
+    "name": "Leksand",
+    "municipality": "Leksand",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "061a8f97-b809-43c5-a2c0-42ee2fddbc49",
+    "name": "Halmstad",
+    "municipality": "Halmstad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 2
+  },
+  {
+    "uuid": "2472e449-7d69-4b30-8a03-96760fd7f138",
+    "name": "Kristinehamn",
+    "municipality": "Kristinehamn",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "e787b3f6-04d2-4ad1-9edd-f4d14004214d",
+    "name": "Olofström",
+    "municipality": "Olofström",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "ac486f57-6dbd-4961-b1d6-f7babfd4f422",
+    "name": "Nora",
+    "municipality": "Nora",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "05fcd70d-fc21-445b-974e-d2dae2890f8c",
+    "name": "Nynäshamn",
+    "municipality": "Nynäshamn",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 9,
+    "parentCount": 6
+  },
+  {
+    "uuid": "7bcbb760-4ba7-49b3-b6cd-b96387afea90",
+    "name": "Ystad",
+    "municipality": "Ystad",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "4d132efd-dc50-4b33-a625-0644aa84673b",
+    "name": "Ljusnarsberg",
+    "municipality": "Ljusnarsberg",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "5e860e89-2063-4829-a67d-d73ec915e33f",
+    "name": "Stenungsund",
+    "municipality": "Stenungsund",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "76922d0c-d4d6-4ad4-87f9-889449403857",
+    "name": "Katrineholm",
+    "municipality": "Katrineholm",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "3f7fee76-71ab-4b97-aabb-ffdd545c6266",
+    "name": "Färgelanda",
+    "municipality": "Färgelanda",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 3,
+    "parentCount": 1
+  },
+  {
+    "uuid": "4bf71090-4b7d-431d-8c39-fb9679bb3240",
+    "name": "Vaggeryd",
+    "municipality": "Vaggeryd",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "dca9348d-26c8-4624-babc-4ebf1c7d69d2",
+    "name": "Kungälv",
+    "municipality": "Kungälv",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  },
+  {
+    "uuid": "fdaec641-2ab0-4f29-a735-787744ff5898",
+    "name": "Norberg",
+    "municipality": "Norberg",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 1,
+    "parentCount": 1
+  },
+  {
+    "uuid": "07009139-7ce6-43bc-afaa-c0ef98525c57",
+    "name": "Simrishamn",
+    "municipality": "Simrishamn",
+    "coordinates": null,
+    "contact": null,
+    "studentCount": 2,
+    "parentCount": 1
+  }
+]

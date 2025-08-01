@@ -1,10 +1,10 @@
 import { useMap } from "react-leaflet";
 import { useEffect } from "react";
 import L from "leaflet";
-import type { School } from "../types/School";
+import type { Pact } from "../types/Pact";
 
 interface ClusterMarkersProps {
-  coordinates: [School, [number, number]][];
+  coordinates: [Pact, [number, number]][];
 }
 
 export const markerIcon = new L.Icon({
@@ -48,15 +48,8 @@ function ClusterMarkers({ coordinates }: ClusterMarkersProps) {
         .setIcon(markerIcon)
         .bindPopup(
           `<div class="text-sm">
-          <div>
-          ${school.pact?.name} 
-          </div>
-          <div>${school.name} (${school.studentCount} barn)</div><div>
-            ${
-              school.contact
-                ? `<a href="https://forms.smartphonefreechildhood.se/" target="_blank">Gå med</a>`
-                : ""
-            }
+          <div>${school.name} (${school.parentCount} föräldrar)</div><div>
+           <a href="https://forms.smartphonefreechildhood.se/" target="_blank">Gå med</a>
           </div></div>`
         );
       markers.addLayer(marker);

@@ -3,9 +3,9 @@
 @theme {
   --color-background: #1A1731;
   --color-on-background: #FFFFFF;
-  --color-background-secondary: #29244B; /* Retrieved from input field background */
+  --color-background-secondary: #29244B; 
   --color-surface: #1A1731;
-  --color-surface-secondary: #29244B; /* Retrieved from search result text background */
+  --color-surface-secondary: #29244B;
   --color-on-surface: #FFFFFF;
   --color-primary: #D7FAFF;
   --color-on-primary: #1A1731;
@@ -19,27 +19,18 @@
   box-sizing: border-box;
 }
 
-/* .react-pact-map {
-  all: initial;
-  font-family: sans-serif;
-  width: 100%;
-  height: 100%;
-  display: block;
-} */
-
 .react-pact-map * {
   all: unset;
   all: revert-layer;
 }
 
-/* .react-pact-map *:hover {
-  all: unset;
-  all: revert-layer;
-} */
-
 .react-pact-map a {
   color: inherit;
   color: var(--color-on-primary);
+}
+
+.react-pact-map a:hover {
+  color: inherit;
 }
 
 .map-marker-cluster {

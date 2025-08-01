@@ -11,7 +11,6 @@ import useIsMobileView from "../hooks/useIsMobileView";
 import { useMapData } from "../hooks/useMapData";
 import "../plugins/BoundaryCanvas";
 import type { Pact } from "../types/Pact";
-import type { School } from "../types/School";
 import MapContainer from "./MapContainer";
 import MapSidebar from "./MapSidebar";
 import MobileList from "./MobileList";
@@ -28,7 +27,7 @@ interface MapProps {
 function Map({ pacts }: MapProps) {
   const [mapRef, setMapRef] = useState<L.Map | null>(null);
   const [visibleMarkers, setVisibleMarkers] = useState<
-    [School, [number, number]][]
+    [Pact, [number, number]][]
   >([]);
   const [searchQuery, setSearchQuery] = useState<[number, number] | null>(null);
   const [zooming, setZooming] = useState(false);
@@ -54,7 +53,7 @@ function Map({ pacts }: MapProps) {
     "w-full md:w-1/2 z-10 relative rounded-t-lg overflow-hidden",
     {
       "h-[50vh] md:h-[100vh]": searchQuery || zooming,
-      "h-full": !searchQuery,
+      "h-full": !searchQuery && !zooming,
     }
   );
 
@@ -69,25 +68,17 @@ function Map({ pacts }: MapProps) {
         pacts,
         userLat,
         userLng,
-        3
+        3,
+        80
       );
 
-      console.log("Found closest school:", closestSchool);
-      console.log("Map ref at zoom time:", mapRef);
-
       if (mapRef && closestSchool) {
-        console.log("Attempting to zoom to:", closestSchool.coordinates);
         mapRef.setView(
           [closestSchool.coordinates[0], closestSchool.coordinates[1]],
           isMobile ? 11 : 12
         );
-      } else {
-        console.log(
-          "Cannot zoom - mapRef:",
-          mapRef,
-          "closestSchool:",
-          closestSchool
-        );
+      } else if (mapRef) {
+        mapRef.setView([userLat, userLng], isMobile ? 11 : 12);
       }
 
       setClosestPacts(closestPacts);
@@ -95,9 +86,7 @@ function Map({ pacts }: MapProps) {
   }, [pacts, findClosestPacts, isMobile, mapRef]);
 
   // Filter pacts based on visible markers' pactIds
-  const visiblePactIds = new Set(
-    visibleMarkers.map(([school]) => school.pactId)
-  );
+  const visiblePactIds = new Set(visibleMarkers.map(([pact]) => pact.id));
   const filteredPacts = pacts.filter((pact) => visiblePactIds.has(pact.id));
 
   return (

@@ -10,7 +10,7 @@ const SearchInfo = ({ title, description, fullHeight }: SearchInfoProps) => {
   return (
     <div
       className={classNames(
-        "flex flex-col gap-2 py-2 px-3 bg-background-secondary",
+        "flex flex-col gap-1 py-2 px-3 bg-background-secondary",
         {
           "h-full": fullHeight,
         }

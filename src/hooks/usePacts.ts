@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import data from "../scripts/pacts.json";
+import data from "../scripts/pacts_with_coordinates.json";
 import type { Pact } from "../types/Pact";
 
 function mapDataToPacts(data: any) : Pact[] {

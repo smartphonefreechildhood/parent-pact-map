@@ -1,7 +1,7 @@
 import L from "leaflet";
 import { useEffect, useRef } from "react";
 import { MapContainer as LeafletMapContainer, TileLayer } from "react-leaflet";
-import type { School } from "../types/School";
+import type { Pact } from "../types/Pact";
 import ClusterMarkers from "./ClusterMarkers";
 import HeatmapLayer from "./HeatmapLayer";
 import VisibleMarkerTracker from "./VisibleMarkerTracker";
@@ -9,8 +9,8 @@ import ZoomStartListener from "./ZoomStartListener";
 
 interface MapContainerProps {
   heatPoints: [number, number, number][];
-  markerPoints: [School, [number, number]][];
-  onVisibleChange: (markers: [School, [number, number]][]) => void;
+  markerPoints: [Pact, [number, number]][];
+  onVisibleChange: (markers: [Pact, [number, number]][]) => void;
   onZoomStart: () => void;
   onMapRef: (map: L.Map | null) => void;
   isMobile: boolean;
@@ -28,17 +28,12 @@ export default function MapContainer({
 
   // Pass map reference to parent when it changes
   useEffect(() => {
-    console.log("MapContainer: mapRef.current changed to:", mapRef.current);
     if (mapRef.current) {
       onMapRef(mapRef.current);
     } else {
       // If map is not ready yet, try again after a short delay
       const timer = setTimeout(() => {
         if (mapRef.current) {
-          console.log(
-            "MapContainer: mapRef.current after delay:",
-            mapRef.current
-          );
           onMapRef(mapRef.current);
         }
       }, 100);
