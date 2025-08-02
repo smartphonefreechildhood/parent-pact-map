@@ -49,7 +49,7 @@ function ClusterMarkers({ coordinates }: ClusterMarkersProps) {
         .bindPopup(
           `<div class="text-sm">
           <div>${school.name} (${school.parentCount} föräldrar)</div><div>
-           <a href="https://forms.smartphonefreechildhood.se/" target="_blank">Gå med</a>
+           <a href="https://forms.smartphonefreechildhood.se/pakten" target="_blank">Gå med</a>
           </div></div>`
         );
       markers.addLayer(marker);
