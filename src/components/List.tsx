@@ -20,7 +20,7 @@ function List({ filteredPacts }: ListProps) {
                 pact.studentCount === 1 ? "förälder" : "föräldrar"
               }`}
               // pills={pact.municipality}
-              link="https://forms.smartphonefreechildhood.se/"
+              link="https://forms.smartphonefreechildhood.se/pakten"
               callToAction="Gå med"
             />
           ))}
