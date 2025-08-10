@@ -27,13 +27,13 @@ export default function MapSidebar({
       ? closestPacts.length > 0
         ? `Visar de ${closestPacts.length} pakter som är närmast dig.`
         : `Visar ${filteredPacts.length} pakter.`
-      : "Visar alla pakter. Sök efter stad, skola eller kommun för att hitta pakter nära dig.";
+      : `Visar alla ${filteredPacts.length} pakter i Sverige. Sök efter stad, skola eller kommun för att hitta pakter nära dig.`;
 
   return (
     <div className="w-full md:w-1/2 md:overflow-y-scroll">
       <div className="md:px-2">
         <h3 className="text-base font-semibold py-1">
-          Sök i kartan <span className="font-light">(ettikett input)</span>
+          Hitta lokala Föräldrapakter
         </h3>
       </div>
       <div>

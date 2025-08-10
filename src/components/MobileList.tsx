@@ -29,7 +29,7 @@ export default function MobileList({
       ? closestPacts.length > 0
         ? `Visar de ${closestPacts.length} pakter som är närmast dig.`
         : `Visar ${filteredPacts.length} pakter.`
-      : "Visar alla pakter. Sök efter stad, skola eller kommun för att hitta pakter nära dig.";
+      : `Visar alla ${filteredPacts.length} pakter i Sverige. Sök efter stad, skola eller kommun för att hitta pakter nära dig.`;
 
   return (
     <div className={listClass}>
