@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #1A1731;
+  --color-background: #0A0B0D;
   --color-on-background: #FFFFFF;
-  --color-background-secondary: #29244B; 
+  --color-background-secondary: #444; 
   --color-surface: #1A1731;
   --color-surface-secondary: #29244B;
   --color-on-surface: #FFFFFF;
-  --color-primary: #D7FAFF;
-  --color-on-primary: #1A1731;
+  --color-primary: #F7C100;
+  --color-on-primary: #0A0B0D;
   --color-primary-hover: #131CC4;
   --color-secondary: #1A1731;
 }
@@ -17,11 +17,17 @@
   height: 100%;
   width: 100%;
   box-sizing: border-box;
+  all: initial;
 }
 
 .react-pact-map * {
   all: unset;
   all: revert-layer;
+}
+
+.react-pact-map {
+  color: var(--color-on-background);
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .react-pact-map a {
