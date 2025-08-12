@@ -2,8 +2,9 @@ import { MapPinIcon } from "@heroicons/react/24/outline";
 import type { Pact } from "../types/Pact";
 import List from "./List";
 import Pill from "./Pill";
-import SearchBar from "./SearchBar";
+import Search from "./Search";
 import SearchInfo from "./SearchInfo";
+import { config } from "../config/env";
 
 interface MapSidebarProps {
   onSearch: (coords: [number, number]) => void;
@@ -38,7 +39,7 @@ export default function MapSidebar({
       </div>
       <div>
         <div className="w-full flex-1 md:flex-none flex flex-col md:p-2">
-          <SearchBar onSearch={onSearch} />
+          <Search onSearch={onSearch} apiKey={config.googleApiKey!} />
           <div className="flex py-2 pointer-events-auto">
             <button className="hover:bg-transparent" onClick={onFindClosest}>
               <Pill>
