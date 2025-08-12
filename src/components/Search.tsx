@@ -149,7 +149,7 @@ function Search({ onSearch, apiKey }: SearchProps) {
         <div className="relative flex-1 w-80">
           <input
             type="text"
-            placeholder="Sök på stad, skola eller kommun"
+            placeholder="Sök efter kommun"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onFocus={() => setIsFocused(true)}
