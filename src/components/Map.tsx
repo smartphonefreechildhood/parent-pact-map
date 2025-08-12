@@ -37,11 +37,24 @@ function Map({ pacts }: MapProps) {
   const { heatPoints, markerPoints } = useMapData(pacts);
   const { findClosestPacts } = useGeolocation();
 
+  const setMapViewWithLayoutDelay = useCallback(
+    (coords: [number, number], triggerStateChange: () => void) => {
+      if (mapRef) {
+        triggerStateChange();
+
+        setTimeout(() => {
+          if (mapRef) {
+            mapRef.invalidateSize();
+            mapRef.setView(coords, isMobile ? 11 : 12);
+          }
+        }, 100);
+      }
+    },
+    [mapRef, isMobile]
+  );
+
   const handleSearch = (coords: [number, number]) => {
-    if (mapRef) {
-      mapRef.setView(coords, 12); // zoom to the searched location
-      setSearchQuery(coords);
-    }
+    setMapViewWithLayoutDelay(coords, () => setSearchQuery(coords));
   };
 
   const handleZooming = () => {
@@ -72,18 +85,18 @@ function Map({ pacts }: MapProps) {
         80
       );
 
-      if (mapRef && closestSchool) {
-        mapRef.setView(
-          [closestSchool.coordinates[0], closestSchool.coordinates[1]],
-          isMobile ? 11 : 12
-        );
-      } else if (mapRef) {
-        mapRef.setView([userLat, userLng], isMobile ? 11 : 12);
-      }
-
       setClosestPacts(closestPacts);
+
+      const targetCoords = closestSchool
+        ? ([closestSchool.coordinates[0], closestSchool.coordinates[1]] as [
+            number,
+            number
+          ])
+        : ([userLat, userLng] as [number, number]);
+
+      setMapViewWithLayoutDelay(targetCoords, () => setZooming(true));
     });
-  }, [pacts, findClosestPacts, isMobile, mapRef]);
+  }, [pacts, findClosestPacts, setMapViewWithLayoutDelay]);
 
   // Filter pacts based on visible markers' pactIds
   const visiblePactIds = new Set(visibleMarkers.map(([pact]) => pact.id));
