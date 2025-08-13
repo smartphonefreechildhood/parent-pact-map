@@ -21,6 +21,7 @@ function Search({ onSearch, apiKey }: SearchProps) {
   const [isFocused, setIsFocused] = useState(false);
 
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const { geocoderRef, sessionTokenRef } = useGoogleMapsInit(apiKey);
   const debouncedQuery = useDebounce(query, DEBOUNCE_DELAY);
 
@@ -130,6 +131,7 @@ function Search({ onSearch, apiKey }: SearchProps) {
     setQuery(label);
     setShowDropdown(false);
     setIsFocused(false);
+    inputRef.current?.blur();
     setIsLoading(true);
     const coords = await resolveSuggestionToCoords(s);
     setIsLoading(false);
@@ -148,6 +150,7 @@ function Search({ onSearch, apiKey }: SearchProps) {
       <form onSubmit={handleSearch} className="flex flex-row gap-2">
         <div className="relative flex-1 w-80">
           <input
+            ref={inputRef}
             type="text"
             placeholder="Sök efter kommun"
             value={query}
