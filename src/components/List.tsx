@@ -16,10 +16,9 @@ function List({ filteredPacts }: ListProps) {
             <ListItem
               key={`${pact.id}-${i}`}
               title={`${pact.name}`}
-              description={`${pact.studentCount} ${
-                pact.studentCount === 1 ? "förälder" : "föräldrar"
+              description={`${pact.parentCount} ${
+                pact.parentCount === 1 ? "förälder" : "föräldrar"
               }`}
-              // pills={pact.municipality}
               link="https://forms.smartphonefreechildhood.se/pakten"
               callToAction="Gå med"
             />
