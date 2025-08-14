@@ -8,7 +8,9 @@ export const fetchSuggestions = async (
   const req: any = {
     input: query.trim(),
     includedRegionCodes: ["SE"],
-    locationBias: SWEDEN_BOUNDS,
+    locationRestriction: SWEDEN_BOUNDS,
+    region: "SE", 
+    language: "sv",
   };
   
   if (sessionToken) {

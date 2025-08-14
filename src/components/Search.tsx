@@ -48,7 +48,11 @@ function Search({ onSearch, apiKey }: SearchProps) {
     setIsLoading(true);
 
     const getSuggestions = async () => {
-      const cached = suggestionsCache.current.get(debouncedQuery);
+      const municipalitySearch = debouncedQuery.toLowerCase().includes("kommun")
+        ? debouncedQuery
+        : `${debouncedQuery} kommun`;
+
+      const cached = suggestionsCache.current.get(municipalitySearch);
       if (cached) {
         setSuggestions(cached);
         setShowDropdown(cached.length > 0 && isFocused);
@@ -58,16 +62,24 @@ function Search({ onSearch, apiKey }: SearchProps) {
 
       try {
         const newSuggestions = await fetchSuggestions(
-          debouncedQuery,
+          municipalitySearch,
           sessionTokenRef.current
         );
 
-        suggestionsCache.current.set(debouncedQuery, newSuggestions);
+        const filteredSuggestions = newSuggestions.filter(
+          (s) =>
+            !s.placePrediction?.text
+              .toString()
+              .toLowerCase()
+              .includes("kommune")
+        );
+
+        suggestionsCache.current.set(municipalitySearch, filteredSuggestions);
 
         limitCacheSize(suggestionsCache.current, 20);
 
-        setSuggestions(newSuggestions);
-        setShowDropdown(newSuggestions.length > 0 && isFocused);
+        setSuggestions(filteredSuggestions);
+        setShowDropdown(filteredSuggestions.length > 0 && isFocused);
       } catch (err) {
         console.error("AutocompleteSuggestion error", err);
         setSuggestions([]);

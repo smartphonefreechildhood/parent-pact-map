@@ -38,7 +38,11 @@ function Map({ pacts }: MapProps) {
   const { findClosestPacts } = useGeolocation();
 
   const setMapViewWithLayoutDelay = useCallback(
-    (coords: [number, number], triggerStateChange: () => void) => {
+    (
+      coords: [number, number],
+      triggerStateChange: () => void,
+      afterLayoutChange?: () => void
+    ) => {
       if (mapRef) {
         triggerStateChange();
 
@@ -46,6 +50,7 @@ function Map({ pacts }: MapProps) {
           if (mapRef) {
             mapRef.invalidateSize();
             mapRef.setView(coords, isMobile ? 11 : 12);
+            afterLayoutChange?.();
           }
         }, 100);
       }
@@ -85,8 +90,6 @@ function Map({ pacts }: MapProps) {
         80
       );
 
-      setClosestPacts(closestPacts);
-
       const targetCoords = closestSchool
         ? ([closestSchool.coordinates[0], closestSchool.coordinates[1]] as [
             number,
@@ -94,7 +97,13 @@ function Map({ pacts }: MapProps) {
           ])
         : ([userLat, userLng] as [number, number]);
 
-      setMapViewWithLayoutDelay(targetCoords, () => setZooming(true));
+      setMapViewWithLayoutDelay(
+        targetCoords,
+        () => {
+          setZooming(true);
+        },
+        () => setClosestPacts(closestPacts)
+      );
     });
   }, [pacts, findClosestPacts, setMapViewWithLayoutDelay]);
 
