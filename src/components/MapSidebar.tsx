@@ -1,5 +1,6 @@
 import { MapPinIcon } from "@heroicons/react/24/outline";
 import type { Pact } from "../types/Pact";
+import type { LocationInfo } from "../util/searchUtils";
 import List from "./List";
 import Pill from "./Pill";
 import Search from "./Search";
@@ -7,12 +8,13 @@ import SearchInfo from "./SearchInfo";
 import { config } from "../config/env";
 
 interface MapSidebarProps {
-  onSearch: (coords: [number, number]) => void;
+  onSearch: (locationInfo: LocationInfo) => void;
   onFindClosest: () => void;
   searchQuery: [number, number] | null;
   zooming: boolean;
   closestPacts: Pact[];
   filteredPacts: Pact[];
+  currentLocationInfo?: LocationInfo;
 }
 
 export default function MapSidebar({
@@ -22,6 +24,7 @@ export default function MapSidebar({
   zooming,
   closestPacts,
   filteredPacts,
+  currentLocationInfo,
 }: MapSidebarProps) {
   const searchInfoDescription =
     searchQuery || zooming
@@ -55,7 +58,11 @@ export default function MapSidebar({
       </div>
       <div className="hidden md:block">
         <SearchInfo
-          title="Sökresultat"
+          title={
+            currentLocationInfo?.municipality && closestPacts.length < 1
+              ? `Sökresultat "${currentLocationInfo.municipality} Kommun"`
+              : "Sökresultat"
+          }
           description={searchInfoDescription}
           fullHeight={!searchQuery && !zooming}
         />

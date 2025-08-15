@@ -2,14 +2,18 @@ import { useEffect, useRef, useState } from "react";
 import Button from "./Button";
 import { useDebounce } from "../hooks/useDebounce";
 import { useGoogleMapsInit } from "../hooks/useGoogleMapsInit";
-import { resolveSuggestionToCoords, geocodeAddress } from "../util/searchUtils";
+import {
+  resolveSuggestionToCoords,
+  geocodeAddress,
+  type LocationInfo,
+} from "../util/searchUtils";
 import { fetchSuggestions } from "../util/suggestionsFetcher";
 import { MIN_QUERY_LENGTH, DEBOUNCE_DELAY } from "../config/searchConfig";
 import type { Suggestion } from "../types/SearchTypes";
 import SearchDropdown from "./SearchDropdown";
 
 interface SearchProps {
-  onSearch: (coords: [number, number]) => void;
+  onSearch: (locationInfo: LocationInfo) => void;
   apiKey?: string;
 }
 
@@ -27,7 +31,7 @@ function Search({ onSearch, apiKey }: SearchProps) {
 
   const suggestionsCache = useRef(new Map<string, Suggestion[]>());
 
-  const geocodeCache = useRef(new Map<string, [number, number]>());
+  const geocodeCache = useRef(new Map<string, LocationInfo>());
 
   const limitCacheSize = <K, V>(cache: Map<K, V>, maxSize: number) => {
     if (cache.size > maxSize) {
@@ -111,9 +115,9 @@ function Search({ onSearch, apiKey }: SearchProps) {
 
     const trimmedQuery = query.trim();
 
-    const cachedCoords = geocodeCache.current.get(trimmedQuery);
-    if (cachedCoords) {
-      onSearch(cachedCoords);
+    const cachedLocation = geocodeCache.current.get(trimmedQuery);
+    if (cachedLocation) {
+      onSearch(cachedLocation);
       setShowDropdown(false);
       sessionTokenRef.current =
         new google.maps.places.AutocompleteSessionToken();
@@ -121,15 +125,18 @@ function Search({ onSearch, apiKey }: SearchProps) {
     }
 
     setIsLoading(true);
-    const coords = await geocodeAddress(trimmedQuery, geocoderRef.current);
+    const locationInfo = await geocodeAddress(
+      trimmedQuery,
+      geocoderRef.current
+    );
     setIsLoading(false);
 
-    if (coords) {
-      geocodeCache.current.set(trimmedQuery, coords);
+    if (locationInfo) {
+      geocodeCache.current.set(trimmedQuery, locationInfo);
 
       limitCacheSize(geocodeCache.current, 10);
 
-      onSearch(coords);
+      onSearch(locationInfo);
       setShowDropdown(false);
       sessionTokenRef.current =
         new google.maps.places.AutocompleteSessionToken();
@@ -145,11 +152,11 @@ function Search({ onSearch, apiKey }: SearchProps) {
     setIsFocused(false);
     inputRef.current?.blur();
     setIsLoading(true);
-    const coords = await resolveSuggestionToCoords(s);
+    const locationInfo = await resolveSuggestionToCoords(s);
     setIsLoading(false);
 
-    if (coords) {
-      onSearch(coords);
+    if (locationInfo) {
+      onSearch(locationInfo);
       sessionTokenRef.current =
         new google.maps.places.AutocompleteSessionToken();
     } else {

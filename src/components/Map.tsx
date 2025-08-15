@@ -11,6 +11,7 @@ import useIsMobileView from "../hooks/useIsMobileView";
 import { useMapData } from "../hooks/useMapData";
 import "../plugins/BoundaryCanvas";
 import type { Pact } from "../types/Pact";
+import type { LocationInfo } from "../util/searchUtils";
 import MapContainer from "./MapContainer";
 import MapSidebar from "./MapSidebar";
 import MobileList from "./MobileList";
@@ -32,6 +33,10 @@ function Map({ pacts }: MapProps) {
   const [searchQuery, setSearchQuery] = useState<[number, number] | null>(null);
   const [zooming, setZooming] = useState(false);
   const [closestPacts, setClosestPacts] = useState<Pact[]>([]);
+  const [currentLocationInfo, setCurrentLocationInfo] = useState<
+    LocationInfo | undefined
+  >();
+  const [isProgrammaticZoom, setIsProgrammaticZoom] = useState(false);
 
   const isMobile = useIsMobileView();
   const { heatPoints, markerPoints } = useMapData(pacts);
@@ -48,6 +53,7 @@ function Map({ pacts }: MapProps) {
 
         setTimeout(() => {
           if (mapRef) {
+            setIsProgrammaticZoom(true); // Set flag before programmatic zoom
             mapRef.invalidateSize();
             mapRef.setView(coords, isMobile ? 11 : 12);
             afterLayoutChange?.();
@@ -58,11 +64,20 @@ function Map({ pacts }: MapProps) {
     [mapRef, isMobile]
   );
 
-  const handleSearch = (coords: [number, number]) => {
-    setMapViewWithLayoutDelay(coords, () => setSearchQuery(coords));
+  const handleSearch = (locationInfo: LocationInfo) => {
+    setMapViewWithLayoutDelay(locationInfo.coordinates, () => {
+      setSearchQuery(locationInfo.coordinates);
+      setCurrentLocationInfo(locationInfo);
+      setClosestPacts([]);
+    });
   };
 
   const handleZooming = () => {
+    if (isProgrammaticZoom) {
+      setCurrentLocationInfo(undefined);
+      setIsProgrammaticZoom(false);
+    }
+
     setZooming(true);
     setClosestPacts([]);
   };
@@ -121,6 +136,7 @@ function Map({ pacts }: MapProps) {
           zooming={zooming}
           closestPacts={closestPacts}
           filteredPacts={filteredPacts}
+          currentLocationInfo={currentLocationInfo}
         />
 
         <div className={mapContainerClass}>
