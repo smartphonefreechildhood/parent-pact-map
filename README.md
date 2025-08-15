@@ -80,6 +80,56 @@ The `src/scripts` folder contains all scripts for **loading**, **parsing**, and 
 
 This pipeline ensures that raw form submissions are transformed into a meaningful and usable format for the platform.
 
+### 📊 parseCsvToJsonGroups.js
+
+This script processes the raw CSV data (`master_data.csv`) and converts it into structured JSON format for pacts.
+
+**What it does:**
+
+- Reads `master_data.csv` from the scripts directory
+- Groups submissions by municipality (`kommun`)
+- Counts students and parents for each municipality
+- Generates unique IDs for each pact
+- Outputs `pacts_from_csv.json` with basic pact structure
+
+**Usage:**
+
+```bash
+cd src/scripts
+node parseCsvToJsonGroups.js
+```
+
+**Input:** `master_data.csv` (raw form submissions)
+**Output:** `pacts_from_csv.json` (structured pacts without coordinates)
+
+### 🗺️ enrichMunicipalitiesWithGoogleCoordinates.js
+
+This script adds geographic coordinates to the pacts using Google's Geocoding API.
+
+**What it does:**
+
+- Reads `pacts_from_csv.json` (output from previous script)
+- Uses Google Geocoding API to find coordinates for each municipality
+- Caches results in `geocode_cache.json` to avoid repeated API calls
+- Respects API rate limits (100ms delay between requests)
+- Outputs `pacts_with_coordinates.json` with complete pact data
+
+**Prerequisites:**
+
+- Google Maps API key set as environment variable: `GOOGLE_API_KEY`
+
+**Usage:**
+
+```bash
+cd src/scripts
+GOOGLE_API_KEY=your_api_key_here node enrichMunicipalitiesWithGoogleCoordinates.js
+```
+
+**Input:** `pacts_from_csv.json` (pacts without coordinates)
+**Output:** `pacts_with_coordinates.json` (pacts with coordinates)
+
+**Note:** The script includes caching to avoid unnecessary API calls. If you need to refresh coordinates, delete `geocode_cache.json` before running.
+
 ## 🧰 General React + TypeScript + Vite info
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

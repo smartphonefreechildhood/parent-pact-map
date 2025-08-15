@@ -27,7 +27,7 @@ for (const row of rows) {
   if (!municipality) continue;
 
   const pact = pacts[municipality] ||= {
-    uuid: randomUUID(),
+    id: randomUUID(),
     name: municipality,
     municipality,
     coordinates: null,
