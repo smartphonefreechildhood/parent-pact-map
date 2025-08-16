@@ -11,6 +11,7 @@ interface ButtonProps {
   href?: string;
   target?: string;
   rel?: string;
+  disabled?: boolean;
 }
 
 function Button({
@@ -24,6 +25,7 @@ function Button({
   href,
   target,
   rel,
+  disabled = false,
 }: ButtonProps) {
   const buttonClass = classNames(
     "border-none cursor-pointer transition-colors rounded-3xl font-semibold",

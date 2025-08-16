@@ -11,6 +11,7 @@ import useIsMobileView from "../hooks/useIsMobileView";
 import { useMapData } from "../hooks/useMapData";
 import "../plugins/BoundaryCanvas";
 import type { Pact } from "../types/Pact";
+import type { LocationInfo } from "../util/searchUtils";
 import MapContainer from "./MapContainer";
 import MapSidebar from "./MapSidebar";
 import MobileList from "./MobileList";
@@ -32,19 +33,51 @@ function Map({ pacts }: MapProps) {
   const [searchQuery, setSearchQuery] = useState<[number, number] | null>(null);
   const [zooming, setZooming] = useState(false);
   const [closestPacts, setClosestPacts] = useState<Pact[]>([]);
+  const [currentLocationInfo, setCurrentLocationInfo] = useState<
+    LocationInfo | undefined
+  >();
+  const [isProgrammaticZoom, setIsProgrammaticZoom] = useState(false);
 
   const isMobile = useIsMobileView();
   const { heatPoints, markerPoints } = useMapData(pacts);
   const { findClosestPacts } = useGeolocation();
 
-  const handleSearch = (coords: [number, number]) => {
-    if (mapRef) {
-      mapRef.setView(coords, 12); // zoom to the searched location
-      setSearchQuery(coords);
-    }
+  const setMapViewWithLayoutDelay = useCallback(
+    (
+      coords: [number, number],
+      triggerStateChange: () => void,
+      afterLayoutChange?: () => void
+    ) => {
+      if (mapRef) {
+        triggerStateChange();
+
+        setTimeout(() => {
+          if (mapRef) {
+            setIsProgrammaticZoom(true); // Set flag before programmatic zoom
+            mapRef.invalidateSize();
+            mapRef.setView(coords, isMobile ? 11 : 12);
+            afterLayoutChange?.();
+          }
+        }, 100);
+      }
+    },
+    [mapRef, isMobile]
+  );
+
+  const handleSearch = (locationInfo: LocationInfo) => {
+    setMapViewWithLayoutDelay(locationInfo.coordinates, () => {
+      setSearchQuery(locationInfo.coordinates);
+      setCurrentLocationInfo(locationInfo);
+      setClosestPacts([]);
+    });
   };
 
   const handleZooming = () => {
+    if (isProgrammaticZoom) {
+      setCurrentLocationInfo(undefined);
+      setIsProgrammaticZoom(false);
+    }
+
     setZooming(true);
     setClosestPacts([]);
   };
@@ -72,18 +105,22 @@ function Map({ pacts }: MapProps) {
         80
       );
 
-      if (mapRef && closestSchool) {
-        mapRef.setView(
-          [closestSchool.coordinates[0], closestSchool.coordinates[1]],
-          isMobile ? 11 : 12
-        );
-      } else if (mapRef) {
-        mapRef.setView([userLat, userLng], isMobile ? 11 : 12);
-      }
+      const targetCoords = closestSchool
+        ? ([closestSchool.coordinates[0], closestSchool.coordinates[1]] as [
+            number,
+            number
+          ])
+        : ([userLat, userLng] as [number, number]);
 
-      setClosestPacts(closestPacts);
+      setMapViewWithLayoutDelay(
+        targetCoords,
+        () => {
+          setZooming(true);
+        },
+        () => setClosestPacts(closestPacts)
+      );
     });
-  }, [pacts, findClosestPacts, isMobile, mapRef]);
+  }, [pacts, findClosestPacts, setMapViewWithLayoutDelay]);
 
   // Filter pacts based on visible markers' pactIds
   const visiblePactIds = new Set(visibleMarkers.map(([pact]) => pact.id));
@@ -99,6 +136,7 @@ function Map({ pacts }: MapProps) {
           zooming={zooming}
           closestPacts={closestPacts}
           filteredPacts={filteredPacts}
+          currentLocationInfo={currentLocationInfo}
         />
 
         <div className={mapContainerClass}>

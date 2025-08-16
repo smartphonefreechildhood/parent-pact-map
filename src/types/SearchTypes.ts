@@ -1,0 +1,1 @@
+export type Suggestion = google.maps.places.AutocompleteSuggestion; 

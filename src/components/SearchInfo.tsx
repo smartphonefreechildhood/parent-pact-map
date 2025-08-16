@@ -6,7 +6,11 @@ interface SearchInfoProps {
   fullHeight?: boolean;
 }
 
-const SearchInfo = ({ title, description, fullHeight }: SearchInfoProps) => {
+export default function SearchInfo({
+  title,
+  description,
+  fullHeight = false,
+}: SearchInfoProps) {
   return (
     <div
       className={classNames(
@@ -20,6 +24,4 @@ const SearchInfo = ({ title, description, fullHeight }: SearchInfoProps) => {
       <p className="text-xs italic">{description}</p>
     </div>
   );
-};
-
-export default SearchInfo;
+}
