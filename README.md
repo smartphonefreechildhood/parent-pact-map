@@ -16,6 +16,49 @@ npm install
 npm run dev
 ```
 
+## 🔑 Google API Key Configuration
+
+This application uses Google Maps API for map functionality and geocoding services. You'll need to set up a Google API key to run the project locally.
+
+### Setting up your Google API Key
+
+1. **Get a Google API Key:**
+
+   - Go to the [Google Cloud Console](https://console.cloud.google.com/)
+   - Create a new project or select an existing one
+   - Enable the following APIs:
+     - Maps JavaScript API
+     - Geocoding API
+     - Places API (if using search functionality)
+   - Create credentials (API Key) for your project
+
+2. **Configure Environment Variables:**
+
+   - Create a `.env` file in the root directory of the project
+   - Add your Google API key:
+
+   ```bash
+   VITE_GOOGLE_API_KEY=your_google_api_key_here
+   ```
+
+3. **Security Best Practices:**
+   - **Never commit your `.env` file** (it's already in `.gitignore`)
+   - Restrict your API key to specific domains/IPs in Google Cloud Console
+   - For production, use environment variables in your hosting platform
+   - Consider using API key restrictions to limit usage
+
+### Environment Configuration
+
+The application reads the API key from `src/config/env.ts`:
+
+```typescript
+export const config = {
+  googleApiKey: import.meta.env.VITE_GOOGLE_API_KEY,
+} as const;
+```
+
+> **Note:** The `VITE_` prefix is required for Vite to expose the environment variable to the client-side code.
+
 ## 📦 Deployment
 
 To publish changes to GitHub Pages:

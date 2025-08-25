@@ -28,8 +28,12 @@ export default function MobileList({
     searchQuery || zooming
       ? closestPacts.length > 0
         ? `Visar de ${closestPacts.length} pakter som är närmast dig.`
-        : `Visar ${filteredPacts.length} pakter.`
-      : `Visar alla ${filteredPacts.length} pakter i Sverige. Sök efter stad, skola eller kommun för att hitta pakter nära dig.`;
+        : `Visar ${
+            filteredPacts.length > 1
+              ? `${filteredPacts.length} pakter`
+              : "1 pakt"
+          }.`
+      : `Visar alla ${filteredPacts.length} pakter i Sverige. Sök efter kommun för att hitta pakter nära dig.`;
 
   return (
     <div className={listClass}>
