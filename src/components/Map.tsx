@@ -65,7 +65,21 @@ function Map({ pacts }: MapProps) {
   );
 
   const handleSearch = (locationInfo: LocationInfo) => {
-    setMapViewWithLayoutDelay(locationInfo.coordinates, () => {
+    // Find the closest pact to the searched location
+    const { pacts: closestPacts } = findClosestPacts(
+      pacts,
+      locationInfo.coordinates[0],
+      locationInfo.coordinates[1],
+      1, // Only get the closest one
+      50 // Within 50km of the search location
+    );
+
+    // If we found a nearby pact, focus on its coordinates instead of Google's coordinates
+    const targetCoords = closestPacts.length > 0 
+      ? closestPacts[0].coordinates 
+      : locationInfo.coordinates;
+
+    setMapViewWithLayoutDelay(targetCoords, () => {
       setSearchQuery(locationInfo.coordinates);
       setCurrentLocationInfo(locationInfo);
       setClosestPacts([]);
