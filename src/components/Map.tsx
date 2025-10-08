@@ -55,7 +55,7 @@ function Map({ pacts }: MapProps) {
           if (mapRef) {
             setIsProgrammaticZoom(true); // Set flag before programmatic zoom
             mapRef.invalidateSize();
-            mapRef.setView(coords, isMobile ? 11 : 12);
+            mapRef.setView(coords, isMobile ? 10 : 11);
             afterLayoutChange?.();
           }
         }, 100);
