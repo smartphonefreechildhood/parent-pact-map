@@ -1,9 +1,10 @@
+/// <reference path="../types/google-maps.d.ts" />
 import { useEffect, useRef } from "react";
 import { loadGoogleMapsJs } from "../util/googleMapsLoader";
 
 export const useGoogleMapsInit = (apiKey?: string) => {
-  const geocoderRef = useRef<google.maps.Geocoder | null>(null);
-  const sessionTokenRef = useRef<google.maps.places.AutocompleteSessionToken | null>(null);
+  const geocoderRef = useRef<any>(null);
+  const sessionTokenRef = useRef<any>(null);
 
   useEffect(() => {
     let cancelled = false;

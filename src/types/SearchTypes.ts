@@ -1,1 +1,3 @@
-export type Suggestion = google.maps.places.AutocompleteSuggestion; 
+/// <reference path="./google-maps.d.ts" />
+
+export type Suggestion = any; 

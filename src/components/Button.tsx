@@ -55,7 +55,7 @@ function Button({
   }
 
   return (
-    <button type={type} onClick={onClick} className={buttonClass}>
+    <button type={type} onClick={onClick} className={buttonClass} disabled={disabled}>
       {children}
     </button>
   );

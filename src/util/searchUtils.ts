@@ -1,3 +1,4 @@
+/// <reference path="../types/google-maps.d.ts" />
 import type { Suggestion } from '../types/SearchTypes';
 
 export interface LocationInfo {
@@ -65,14 +66,14 @@ export const resolveSuggestionToCoords = async (
 
 export const geocodeAddress = async (
   address: string,
-  geocoder: google.maps.Geocoder | null
+  geocoder: any
 ): Promise<LocationInfo | null> => {
   if (!geocoder) return null;
 
   return new Promise((resolve) => {
     geocoder.geocode(
       { address, componentRestrictions: { country: "se" } },
-      (results, status) => {
+      (results: any, status: any) => {
         if (status === "OK" && results?.[0]) {
           const result = results[0];
           const loc = result.geometry.location;

@@ -1,9 +1,10 @@
+/// <reference path="../types/google-maps.d.ts" />
 import { SWEDEN_BOUNDS } from "../config/searchConfig";
 import type { Suggestion } from "../types/SearchTypes";
 
 export const fetchSuggestions = async (
   query: string,
-  sessionToken: google.maps.places.AutocompleteSessionToken | null
+  sessionToken: any
 ): Promise<Suggestion[]> => {
   const req: any = {
     input: query.trim(),
