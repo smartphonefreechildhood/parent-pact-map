@@ -74,10 +74,25 @@ function Map({ pacts }: MapProps) {
       50 // Within 50km of the search location
     );
 
-    // If we found a nearby pact, focus on its coordinates instead of Google's coordinates
-    const targetCoords = closestPacts.length > 0 
-      ? closestPacts[0].coordinates 
-      : locationInfo.coordinates;
+    // Check if the closest pact's municipality matches the search query
+    let targetCoords = locationInfo.coordinates;
+    
+    if (closestPacts.length > 0) {
+      const closestPact = closestPacts[0];
+      const searchMunicipality = locationInfo.municipality?.toLowerCase() || '';
+      
+      // Handle municipality as either string or array
+      const pactMunicipality = Array.isArray(closestPact.municipality) 
+        ? closestPact.municipality[0]?.toLowerCase() || ''
+        : (closestPact.municipality as unknown as string)?.toLowerCase() || '';
+      
+      // Only snap to pact coordinates if municipality names match
+      if (searchMunicipality && pactMunicipality && 
+          (pactMunicipality.includes(searchMunicipality) || 
+           searchMunicipality.includes(pactMunicipality))) {
+        targetCoords = closestPact.coordinates;
+      }
+    }
 
     setMapViewWithLayoutDelay(targetCoords, () => {
       setSearchQuery(locationInfo.coordinates);
